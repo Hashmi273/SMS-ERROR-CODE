@@ -1,0 +1,765 @@
+﻿ErrorCode, Description
+ 20A, Bearer Service Not Supported
+ 20b, Tele Service Not Provisioned
+ 20c, Error Equipment
+ 20d, Call Barred
+ 20E, Error Forward Violation
+ 20F, Error CUG Reject
+ 21A, Subsequent Handover Failure
+ 21b, Absent Subscriber for MT
+ 21C, Incompatible Terminal
+ 21D, Short Term Denial
+ 21E, Long Term Denial
+ 21f, Subscriber Busy for MT
+ 22C, Number of PW attempts Violation
+ 22D, Busy Subscriber
+ 22E, No Reply from Subscriber
+ 22F, Forwarding Failed
+ 23A, Unknown or Unreachable LCS Client
+ 40a, Stack/Sig Error Map Provider Malfunction
+ 40B, Stack/Sig Error Map Unrecognised Transaction ID
+ 40C, Stack/Sig Error Dialog Resource Limitation
+ 40D, Stack/Sig Error Map Maintenance Activity
+ 40E, Stack/Sig Error Map Version Incompatibility
+ 40F, Stack/Sig Error Abnormal Map Dialogue
+ 41A, Sig Error MAP guard timer expired
+ 41B, Sig Error MAP SPCAUSE mask
+ 41c, Sig Error MAP No translation Based Address
+ 41d, Sig Error MAP No translation specific address
+ 41E, Stack/Sig Application Context Not Supported
+ 41F, Stack/Sig DlG Invalid Destination Reference
+ 42a, Sig Error MAP unequipped user
+ 42b, Sig Error MAP network failure
+ 42c, Sig Error MAP network congestion
+ 42d, Sig Error MAP unqualified
+ 42E, Sig Error MAP HOP Counter violation ANS92
+ 42F, Sig Error MAP Error in message transport CCIT92
+000,NORMAL DELIVERED
+001,Source not found|EC_UNKNOWN_SUBSCRIBER
+002,Sink not found|EC_UNKNOWN_BASE_STATION
+003,Delivery zone not found|DND Fail
+004,Mobile Equipment Error
+005,Location not found|EC_UNIDENTIFIED_SUBSCRIBER
+006,Location blocked|Absent subscriber
+007,Reply path not found|UNKNOWN EQUIPMENT
+008,Message not submit|FSM TIMEOUT
+009,Unsupported number plan|EC_ILLEGAL_SUBSCRIBER
+010,Unsupported type of number|EC_BEARER_SERVICE_NOT_PROVISIONED
+011,Message not DELIVER or STATUS|EC_TELESERVICE_NOT_PROVISIONED
+012,Dialling zone not found|EC_ILLEGAL_EQUIPMENT
+013,Not home zone and IMSI not allowed|EC_CALL_BARRED
+014,Not home zone and IMSI fetch failed|Barred unauthorized message originator
+015,Screening block|CUG REJECT
+018,ESME error|message waiting for report expired'
+019,Originating location mismatch|SRIAck unsuccessful with any other error codes'
+020,Originating reservation failed|EC_SS_INCOMPATIBILITY
+021,Originating reservation denied subscription not found|EC_FACILITY_NOT_SUPPORTED
+022,Originating reservation denied subscription state illegal|Memory capacity exceeded
+023,Originating reservation denied call case blocked for subscription|Unknown Subscriber'
+024,Originating reservation denied call case blocked for subscription type|call forbidden'
+025,Originating reservation denied low balance|the network does not support SMS'
+026, 'teleservice not supported' 
+027,Absent subscriber
+029, 'HLR:data error in route signal' 
+030,Terminating reservation failed|HLR:data lacked'
+031,Terminating reservation denied subscription not found|EC_SUBSCRIBER_BUSY_FOR_MT_SMS
+032,Terminating reservation denied subscription state illegal|EC_SM_DELIVERY_FAILURE
+033,Terminating reservation denied call case blocked for subscription|EC_MESSAGE_WAITING_LIST_FULL
+034,Terminating reservation denied call case blocked for subscription type|EC_SYSTEM_FAILURE
+035,Terminating reservation denied low balance|EC_DATA_MISSING
+036,EC_UNEXPECTED_DATA_VALUE
+037, 'Unmarked Subscriber' 
+038, 'failure because the subscriber is busy' 
+039, 'VMSC isolated' 
+040,System is congested|VMSC:data lacked'
+041,Originating IMSI mismatch|VMSC:unexpected data'
+042, 'MS error' 
+043, Not Supported by equipment
+044, Illegal equipment
+045,Quarantine Add|Unspecific PID Error
+046,Quarantine Remove|Message Class Not Supported
+047, DCS error
+048, TPDU Not Supported
+049,Short message delivery failure with memory capacity exceeded 
+050,Unexpected error from Store|UNKNOWN ERROR
+051,Direct delivery disabled from store|EC_RESOURCE_LIMITATION
+053,Message limit exceeded|Subscriber Busy For MT-SMS
+054,Retry scheme ended|Data Download Error
+060,Originator blocked|Absent subscriber
+061,Destination blocked|Absent subscriber
+062,Keyword blocked|Absent subscriber
+063,SC address blocked|Absent subscriber
+064,Blocked due to exceeded quota|Absent subscriber
+065,Loop detected|Absent subscriber
+066,Data coding scheme blocked|Absent subscriber over GPRS Page Fail
+067,Information element identifier blocked|Absent subscriber over GPRS Detached
+068,Country Code Validation Block|Absent subscriber over GPRS Deregistered
+069,Destination Flooding
+070,No ESME provider available|MS store is full'
+071,ESME account not connected|EC_UNKNOWN_ALPHABET
+072,No ESME sub account routing|EC_USSD_BUSY
+074,ESME local throttling - exceeded msg/s|INVALID HEADER IN MSG
+080,Home routing sender GT mismatch|PENDING DLR (Retry )
+081,Location mismatch between provided location and location known to HLR.|Service not supported
+082,IMSI mismatch between provided IMSI |Mistyped parameter
+083,Local throttling by sink|No response from the peer
+084,The IMSI could not be retrieved from the HSS|Resource limitation
+085,The IMEI of the UE is unknown|Initiating release
+086,The user location is unknown|Unrecognised error
+087,ESME router|Provider Error (In case of any failures observed in TCAP level this error will generate).
+088,Network fluctuation from far End Operator(Temporary Error)
+089, INVALID PACKET AT SMSC LEVEL
+090, USER-ABORT
+091, PROVIDER-ABORT
+092, MSC NUMBER MISSING
+093, Equipment protocol error
+094, Equipment not SM equipped
+095, Unknown service centre
+096, Service Centre congestion
+097, INVALID SCHEDULE DELIVERY TIME
+098, Subscriber not SC subscriber
+099, Invalid SME address
+100,Unidentified subscriber|no response from the called subscriber'
+1001,No Response from far Network
+101,Facility not supported|VMSC:the called MS poweroff'
+102,System failure|VMSC:limited due to MS roaming' / SENDER ID BLOCKED
+1024,EC_OR_appContextNotSupported
+1025,EC_OR_invalidDestinationReference
+1026,EC_OR_invalidOriginatingReference;
+1027,EC_OR_encapsulatedAC_NotSupported
+1028,EC_OR_transportProtectionNotAdequate
+1029,EC_OR_noReasonGiven
+103,Unexpected data value|ROUTE NOT ACTIVE
+1030,EC_OR_potentialVersionIncompatibility
+1031,EC_OR_remoteNodeNotReachable
+104,Data missing|OFF-NET NOT ACTIVE FOR ACCOUNT/ ON-NET ROUTES NOT DEFINED
+105,Equipment protocol error|MTP_FAILURE
+106,UNKNOWN service centre address|MS response is overtime'
+107,Service centre congestion|HLR:the subscriber is unregistered'
+108,Invalid short message entity address|ROUTE BLOCKED FOR THIS SERIES
+109,Subscriber not service centre subscriber|MSISDN SERIES NOT CONFIGURED
+110,INVALID_DESTINATION_NUMBER
+111,Entity not registered
+112,Entity Inactive
+113,TEMPLATE_CONTENT_MISMATCH
+114,Invalid Telemarketer
+115,CLI Mismatch with Template
+1152,EC_NNR_noTranslationForAnAddressOfSuchNatur
+1153,EC_NNR_noTranslationForThisSpecificAddress
+1154,EC_NNR_subsystemCongestion
+1155,EC_NNR_subsystemFailure
+1156,EC_NNR_unequippedUser
+1157,EC_NNR_MTPfailure
+1158,EC_NNR_networkCongestion
+1159,EC_NNR_unqualified
+116,Header Inactive
+1160,EC_NNR_errorInMessageTransportXUDT
+1161,EC_NNR_errorInLocalProcessingXUDT
+1162,EC_NNR_destinationCannotPerformReassemblyXUDT
+1163, EC_NNR_SCCPfailure
+1164, EC_NNR_hopCounterViolation
+1165,EC_NNR_segmentationNotSupported
+1166,EC_NNR_segmentationFailure
+117,Header Blacklisted
+118,Template not found
+119,Template Inactive
+120,Template not Matched
+121,Template blacklisted
+122,Invalid Consent
+123,General Consent error
+124,DLT Miscellaneous error
+125,TEMPLATE_VARIABLE_EXCEEED
+126,Invalid Template id
+127,Header not found
+128,Entity blacklisted
+1281,EC_UA_userSpecificReason
+1282,EC_UA_userResourceLimitation
+1283,EC_UA_resourceUnavailable
+1284,EC_UA_applicationProcedureCancellation
+129,Entity not found
+130,EC_OR_potentialVersionIncompatibility
+131,EC_OR_remoteNodeNotReachable
+132, Map Dialog Rejected Refuse Reason: Application Context not supported
+133, Map Dialog Rejected Refuse Reason: Potential Version Incompatibility
+134, Map Dialog Rejected Refuse Reason: Remote Node not reachable
+135, Map Dialog Rejected Provider Reason: Provider malfunction
+136, Map Dialog Rejected Provider Reason: Transaction Released
+137, Map Dialog Rejected Provider Reason: Resource Limitation
+138, Map Dialog Rejected Provider Reason: Maintenance Activity
+139, Map Dialog Rejected Provider Reason: Version Incompatibility
+140, Map Dialog Rejected Provider Reason: Abnormal Dialogue
+141, Map Dialog User Abort Diagnostic Info: Short Term resource Limitation
+142, Map Dialog User Abort Diagnostic Info: Long term resource limitation
+143, Map Dialog User Abort Diagnostic Info: Handover cancellation
+144, Map Dialog User Abort Diagnostic Info: Radio Channel Release
+145, Map Dialog User Abort Diagnostic Info: Call Release
+146, Map Dialog User Abort Diagnostic Info: Network path Release
+147, Map Dialog User Abort Diagnostic Info: Associated Procedure release
+148, Map Dialog User Abort Diagnostic Info: Tandem Dialog Release
+149, Map Dialog User Abort Diagnostic Info: Remote Operation Failure
+150,UNKNOWN subscriber|Map Dialog User Abort User Reason: User specific reason
+151,Call barred|Map Dialog User Abort User Reason: User resource limitation
+152,Teleservice not provisioned|EC_NNR_noTranslationForAnAddressOfSuchNature
+153,Absent subscriber|EC_NNR_noTranslationForThisSpecificAddress
+1536,EC_PA_providerMalfunction
+1537,EC_PA_supportingDialogOrTransactionRealeased
+1538,EC_PA_ressourceLimitation
+1539,EC_PA_maintenanceActivity
+154,Facility not supported|EC_NNR_subsystemCongestion
+1540,EC_PA_versionIncompatibility
+1541,EC_PA_abnormalMapDialog
+155,System failure|EC_NNR_subsystemFailure
+156,Unexpected data value|EC_NNR_unequippedUser
+157,Data missing|EC_NNR_MTPfailure
+158,Memory capacity exceeded|EC_NNR_networkCongestion
+159,Mobile subscriber not reachable|EC_NNR_unqualified
+160,Reject|EC_NNR_errorInMessageTransportXUDT
+161,Local cancel|EC_NNR_errorInLocalProcessingXUDT
+162,Abort|EC_NNR_destinationCannotPerformReassemblyXUDT
+163,Exception|EC_NNR_SCCPfailure
+164,UNKNOWN|EC_NNR_hopCounterViolation
+165,EC_NNR_segmentationNotSupported
+166,EC_NNR_segmentationFailure
+167, USSD platform Unknown error
+168, DND Blocked
+169, MAP-P-Abort: Provider reasons
+170,MAP-P-Abort Provider reason: Malfunction 
+171,MAP-P-Abort Provider reason: Dialog Released 
+172, 'waiting queue in destination subscriber table is full'  
+173,MAP-P-Abort Provider reason: Abnormal Dialog 
+174, MAP-P-Abort: Invalid PDU
+175, MAP-Open: Out of MAP dialogs
+176, Invalid Service code
+177, Subscriber MSISDN Blacklisted
+178, Subscriber IMSI Blacklisted
+179, Invalid Originating Address with Length greater than 20 chars
+1793,EC_NC_responseRejectedByPeer
+1794,EC_NC_abnormalEventReceivedFromPeer
+1795,EC_NC_messageCannotBeDeliveredToPeer
+1796,EC_NC_providerOutOfInvoke 
+180,MAP-Open Refuse reason: Node Not Reached 
+181, 'service barred' 
+182, 'operation barred' 
+183, VLRBlackListed
+184, VLRWhiteListed
+185,MAP-Notice Problem: Message Cannot Be Delivered 
+186, BILNG_SystemError
+187, MAP-Notice: Abnormal event detected by peer
+188, MAP-U-Abort: Error
+189,MAP-U-Abort User Reason: User Specific Reason 
+190, MAP-U-Abort: User resource limitation
+191, MAP-U-Abort: Resource unavailable (short term)
+192, Unexpected session release from Servers/3rd party APP
+193, 'unknServCent' 
+194, 'sc_Congestion' 
+195, 'invaSME_Add' 
+196, 'subsNotSC_Subsc' 
+197, Application Specific Error from Client
+198, MAP-U-Abort: Application procedure cancellation (tandem dialogue released)
+199, MAP-U-Abort: Application procedure cancellation (remote operations failure)
+200,Unidentified subscriber|OPERATOR BLOCKED FOR ACCOUNT
+2000, Make_Call API Failure
+2001, Message too long
+2002, Command length is invalid
+2003, Command ID is invalid or not supported
+2004, Incorrect bind status for given command
+2005, Already bound
+2006, Invalid Priority Flag
+2007, Invalid registered delivery flag
+2008, System error
+201,Absent subscriber IMSI detached|EC_unknown Subscriber
+2010, Invalid source address
+2011, Invalid destination address
+2012, Message ID is invalid
+2013, Bind failed
+2014, Invalid password
+2015, Invalid System ID
+2017, Cancelling message failed
+2019, Message recplacement failed
+202,Absent subscriber no page response|Unknown Base Station
+2020, Message queue full
+2021, Invalid service type
+2022, Invalid services type
+203,Subscriber busy for MT-SMS|Unknown MSC
+204,means incoming call facility is not working due to recharge
+2048,EC_TIME_OUT
+2049,EC_IMSI_BLACKLISTED
+205,Illegal subscriber|EC_Unidentified Subscriber
+2050,EC_DEST_ADDRESS_BLACKLISTED
+2051,EC_InvalidMscAddress
+2052,EC_BLACKLISTED_DESTINATIONADDRESS 
+206,Illegal equipment|Absent Subscriber for SM
+2064, Invalid destination flag
+2066, Invalid submit with replace request
+2067, Invalid esm class set
+2068, Invalid submit to ditribution list
+2069, Submitting message has failed
+207,System failure|Unknown Equipment
+2072, Invalid source address type of number ( TON )
+2073, Invalid source address numbering plan ( NPI )
+208,Unexpected data value|Roaming Not Allowed
+2080, Invalid destination address type of number ( TON )
+2081, Invalid destination address numbering plan ( NPI )
+2083, Invalid system type
+2084, Invalid replace_if_present flag
+2085, Invalid number of messages
+2088, Throttling error
+209,Data missing|Illegal Subscriber
+2097, Invalid scheduled delivery time
+2098, Invalid Validty Period value
+2099, Predefined message not found
+20A,Bearer Service Not Supported
+20B,Tele Service Not Provisioned
+20C,Error Equipment
+20D,Call Barred
+20E,Error Forward Violation
+20F,Error CUG Reject
+210,Memory capacity exceeded|Illegal SS Operation
+2100, ESME Receiver temporary error
+2101, ESME Receiver permanent error
+2102, ESME Receiver reject message error
+2103, Message query request failed
+211,Equipment protocol error|SS Error Status
+212,Equipment not short message equipped|SS Not Available
+213,Reject|SS Subscription Violation
+214,Local cancel|SS Incompatible
+215,Abort|HLR:limited due to MS roaming'
+216,Exception|Internal IPC memory allocation Failure
+2168, DND Block
+217,UNKNOWN|Internal IPC Router Failure
+218, 'HLR:illegal subscriber' 
+219, 'HLR:subscriber absent' 
+2192, Error in the optional part of the PDU body
+2193, TLV not allowed
+2194, Invalid parameter length
+2195, Expected TLV missing
+2196, Invalid TLV value
+21A,Subsequent Handover Failure
+21B,Absent Subscriber for MT
+21C,Incompatible Terminal
+21D,Short Term Denial
+21E,Long Term Denial
+21F,Subscriber Busy for MT
+220, 'HLR:the called MS poweroff' 
+221, MSISDN BLOCKED
+222, MESSAGE CONTENT IS BLACKLISTED/EC_Network System Failure
+223,Data Missing
+224,Unexpected Data
+225, MESSAGE CONTENT IS BLACKLISTED AT OPERATOR/ 'HLR:no response' 
+2254, Transaction delivery failure
+2255, Unknown error
+2256, ESME not authorised to use specified servicetype
+2257, ESME prohibited from using specified operation
+2258, Specified servicetype is unavailable
+2259, Specified servicetype is denied
+226, 'VMSC:no response' 
+2260, Invalid data coding scheme
+2261, Invalid source address subunit
+2262, Invalid destination address subunit
+227,IN Subscriber not exist1
+228, 'the destination subscriber PPS authentication overtime'  
+229, 'IN Invalid subscriber'  
+22C,Number of PW attempts Violation
+22D,Busy Subscriber
+22E,No Subscriber Reply
+22F,Forwarding Failed
+230,Not Allowed
+2300, Incorrect destination address
+2301, Incorrect number of destination addresses
+2302, Syntax error in user data parameter
+2303, Incorrect bin/head/normal user data parameter combination
+2304, Incorrect dcs parameter usage
+2305, Incorrect validity period parameters usage
+2306, Incorrect originator address usage
+2307, Incorrect PID parameter usage
+2308, Incorrect first delivery parameter usage
+2309, Incorrect reply path usage
+231,ATI Not Allowed
+2310, Incorrect status report request parameter usage
+2311, Incorrect cancel enabled parameter usage
+2312, Incorrect priority parameter usage
+2313, Incorrect tariff class parameter usage
+2314, Incorrect service description parameter usage
+2315, Incorrect transport type paramdeter usage
+2316, Incorrect message type parameter usage
+2318, Incorrect MMS parameter usage
+2319, Incorrect operation timer parameter usage
+232,No Group Call Number Available
+2320, Incorrect dialogue ID parameter usage
+2321, Incorrect alpha originator address usage
+2322, Invalid data for alpha numeric originator
+2323, Online closed user group rejection
+2324, Licence exceeded
+233,Resource Limitation
+234,Unauthorized Requesting Network
+235,Unathorized LCS Client
+236,Position Method Failure
+237, Custom error 8
+238, Custom error 9
+239, Custom error 10
+23A,Unknown or Unreachable LCS Client
+240, Recipient Temporary Error
+241, Recipient Permanent Error
+242, Service Not configured/for a particular circle/subscriber. Or simply menu is incomplete or service i 
+243, Terminating session due to invalid input
+244, Unspecific
+245, 'HLR:the remote address not reachable' /'VMSC:Invalid Destination' 
+246, Client Resource Not Available
+247,Unknown Alphabet
+248,EC_TIME_OUT
+249,EC_IMSI_BLACKLISTED
+250,Personal service barring|EC_DEST_ADDRESS_BLACKLISTED
+251,Personal service barring|EC_InvalidMscAddress
+252,Personal service barring|MESSAGE VALIDITY EXPIRED
+253,Personal service barring|the origination subscriber PPS authentication SCP connection broken'
+254,Personal service barring|any other error code other than 255
+255,Personal service barring|EC_UNKNOWN_ERROR
+256,Personal service barring|EC_SM_DF_memoryCapacityExceeded
+257,Personal service barring|EC_SM_DF_equipmentProtocolError
+258,EC_SM_DF_equipmentNotSM_Equipped
+259,EC_SM_DF_unknownServiceCentre
+260,EC_SM_DF_sc_Congestion
+261,EC_SM_DF_invalidSME_Address
+262,EC_SM_DF_subscriberNotSC_Subscriber
+263, MO Handover: Destination SME Barred
+264, MO Handover: Duplicate Message Rejected
+265, MO Handover: Validity Period Format Unsupported
+266, MO Handover: Validity Period Unsupported
+267, MO Handover: Not Supported by equipment
+268, MO Handover: System Error
+269, MO Handover: Duplicated invoke id
+270, MO Handover: Service not supported
+271, MO Handover: Mistyped parameter
+272, MO Handover: No response from the peer
+273, MO Handover: Resource limitation
+274, MO Handover: Initiating release
+275,Error Gateway
+276, MO Handover: Unexpected error
+277, MO Handover: Unexpected response from the peer
+278, MO Handover: Unable to complete operation within timeout
+279, MO Handover: Invalid response received
+280,Error|MO Handover: TCAP error
+281,EC_UA_userSpecificReason
+282,EC_UA_userResourceLimitation
+283,EC_UA_resourceUnavailable
+284,EC_UA_applicationProcedureCancellation
+285, MO Handover: Unexpected Data Value
+286, MO Handover: Telematic Interworking not Supported
+287, MO Handover: FDA throttled
+288, MO Handover: SM decoding problem
+300,Invalid destination address|Provider Error Duplicate Invoke ID
+301,Invalid destination numbering plan|Provider Error Service Not Supported
+302,Invalid destination type of number|Provider Error Mistyped Paramter
+303,Invalid destination flag|Provider Error Resource Limitation
+304,Invalid number of destinations|Provider Error Initiating Release
+305,Provider Error Unexpected Response
+306,Provider Error Service Completion Failure
+307,EC_Provider No Response from Peer
+308,Provider Error Invalid Response
+400,EC_MAP_abort _error
+4000,Redis Error
+4001,Redis request Timeout
+4002,Not found in Redis DB
+4004,Content Id not found in Redis DB
+401,Stack/Sig Error Map User specific Reason
+402,Stack/Sig Error Map User Resource Limitation
+403,Stack/Sig Error Map Resource Unavailable
+404,Stack/Sig Error Map Application Procedure Cancellation
+406,TELEMARKETER_NOT_FOUND
+406,TELEMARKETER_NOT_FOUND
+407,DLT_SCRUBBING_TIMEOUT
+408,SENDER_BLOCKED_BY_DLT
+408,SENDER_BLOCKED_BY_DLT
+40A,Stack/Sig Error Map Provider Malfunction
+40B,Stack/Sig Error Map Unrecognised Transaction ID
+40C,Stack/Sig Error Dialog Resource Limitation
+40D,Stack/Sig Error Map Maintenance Activity
+40E,Stack/Sig Error Map Version Incompatibility
+40F,Stack/Sig Error Abnormal Map Dialogue
+410,ENTITY_BLOCKED_BY_DLT
+411,TEMPLATE_BLOCKED_BY_DLT
+412,ENTITY_NOT_FOUND 
+413,ENTITY_NOT_REGISTERED 
+414,ENTITY_INACTIVE 
+415,ENTITY_BLACKLISTED 
+416,INVALID_ENTITY_ID 
+417,ENTITY_ID_NOT_ALLOWED_FOR_TM
+418,TELEMARKETER_NOT_REGISTERED
+419,TELEMARKETER_INACTIVE 
+41A,Sig Error Map guard Timer Expired
+41B,Sig Error Map SPCAUSE mask
+41C,Sig Error MAP No Translation Basd Address
+41D,Sig Error MAP No Translation specific address
+41E,Stack/Sig Application Context Not Supported
+41F,Stack/Sig Dlg Invalid Destination Reference
+421,HEADER_NOT_FOUND 
+422,HEADER_INACTIVE 
+423,HEADER_BLACKLISTED 
+424,PEID_NOT_MATCHED_WITH_HEADER
+425,HEADER_IN_FREEPOOL 
+426,TEMPLATE_NOT_FOUND 
+426,TEMPLATE_NOT_FOUND 
+427,TEMPLATE_INACTIVE
+427,TEMPLATE_INACTIVE
+428,TEMPLATE_BLACKLISTED 
+429,TEMPLATE_NOT_MATCHED 
+42A,Sig Error MAP Un Equipped User
+42B,Sig Error MAP Network Failure
+42C,Sig Error MAP Network Conjestion
+42D,Sig Error MAP un Qualified
+42E,Sig Error MAP HOP Counter violaion ANS92
+42F,Sig Error MAP Error in message transport CCIT92
+430,HEADER_NOT_REGISTERED_FOR_TEMPLATE
+431,TEMPLATE_FAILED_ON_DYNAMIC_PART
+432,ERROR_IDENTIFYING_TEMPLATE 
+433,INVALID_TEMPLATE_ID 
+434,TEMPLATE_NOT_REGISTERED_TO_ENTITY
+435,PROMOTIONAL_TEMPLATE_USED_ON_OTHERS_HEADER
+436,INVALID_TEMPLATE_TYPE 
+436,INVALID_TEMPLATE_TYPE 
+437,PREFERENCE_NOT_MATCHED 
+437,PREFERENCE_NOT_MATCHED 
+438,INVALID_PROMO_TIME 
+438,INVALID_PROMO_TIME 
+439,SE_CATEGORY_BLOCK 
+439,SE_CATEGORY_BLOCK 
+440,CONSENT_FAILED 
+440,CONSENT_FAILED 
+441,SCRUBBING_FAILED 
+441,SCRUBBING_FAILED 
+442,TLV_PEID_NOT_FOUND 
+442,TLV_PEID_NOT_FOUND 
+443,TLV_TMPID_NOT_FOUND 
+443,TLV_TMPID_NOT_FOUND 
+444,EC _CONTENT_MULTIPART_INCOMPLETE_BY_DLT
+444,EC _CONTENT_MULTIPART_INCOMPLETE_BY_DLT
+446,HEADER_SUSPENDED_DUE_TO_VALIDITY
+446,HEADER_SUSPENDED_DUE_TO_VALIDITY
+447,HEADER_SUSPENDED_DUE_TO_USAGE
+447,HEADER_SUSPENDED_DUE_TO_USAGE
+448,HEADER_SUSPENDED_DUE_TO_CUSTOMER
+448,HEADER_SUSPENDED_DUE_TO_CUSTOMER
+449,EC_TEMPLATE_IN_SUSPENDED_VERFIED
+449,EC_TEMPLATE_IN_SUSPENDED_VERFIED
+450,TEMPLATE_SUSPENDED_DUE_TO_USAGE
+450,TEMPLATE_SUSPENDED_DUE_TO_USAGE
+451,TEMPLATE_SUSPENDED_DUE_TO_CUSTOMER
+451,TEMPLATE_SUSPENDED_DUE_TO_CUSTOMER
+452,EC_GLOBAL_MSISDN_BLOCKED
+452,EC_GLOBAL_MSISDN_BLOCKED
+453,EC_TEMPLATE_RESERVED
+453,EC_TEMPLATE_RESERVED
+454,EC_HEADER_IN_SUSPENDED_VERIFIED
+454,EC_HEADER_IN_SUSPENDED_VERIFIED
+455,EC_GLOBAL_FAILURE
+455,EC_GLOBAL_FAILURE
+456,FAILED_TO_ASSEMBLE_PDUS
+456,FAILED_TO_ASSEMBLE_PDUS
+457,HEADER_AND_ACCOUNTTYPE_MISMATCH
+457,HEADER_AND_ACCOUNTTYPE_MISMATCH
+458,Empty Hash provided
+458,Empty Hash provided
+459,Status of this hash is Blacklisted
+459,Status of this hash is Blacklisted
+460,Status of this hash is Suspended by Customer
+460,Status of this hash is Suspended by Customer
+461,One of the Telemarketers in the chain is blacklisted
+461,One of the Telemarketers in the chain is blacklisted
+462,Submitted hash does not match any registered hash for the PE
+462,Submitted hash does not match any registered hash for the PE
+463,EC_Cancelled. We have not received the DLR within the validity period passed in the transaction
+463,EC_Cancelled. We have not received the DLR within the validity period passed in the transaction
+497,URL not whitelisted
+498,Email not whitelisted
+498,Email not whitelisted
+499,Number not whitelisted
+499,Number not whitelisted
+500,SMPP - Throttling error
+501,ESME_RINVEXPIRY 
+502,EC_NO_RESPONSE
+503,Connection_timeout_from_ABMS
+5101,If Category is 0 or 50.
+5103,If Subscriber cmode is 10 or 12.
+5104,If Opstype is active in DLT
+5105,If day code found in Subscriber Preference Day
+5106,If Time code found in Subscriber Preference Time
+5107,If user not reg. on DND but current restricted (Blackout)
+5108,Blackout Time When DND applies on SE Template
+5110,"EC_5110||SI to Promo logic, as the number had taken the DND mode"
+5201,If Header not Active
+5202,If Header is Blacklisted.
+5203,the used header DPJPR is not found/registered on DLT
+5204,HDR_OP_INACTIVE
+5205,Entity id not matched with the used template
+5206,Port is Promo getting Trans hits
+5207,Port is Trans getting Promo hits
+5208,HDR_CASE_SEN_CLI (Govt. Header)
+5210,Entity ID not matching with desire User_ID
+5213,Header Suspended Due to Usage
+5214,Header Suspended Due to Validity
+5215,Header Suspension - Customer initiative (Self)
+5301,Content Unregistered
+5302,Content Blacklisted
+5303,Content with unknown header
+5304,Content Not in DB
+5305,Content Type Mismatched
+5306,Content ID not Active
+5307,Content Regex not matched
+5308,Content ID Blank
+5309,Content ID Blacklisted by VISPL
+5310,Content Multipart not complete
+5311,Content Active/Inactive
+5312,Variable Exceeded Error
+5313,Template Suspended Due to Usage
+5314,Template Suspended Due to Validity
+5315,Template Suspension - Customer initiative (Self)
+5401,COMM is Trans/SE/SI & Header is Inactive/Blacklisted
+5402,COMM is Trans/SE/SI & Content_ID is Inactive
+5403,COMM is Trans/SE/SI & Content AssoC. Header is Different
+5404,COMM is Trans&Content is registered for some other type
+5405,COMM is SI & Content is registered for some other type
+5406,COMM is SE & Content is registered for some other type
+5501,Consent Not in DB
+5502,Consent Expired
+5503,Consent Revoked
+5504,Consent Initiated
+5505,Consent_Verified
+5506,Consent_Failed
+5507,Consent_Disconnected
+5508,Consent_SBchurn
+5510,Migration-Verified
+5601,PE_TM_Hash is not valid/ not available / Blank
+5602,PE_TM_Hash is Blacklisted
+5603,PE_TM_Hash is Inactive
+5604,PE_TM_Hash is Suspended
+5605,PE_TM_Hash TM-D ID not matched
+5606,PE_TM_Hash PEIDnotmatched
+5901, CTA whitelisting error. which indicates that the used URL is not whitelisted over DLT
+5902,URL_BLACKLISTED
+5903,URL_INACTIVE
+591,DESTINATION_FLOODING
+591,DESTINATION_FLOODING
+592,Global keyword Failure
+592,Global keyword Failure
+594,Global Sender ID Block
+594,Global Sender ID Block
+595,Global Receiver blocked
+595,Global Receiver blocked
+598,EC_CTID_BLACKLISTED
+598,EC_CTID_BLACKLISTED
+606,Reserved for Entity
+607,Reserved for Entity
+608,Reserved for Entity
+609,Reserved for Entity
+614,PE TM HASH NOT RECEIVED
+615,PE_TM_HASH_NOT_REGISTERED
+618,PE_TM_HASH_SUSPENDED----------
+619,Reserved for Telemarketer
+620,"No record found with header (case sensitive)
+as primary key"
+621,"Header is inactive on the platform, ex: {QL:I}"
+622,Header is blacklisted on all platforms
+623,"Principle Entity Id is not matched with Header
+Id"
+624,Reserved for Header
+625,Reserved for Header
+626,Reserved for Header
+627,Reserved for Header
+628,Reserved for Header
+629,Reserved for Header
+630,"No record found with Template Id as primary
+key/no template found"
+631,"Template is inactive on the platform, ex: {QL:I}"
+632,Template is blacklisted on all platforms
+633,Template not matched for given Template ID
+634,Header is not registered for the template
+635,Valiable Length exied
+636,Error in identifying the template
+637,Received wrong Template id format or no Template id tag.
+638,Reserved for Template
+639,Reserved for Template
+640,Reserved for Template
+641,Reserved for Template
+642,Reserved for Template
+643,Reserved for Template
+644,Reserved for Template
+645,Reserved for Template
+646,Reserved for Template
+647,Reserved for Template
+648,Reserved for Template
+649,Reserved for Template
+650,Blocked in preferences with MSISDN as PK.
+651,Block promo hours (9PM to 10AM)
+652,"SE category blocking on fully DND, if consent
+not available"
+653,Reserved for Preference
+654,Reserved for Preference
+655,Reserved for Preference
+656,Reserved for Preference
+657,Reserved for Preference
+658,Reserved for Preference
+659,Reserved for Preference
+660,General error code for Consent
+661,Reserved for Consent
+662,Reserved for Consent
+663,Reserved for Consent
+664,Reserved for Consent
+665,Reserved for Consent
+666,SMS Content mis-match
+667,Reserved for Consent
+668,Reserved for Consent
+669,Reserved for Consent
+677,Invalid TM_ID
+678,Telemarketer ID does not exist/In active
+680,Telemarketer ID blacklisted
+683,SMS Type of header is not match Template
+687,SMS Type is not match with header/Template SMS Type
+700,No CTA whitelisted
+7001,Entity is In-Active
+7002,Entity is Blacklist
+7003,Entity not in DB
+7004,Entity ID Blank
+7005,ENTITY_OP_INACTIVE
+701,URL CTA not matched with whitelisted data
+703,Submit_SM_Timeout
+715,Expired at BMG
+792,EC_NC_abnormalEventDetectedByPeer
+793,EC_NC_responseRejectedByPeer
+794,EC_NC_abnormalEventReceivedFromPeer
+795,EC_NC_messageCannotBeDeliveredToPeer
+796,EC_NC_providerOutOfInvoke
+801,EC_BLACKLISTED_MSISDN
+802,EntityID Inactive/Not registered with Airtel
+803,Header is blacklisted
+804,Header Inactive/Not registered with Airtel
+805,Template is inactive
+811,PE-TM chain is inactive.
+812,Invalid PE-TM hash.
+813,Hash does not match with PE-TM Chain.
+9003,ESME_RINVCMDID
+9008,ESME_RSYSERR_ABMS
+901,AccountID Required
+9010,ESME_RINVSRCADR
+9011,ESME_RINVDSTADR
+9014,ESME_RINVPASWD
+9015,ESME_RINVSYSID
+9016,JMS_QUEUE_ERROR_CODE
+9018,GOV_HEADER_ERROR_CODE
+9019,GOV_HEADER_INVALID ACCOUNT_TYPE ERROR_CODE
+9020,Message Queue Full
+9021,ESME_RINVSERTYP
+9022,MSG_IN_SHORT_MSG AND_PAYLOAD
+9024,TAG_TM_ID_ABSENT
+9025,TAG_TEMPLATE_ID_ABSENT
+9026,TAG_PE_ID_ABSENT
+9027,ESME_MULTI_MISSING_PART
+9030,ESME_INVD_TM_EXN_ID
+9031,RETRY_REACHED_MAX_LIMIT
+905,SMS Type Required
+906,MSISDN Required
+9069,SUBMIT_SM_FAILED
+907,Invalid SMS Type
+908,MessageID Required
+9088,ESME_RTHROTTLED
+909,Invalid DLT header id
+9196,ESME_RINVOPTPARAMVAL
