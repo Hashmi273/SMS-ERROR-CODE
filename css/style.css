@@ -1241,11 +1241,14 @@ body {
 
 /* Operator Logos */
 .operator-logo {
-  height: 28px;
+  height: 32px;
   width: auto;
   max-width: 90px;
   object-fit: contain;
   display: inline-block;
   vertical-align: middle;
-  mix-blend-mode: multiply;
+  background-color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
