@@ -1,4164 +1,3303 @@
-/**
- * Immense Smart Solutions - Master Error Code Dataset
- * Auto-generated fallback for zero-CORS file:// local executions
- */
+// Fallback dataset for offline usage
 window.IMMENSE_ERRORS_DATA = [
   {
-    "id": 1,
-    "code": "20A",
-    "description": "Bearer Service Not Supported",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 2,
-    "code": "20b",
-    "description": "Tele Service Not Provisioned",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 3,
-    "code": "20c",
-    "description": "Error Equipment",
-    "category": "System & General"
-  },
-  {
-    "id": 4,
-    "code": "20d",
-    "description": "Call Barred",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 5,
-    "code": "20E",
-    "description": "Error Forward Violation",
-    "category": "System & General"
-  },
-  {
-    "id": 6,
-    "code": "20F",
-    "description": "Error CUG Reject",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 7,
-    "code": "21A",
-    "description": "Subsequent Handover Failure",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 8,
-    "code": "21b",
-    "description": "Absent Subscriber for MT",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 9,
-    "code": "21C",
-    "description": "Incompatible Terminal",
-    "category": "System & General"
-  },
-  {
-    "id": 10,
-    "code": "21D",
-    "description": "Short Term Denial",
-    "category": "System & General"
-  },
-  {
-    "id": 11,
-    "code": "21E",
-    "description": "Long Term Denial",
-    "category": "System & General"
-  },
-  {
-    "id": 12,
-    "code": "21f",
-    "description": "Subscriber Busy for MT",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 13,
-    "code": "22C",
-    "description": "Number of PW attempts Violation",
-    "category": "System & General"
-  },
-  {
-    "id": 14,
-    "code": "22D",
-    "description": "Busy Subscriber",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 15,
-    "code": "22E",
-    "description": "No Reply from Subscriber",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 16,
-    "code": "22F",
-    "description": "Forwarding Failed",
-    "category": "System & General"
-  },
-  {
-    "id": 17,
-    "code": "23A",
-    "description": "Unknown or Unreachable LCS Client",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 18,
-    "code": "40a",
-    "description": "Stack/Sig Error Map Provider Malfunction",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 19,
-    "code": "40B",
-    "description": "Stack/Sig Error Map Unrecognised Transaction ID",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 20,
-    "code": "40C",
-    "description": "Stack/Sig Error Dialog Resource Limitation",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 21,
-    "code": "40D",
-    "description": "Stack/Sig Error Map Maintenance Activity",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 22,
-    "code": "40E",
-    "description": "Stack/Sig Error Map Version Incompatibility",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 23,
-    "code": "40F",
-    "description": "Stack/Sig Error Abnormal Map Dialogue",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 24,
-    "code": "41A",
-    "description": "Sig Error MAP guard timer expired",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 25,
-    "code": "41B",
-    "description": "Sig Error MAP SPCAUSE mask",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 26,
-    "code": "41c",
-    "description": "Sig Error MAP No translation Based Address",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 27,
-    "code": "41d",
-    "description": "Sig Error MAP No translation specific address",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 28,
-    "code": "41E",
-    "description": "Stack/Sig Application Context Not Supported",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 29,
-    "code": "41F",
-    "description": "Stack/Sig DlG Invalid Destination Reference",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 30,
-    "code": "42a",
-    "description": "Sig Error MAP unequipped user",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 31,
-    "code": "42b",
-    "description": "Sig Error MAP network failure",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 32,
-    "code": "42c",
-    "description": "Sig Error MAP network congestion",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 33,
-    "code": "42d",
-    "description": "Sig Error MAP unqualified",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 34,
-    "code": "42E",
-    "description": "Sig Error MAP HOP Counter violation ANS92",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 35,
-    "code": "42F",
-    "description": "Sig Error MAP Error in message transport CCIT92",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 36,
-    "code": "000",
-    "description": "NORMAL DELIVERED",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 37,
-    "code": "001",
-    "description": "Source not found|EC_UNKNOWN_SUBSCRIBER",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 38,
-    "code": "002",
-    "description": "Sink not found|EC_UNKNOWN_BASE_STATION",
-    "category": "System & General"
-  },
-  {
-    "id": 39,
-    "code": "003",
-    "description": "Delivery zone not found|DND Fail",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 40,
-    "code": "004",
-    "description": "Mobile Equipment Error",
-    "category": "System & General"
-  },
-  {
-    "id": 41,
-    "code": "005",
-    "description": "Location not found|EC_UNIDENTIFIED_SUBSCRIBER",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 42,
-    "code": "006",
-    "description": "Location blocked|Absent subscriber",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 43,
-    "code": "007",
-    "description": "Reply path not found|UNKNOWN EQUIPMENT",
-    "category": "System & General"
-  },
-  {
-    "id": 44,
-    "code": "008",
-    "description": "Message not submit|FSM TIMEOUT",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 45,
-    "code": "009",
-    "description": "Unsupported number plan|EC_ILLEGAL_SUBSCRIBER",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 46,
-    "code": "010",
-    "description": "Unsupported type of number|EC_BEARER_SERVICE_NOT_PROVISIONED",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 47,
-    "code": "011",
-    "description": "Message not DELIVER or STATUS|EC_TELESERVICE_NOT_PROVISIONED",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 48,
-    "code": "012",
-    "description": "Dialling zone not found|EC_ILLEGAL_EQUIPMENT",
-    "category": "System & General"
-  },
-  {
-    "id": 49,
-    "code": "013",
-    "description": "Not home zone and IMSI not allowed|EC_CALL_BARRED",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 50,
-    "code": "014",
-    "description": "Not home zone and IMSI fetch failed|Barred unauthorized message originator",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 51,
-    "code": "015",
-    "description": "Screening block|CUG REJECT",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 52,
-    "code": "018",
-    "description": "ESME error|message waiting for report expired'",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 53,
-    "code": "019",
-    "description": "Originating location mismatch|SRIAck unsuccessful with any other error codes'",
-    "category": "System & General"
-  },
-  {
-    "id": 54,
-    "code": "020",
-    "description": "Originating reservation failed|EC_SS_INCOMPATIBILITY",
-    "category": "System & General"
-  },
-  {
-    "id": 55,
-    "code": "021",
-    "description": "Originating reservation denied subscription not found|EC_FACILITY_NOT_SUPPORTED",
-    "category": "System & General"
-  },
-  {
-    "id": 56,
-    "code": "022",
-    "description": "Originating reservation denied subscription state illegal|Memory capacity exceeded",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 57,
-    "code": "023",
-    "description": "Originating reservation denied call case blocked for subscription|Unknown Subscriber'",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 58,
-    "code": "024",
-    "description": "Originating reservation denied call case blocked for subscription type|call forbidden'",
-    "category": "System & General"
-  },
-  {
-    "id": 59,
-    "code": "025",
-    "description": "Originating reservation denied low balance|the network does not support SMS'",
-    "category": "System & General"
-  },
-  {
-    "id": 60,
-    "code": "026",
-    "description": "teleservice not supported",
-    "category": "System & General"
-  },
-  {
-    "id": 61,
-    "code": "027",
-    "description": "Absent subscriber",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 62,
-    "code": "029",
-    "description": "HLR:data error in route signal",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 63,
-    "code": "030",
-    "description": "Terminating reservation failed|HLR:data lacked'",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 64,
-    "code": "031",
-    "description": "Terminating reservation denied subscription not found|EC_SUBSCRIBER_BUSY_FOR_MT_SMS",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 65,
-    "code": "032",
-    "description": "Terminating reservation denied subscription state illegal|EC_SM_DELIVERY_FAILURE",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 66,
-    "code": "033",
-    "description": "Terminating reservation denied call case blocked for subscription|EC_MESSAGE_WAITING_LIST_FULL",
-    "category": "System & General"
-  },
-  {
-    "id": 67,
-    "code": "034",
-    "description": "Terminating reservation denied call case blocked for subscription type|EC_SYSTEM_FAILURE",
-    "category": "System & General"
-  },
-  {
-    "id": 68,
-    "code": "035",
-    "description": "Terminating reservation denied low balance|EC_DATA_MISSING",
-    "category": "System & General"
-  },
-  {
-    "id": 69,
-    "code": "036",
-    "description": "EC_UNEXPECTED_DATA_VALUE",
-    "category": "System & General"
-  },
-  {
-    "id": 70,
-    "code": "037",
-    "description": "Unmarked Subscriber",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 71,
-    "code": "038",
-    "description": "failure because the subscriber is busy",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 72,
-    "code": "039",
-    "description": "VMSC isolated",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 73,
-    "code": "040",
-    "description": "System is congested|VMSC:data lacked'",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 74,
-    "code": "041",
-    "description": "Originating IMSI mismatch|VMSC:unexpected data'",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 75,
-    "code": "042",
-    "description": "MS error",
-    "category": "System & General"
-  },
-  {
-    "id": 76,
-    "code": "043",
-    "description": "Not Supported by equipment",
-    "category": "System & General"
-  },
-  {
-    "id": 77,
-    "code": "044",
-    "description": "Illegal equipment",
-    "category": "System & General"
-  },
-  {
-    "id": 78,
-    "code": "045",
-    "description": "Quarantine Add|Unspecific PID Error",
-    "category": "System & General"
-  },
-  {
-    "id": 79,
-    "code": "046",
-    "description": "Quarantine Remove|Message Class Not Supported",
-    "category": "System & General"
-  },
-  {
-    "id": 80,
-    "code": "047",
-    "description": "DCS error",
-    "category": "System & General"
-  },
-  {
-    "id": 81,
-    "code": "048",
-    "description": "TPDU Not Supported",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 82,
-    "code": "049",
-    "description": "Short message delivery failure with memory capacity exceeded",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 83,
-    "code": "050",
-    "description": "Unexpected error from Store|UNKNOWN ERROR",
-    "category": "System & General"
-  },
-  {
-    "id": 84,
-    "code": "051",
-    "description": "Direct delivery disabled from store|EC_RESOURCE_LIMITATION",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 85,
-    "code": "053",
-    "description": "Message limit exceeded|Subscriber Busy For MT-SMS",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 86,
-    "code": "054",
-    "description": "Retry scheme ended|Data Download Error",
-    "category": "System & General"
-  },
-  {
-    "id": 87,
-    "code": "060",
-    "description": "Originator blocked|Absent subscriber",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 88,
-    "code": "061",
-    "description": "Destination blocked|Absent subscriber",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 89,
-    "code": "062",
-    "description": "Keyword blocked|Absent subscriber",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 90,
-    "code": "063",
-    "description": "SC address blocked|Absent subscriber",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 91,
-    "code": "064",
-    "description": "Blocked due to exceeded quota|Absent subscriber",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 92,
-    "code": "065",
-    "description": "Loop detected|Absent subscriber",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 93,
-    "code": "066",
-    "description": "Data coding scheme blocked|Absent subscriber over GPRS Page Fail",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 94,
-    "code": "067",
-    "description": "Information element identifier blocked|Absent subscriber over GPRS Detached",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 95,
-    "code": "068",
-    "description": "Country Code Validation Block|Absent subscriber over GPRS Deregistered",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 96,
-    "code": "069",
-    "description": "Destination Flooding",
-    "category": "System & General"
-  },
-  {
-    "id": 97,
-    "code": "070",
-    "description": "No ESME provider available|MS store is full'",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 98,
-    "code": "071",
-    "description": "ESME account not connected|EC_UNKNOWN_ALPHABET",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 99,
-    "code": "072",
-    "description": "No ESME sub account routing|EC_USSD_BUSY",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 100,
-    "code": "074",
-    "description": "ESME local throttling - exceeded msg/s|INVALID HEADER IN MSG",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 101,
-    "code": "080",
-    "description": "Home routing sender GT mismatch|PENDING DLR (Retry )",
-    "category": "System & General"
-  },
-  {
-    "id": 102,
-    "code": "081",
-    "description": "Location mismatch between provided location and location known to HLR.|Service not supported",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 103,
-    "code": "082",
-    "description": "IMSI mismatch between provided IMSI |Mistyped parameter",
-    "category": "System & General"
-  },
-  {
-    "id": 104,
-    "code": "083",
-    "description": "Local throttling by sink|No response from the peer",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 105,
-    "code": "084",
-    "description": "The IMSI could not be retrieved from the HSS|Resource limitation",
-    "category": "System & General"
-  },
-  {
-    "id": 106,
-    "code": "085",
-    "description": "The IMEI of the UE is unknown|Initiating release",
-    "category": "System & General"
-  },
-  {
-    "id": 107,
-    "code": "086",
-    "description": "The user location is unknown|Unrecognised error",
-    "category": "System & General"
-  },
-  {
-    "id": 108,
-    "code": "087",
-    "description": "ESME router|Provider Error (In case of any failures observed in TCAP level this error will generate).",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 109,
-    "code": "088",
-    "description": "Network fluctuation from far End Operator(Temporary Error)",
-    "category": "System & General"
-  },
-  {
-    "id": 110,
-    "code": "089",
-    "description": "INVALID PACKET AT SMSC LEVEL",
-    "category": "System & General"
-  },
-  {
-    "id": 111,
-    "code": "090",
-    "description": "USER-ABORT",
-    "category": "System & General"
-  },
-  {
-    "id": 112,
-    "code": "091",
-    "description": "PROVIDER-ABORT",
-    "category": "System & General"
-  },
-  {
-    "id": 113,
-    "code": "092",
-    "description": "MSC NUMBER MISSING",
-    "category": "System & General"
-  },
-  {
-    "id": 114,
-    "code": "093",
-    "description": "Equipment protocol error",
-    "category": "System & General"
-  },
-  {
-    "id": 115,
-    "code": "094",
-    "description": "Equipment not SM equipped",
-    "category": "System & General"
-  },
-  {
-    "id": 116,
-    "code": "095",
-    "description": "Unknown service centre",
-    "category": "System & General"
-  },
-  {
-    "id": 117,
-    "code": "096",
-    "description": "Service Centre congestion",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 118,
-    "code": "097",
-    "description": "INVALID SCHEDULE DELIVERY TIME",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 119,
-    "code": "098",
-    "description": "Subscriber not SC subscriber",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 120,
-    "code": "099",
-    "description": "Invalid SME address",
-    "category": "System & General"
-  },
-  {
-    "id": 121,
-    "code": "100",
-    "description": "Unidentified subscriber|no response from the called subscriber'",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 122,
-    "code": "1001",
-    "description": "No Response from far Network",
-    "category": "System & General"
-  },
-  {
-    "id": 123,
-    "code": "101",
-    "description": "Facility not supported|VMSC:the called MS poweroff'",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 124,
-    "code": "102",
-    "description": "System failure|VMSC:limited due to MS roaming' / SENDER ID BLOCKED",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 125,
-    "code": "1024",
-    "description": "EC_OR_appContextNotSupported",
-    "category": "System & General"
-  },
-  {
-    "id": 126,
-    "code": "1025",
-    "description": "EC_OR_invalidDestinationReference",
-    "category": "System & General"
-  },
-  {
-    "id": 127,
-    "code": "1026",
-    "description": "EC_OR_invalidOriginatingReference;",
-    "category": "System & General"
-  },
-  {
-    "id": 128,
-    "code": "1027",
-    "description": "EC_OR_encapsulatedAC_NotSupported",
-    "category": "System & General"
-  },
-  {
-    "id": 129,
-    "code": "1028",
-    "description": "EC_OR_transportProtectionNotAdequate",
-    "category": "System & General"
-  },
-  {
-    "id": 130,
-    "code": "1029",
-    "description": "EC_OR_noReasonGiven",
-    "category": "System & General"
-  },
-  {
-    "id": 131,
-    "code": "103",
-    "description": "Unexpected data value|ROUTE NOT ACTIVE",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 132,
-    "code": "1030",
-    "description": "EC_OR_potentialVersionIncompatibility",
-    "category": "System & General"
-  },
-  {
-    "id": 133,
-    "code": "1031",
-    "description": "EC_OR_remoteNodeNotReachable",
-    "category": "System & General"
-  },
-  {
-    "id": 134,
-    "code": "104",
-    "description": "Data missing|OFF-NET NOT ACTIVE FOR ACCOUNT/ ON-NET ROUTES NOT DEFINED",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 135,
-    "code": "105",
-    "description": "Equipment protocol error|MTP_FAILURE",
-    "category": "System & General"
-  },
-  {
-    "id": 136,
-    "code": "106",
-    "description": "UNKNOWN service centre address|MS response is overtime'",
-    "category": "System & General"
-  },
-  {
-    "id": 137,
-    "code": "107",
-    "description": "Service centre congestion|HLR:the subscriber is unregistered'",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 138,
-    "code": "108",
-    "description": "Invalid short message entity address|ROUTE BLOCKED FOR THIS SERIES",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 139,
-    "code": "109",
-    "description": "Subscriber not service centre subscriber|MSISDN SERIES NOT CONFIGURED",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 140,
-    "code": "110",
-    "description": "INVALID_DESTINATION_NUMBER",
-    "category": "System & General"
-  },
-  {
-    "id": 141,
-    "code": "111",
-    "description": "Entity not registered",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 142,
-    "code": "112",
-    "description": "Entity Inactive",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 143,
-    "code": "113",
-    "description": "TEMPLATE_CONTENT_MISMATCH",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 144,
-    "code": "114",
-    "description": "Invalid Telemarketer",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 145,
-    "code": "115",
-    "description": "CLI Mismatch with Template",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 146,
-    "code": "1152",
-    "description": "EC_NNR_noTranslationForAnAddressOfSuchNatur",
-    "category": "System & General"
-  },
-  {
-    "id": 147,
-    "code": "1153",
-    "description": "EC_NNR_noTranslationForThisSpecificAddress",
-    "category": "System & General"
-  },
-  {
-    "id": 148,
-    "code": "1154",
-    "description": "EC_NNR_subsystemCongestion",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 149,
-    "code": "1155",
-    "description": "EC_NNR_subsystemFailure",
-    "category": "System & General"
-  },
-  {
-    "id": 150,
-    "code": "1156",
-    "description": "EC_NNR_unequippedUser",
-    "category": "System & General"
-  },
-  {
-    "id": 151,
-    "code": "1157",
-    "description": "EC_NNR_MTPfailure",
-    "category": "System & General"
-  },
-  {
-    "id": 152,
-    "code": "1158",
-    "description": "EC_NNR_networkCongestion",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 153,
-    "code": "1159",
-    "description": "EC_NNR_unqualified",
-    "category": "System & General"
-  },
-  {
-    "id": 154,
-    "code": "116",
-    "description": "Header Inactive",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 155,
-    "code": "1160",
-    "description": "EC_NNR_errorInMessageTransportXUDT",
-    "category": "System & General"
-  },
-  {
-    "id": 156,
-    "code": "1161",
-    "description": "EC_NNR_errorInLocalProcessingXUDT",
-    "category": "System & General"
-  },
-  {
-    "id": 157,
-    "code": "1162",
-    "description": "EC_NNR_destinationCannotPerformReassemblyXUDT",
-    "category": "System & General"
-  },
-  {
-    "id": 158,
-    "code": "1163",
-    "description": "EC_NNR_SCCPfailure",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 159,
-    "code": "1164",
-    "description": "EC_NNR_hopCounterViolation",
-    "category": "System & General"
-  },
-  {
-    "id": 160,
-    "code": "1165",
-    "description": "EC_NNR_segmentationNotSupported",
-    "category": "System & General"
-  },
-  {
-    "id": 161,
-    "code": "1166",
-    "description": "EC_NNR_segmentationFailure",
-    "category": "System & General"
-  },
-  {
-    "id": 162,
-    "code": "117",
-    "description": "Header Blacklisted",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 163,
-    "code": "118",
-    "description": "Template not found",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 164,
-    "code": "119",
-    "description": "Template Inactive",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 165,
-    "code": "120",
-    "description": "Template not Matched",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 166,
-    "code": "121",
-    "description": "Template blacklisted",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 167,
-    "code": "122",
-    "description": "Invalid Consent",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 168,
-    "code": "123",
-    "description": "General Consent error",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 169,
-    "code": "124",
-    "description": "DLT Miscellaneous error",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 170,
-    "code": "125",
-    "description": "TEMPLATE_VARIABLE_EXCEEED",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 171,
-    "code": "126",
-    "description": "Invalid Template id",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 172,
-    "code": "127",
-    "description": "Header not found",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 173,
-    "code": "128",
-    "description": "Entity blacklisted",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 174,
-    "code": "1281",
-    "description": "EC_UA_userSpecificReason",
-    "category": "System & General"
-  },
-  {
-    "id": 175,
-    "code": "1282",
-    "description": "EC_UA_userResourceLimitation",
-    "category": "System & General"
-  },
-  {
-    "id": 176,
-    "code": "1283",
-    "description": "EC_UA_resourceUnavailable",
-    "category": "System & General"
-  },
-  {
-    "id": 177,
-    "code": "1284",
-    "description": "EC_UA_applicationProcedureCancellation",
-    "category": "System & General"
-  },
-  {
-    "id": 178,
-    "code": "129",
-    "description": "Entity not found",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 179,
-    "code": "130",
-    "description": "EC_OR_potentialVersionIncompatibility",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 180,
-    "code": "131",
-    "description": "EC_OR_remoteNodeNotReachable",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 181,
-    "code": "132",
-    "description": "Map Dialog Rejected Refuse Reason: Application Context not supported",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 182,
-    "code": "133",
-    "description": "Map Dialog Rejected Refuse Reason: Potential Version Incompatibility",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 183,
-    "code": "134",
-    "description": "Map Dialog Rejected Refuse Reason: Remote Node not reachable",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 184,
-    "code": "135",
-    "description": "Map Dialog Rejected Provider Reason: Provider malfunction",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 185,
-    "code": "136",
-    "description": "Map Dialog Rejected Provider Reason: Transaction Released",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 186,
-    "code": "137",
-    "description": "Map Dialog Rejected Provider Reason: Resource Limitation",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 187,
-    "code": "138",
-    "description": "Map Dialog Rejected Provider Reason: Maintenance Activity",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 188,
-    "code": "139",
-    "description": "Map Dialog Rejected Provider Reason: Version Incompatibility",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 189,
-    "code": "140",
-    "description": "Map Dialog Rejected Provider Reason: Abnormal Dialogue",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 190,
-    "code": "141",
-    "description": "Map Dialog User Abort Diagnostic Info: Short Term resource Limitation",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 191,
-    "code": "142",
-    "description": "Map Dialog User Abort Diagnostic Info: Long term resource limitation",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 192,
-    "code": "143",
-    "description": "Map Dialog User Abort Diagnostic Info: Handover cancellation",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 193,
-    "code": "144",
-    "description": "Map Dialog User Abort Diagnostic Info: Radio Channel Release",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 194,
-    "code": "145",
-    "description": "Map Dialog User Abort Diagnostic Info: Call Release",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 195,
-    "code": "146",
-    "description": "Map Dialog User Abort Diagnostic Info: Network path Release",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 196,
-    "code": "147",
-    "description": "Map Dialog User Abort Diagnostic Info: Associated Procedure release",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 197,
-    "code": "148",
-    "description": "Map Dialog User Abort Diagnostic Info: Tandem Dialog Release",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 198,
-    "code": "149",
-    "description": "Map Dialog User Abort Diagnostic Info: Remote Operation Failure",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 199,
-    "code": "150",
-    "description": "UNKNOWN subscriber|Map Dialog User Abort User Reason: User specific reason",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 200,
-    "code": "151",
-    "description": "Call barred|Map Dialog User Abort User Reason: User resource limitation",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 201,
-    "code": "152",
-    "description": "Teleservice not provisioned|EC_NNR_noTranslationForAnAddressOfSuchNature",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 202,
-    "code": "153",
-    "description": "Absent subscriber|EC_NNR_noTranslationForThisSpecificAddress",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 203,
-    "code": "1536",
-    "description": "EC_PA_providerMalfunction",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 204,
-    "code": "1537",
-    "description": "EC_PA_supportingDialogOrTransactionRealeased",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 205,
-    "code": "1538",
-    "description": "EC_PA_ressourceLimitation",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 206,
-    "code": "1539",
-    "description": "EC_PA_maintenanceActivity",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 207,
-    "code": "154",
-    "description": "Facility not supported|EC_NNR_subsystemCongestion",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 208,
-    "code": "1540",
-    "description": "EC_PA_versionIncompatibility",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 209,
-    "code": "1541",
-    "description": "EC_PA_abnormalMapDialog",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 210,
-    "code": "155",
-    "description": "System failure|EC_NNR_subsystemFailure",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 211,
-    "code": "156",
-    "description": "Unexpected data value|EC_NNR_unequippedUser",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 212,
-    "code": "157",
-    "description": "Data missing|EC_NNR_MTPfailure",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 213,
-    "code": "158",
-    "description": "Memory capacity exceeded|EC_NNR_networkCongestion",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 214,
-    "code": "159",
-    "description": "Mobile subscriber not reachable|EC_NNR_unqualified",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 215,
-    "code": "160",
-    "description": "Reject|EC_NNR_errorInMessageTransportXUDT",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 216,
-    "code": "161",
-    "description": "Local cancel|EC_NNR_errorInLocalProcessingXUDT",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 217,
-    "code": "162",
-    "description": "Abort|EC_NNR_destinationCannotPerformReassemblyXUDT",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 218,
-    "code": "163",
-    "description": "Exception|EC_NNR_SCCPfailure",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 219,
-    "code": "164",
-    "description": "UNKNOWN|EC_NNR_hopCounterViolation",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 220,
-    "code": "165",
-    "description": "EC_NNR_segmentationNotSupported",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 221,
-    "code": "166",
-    "description": "EC_NNR_segmentationFailure",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 222,
-    "code": "167",
-    "description": "USSD platform Unknown error",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 223,
-    "code": "168",
-    "description": "DND Blocked",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 224,
-    "code": "169",
-    "description": "MAP-P-Abort: Provider reasons",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 225,
-    "code": "170",
-    "description": "MAP-P-Abort Provider reason: Malfunction",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 226,
-    "code": "171",
-    "description": "MAP-P-Abort Provider reason: Dialog Released",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 227,
-    "code": "172",
-    "description": "waiting queue in destination subscriber table is full",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 228,
-    "code": "173",
-    "description": "MAP-P-Abort Provider reason: Abnormal Dialog",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 229,
-    "code": "174",
-    "description": "MAP-P-Abort: Invalid PDU",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 230,
-    "code": "175",
-    "description": "MAP-Open: Out of MAP dialogs",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 231,
-    "code": "176",
-    "description": "Invalid Service code",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 232,
-    "code": "177",
-    "description": "Subscriber MSISDN Blacklisted",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 233,
-    "code": "178",
-    "description": "Subscriber IMSI Blacklisted",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 234,
-    "code": "179",
-    "description": "Invalid Originating Address with Length greater than 20 chars",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 235,
-    "code": "1793",
-    "description": "EC_NC_responseRejectedByPeer",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 236,
-    "code": "1794",
-    "description": "EC_NC_abnormalEventReceivedFromPeer",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 237,
-    "code": "1795",
-    "description": "EC_NC_messageCannotBeDeliveredToPeer",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 238,
-    "code": "1796",
-    "description": "EC_NC_providerOutOfInvoke",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 239,
-    "code": "180",
-    "description": "MAP-Open Refuse reason: Node Not Reached",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 240,
-    "code": "181",
-    "description": "service barred",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 241,
-    "code": "182",
-    "description": "operation barred",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 242,
-    "code": "183",
-    "description": "VLRBlackListed",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 243,
-    "code": "184",
-    "description": "VLRWhiteListed",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 244,
-    "code": "185",
-    "description": "MAP-Notice Problem: Message Cannot Be Delivered",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 245,
-    "code": "186",
-    "description": "BILNG_SystemError",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 246,
-    "code": "187",
-    "description": "MAP-Notice: Abnormal event detected by peer",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 247,
-    "code": "188",
-    "description": "MAP-U-Abort: Error",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 248,
-    "code": "189",
-    "description": "MAP-U-Abort User Reason: User Specific Reason",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 249,
-    "code": "190",
-    "description": "MAP-U-Abort: User resource limitation",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 250,
-    "code": "191",
-    "description": "MAP-U-Abort: Resource unavailable (short term)",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 251,
-    "code": "192",
-    "description": "Unexpected session release from Servers/3rd party APP",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 252,
-    "code": "193",
-    "description": "unknServCent",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 253,
-    "code": "194",
-    "description": "sc_Congestion",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 254,
-    "code": "195",
-    "description": "invaSME_Add",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 255,
-    "code": "196",
-    "description": "subsNotSC_Subsc",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 256,
-    "code": "197",
-    "description": "Application Specific Error from Client",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 257,
-    "code": "198",
-    "description": "MAP-U-Abort: Application procedure cancellation (tandem dialogue released)",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 258,
-    "code": "199",
-    "description": "MAP-U-Abort: Application procedure cancellation (remote operations failure)",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 259,
-    "code": "200",
-    "description": "Unidentified subscriber|OPERATOR BLOCKED FOR ACCOUNT",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 260,
-    "code": "2000",
-    "description": "Make_Call API Failure",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 261,
-    "code": "2001",
-    "description": "Message too long",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 262,
-    "code": "2002",
-    "description": "Command length is invalid",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 263,
-    "code": "2003",
-    "description": "Command ID is invalid or not supported",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 264,
-    "code": "2004",
-    "description": "Incorrect bind status for given command",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 265,
-    "code": "2005",
-    "description": "Already bound",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 266,
-    "code": "2006",
-    "description": "Invalid Priority Flag",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 267,
-    "code": "2007",
-    "description": "Invalid registered delivery flag",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 268,
-    "code": "2008",
-    "description": "System error",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 269,
-    "code": "201",
-    "description": "Absent subscriber IMSI detached|EC_unknown Subscriber",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 270,
-    "code": "2010",
-    "description": "Invalid source address",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 271,
-    "code": "2011",
+    "operator": "Jio",
+    "error_code": "600",
+    "error_name": "ENTITY_NOT_FOUND",
+    "description": "No record found with Entity ID.",
+    "category": "Entity",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Entity/PE ID"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "601",
+    "error_name": "ENTITY_NOT_REGISTERED",
+    "description": "Entity is not registered.",
+    "category": "Entity",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Entity/PE ID"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "602",
+    "error_name": "ENTITY_INACTIVE",
+    "description": "Entity is inactive.",
+    "category": "Entity",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Entity/PE ID"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "603",
+    "error_name": "ENTITY_BLACKLISTED",
+    "description": "Entity is blacklisted.",
+    "category": "Entity",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Entity/PE ID"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "604",
+    "error_name": "INVALID_ENTITY_ID",
+    "description": "Invalid Entity ID.",
+    "category": "Entity",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Entity/PE ID"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "610",
+    "error_name": "TELEMARKETER_NOT_REGISTERED",
+    "description": "Telemarketer is not registered.",
+    "category": "Telemarketer",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check TM ID"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "611",
+    "error_name": "TELEMARKETER_INACTIVE",
+    "description": "Telemarketer is inactive.",
+    "category": "Telemarketer",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check TM ID"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "612",
+    "error_name": "TELEMARKETER_BLACKLISTED",
+    "description": "Telemarketer is blacklisted.",
+    "category": "Telemarketer",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check TM ID"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "620",
+    "error_name": "HEADER_NOT_FOUND",
+    "description": "Header not found.",
+    "category": "Header",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Header/Sender ID"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "621",
+    "error_name": "HEADER_INACTIVE",
+    "description": "Header is inactive.",
+    "category": "Header",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Header/Sender ID"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "622",
+    "error_name": "HEADER_BLACKLISTED",
+    "description": "Header is blacklisted.",
+    "category": "Header",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Header/Sender ID"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "623",
+    "error_name": "PEID_NOT_MATCHED_WITH_HEADER",
+    "description": "PE ID does not match Header ID.",
+    "category": "Header",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Header/Sender ID"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "630",
+    "error_name": "TEMPLATE_NOT_FOUND",
+    "description": "Template not found.",
+    "category": "Template",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Template ID/content"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "631",
+    "error_name": "TEMPLATE_INACTIVE",
+    "description": "Template is inactive.",
+    "category": "Template",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Template ID/content"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "632",
+    "error_name": "TEMPLATE_BLACKLISTED",
+    "description": "Template is blacklisted.",
+    "category": "Template",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Template ID/content"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "633",
+    "error_name": "TEMPLATE_NOT_MATCHED",
+    "description": "Template/content does not match.",
+    "category": "Template",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Template ID/content"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "634",
+    "error_name": "HEADER_NOT_REGISTERED_FOR_TEMPLATE",
+    "description": "Header is not registered for template.",
+    "category": "Template",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Template ID/content"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "635",
+    "error_name": "TEMPLATE_VARIABLE_LENGTH_EXCEEDED",
+    "description": "Template variable exceeded maximum length.",
+    "category": "Template",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Template ID/content"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "636",
+    "error_name": "ERROR_IDENTIFYING_TEMPLATE",
+    "description": "Error identifying template.",
+    "category": "Template",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Template ID/content"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "637",
+    "error_name": "INVALID_TEMPLATE_ID",
+    "description": "Invalid Template ID.",
+    "category": "Template",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Template ID/content"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "650",
+    "error_name": "PREFERENCE_NOT_MATCHED",
+    "description": "Destination is blocked by preference/DND rules.",
+    "category": "Preference/DND",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check DND/preference/consent"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "651",
+    "error_name": "INVALID_PROMO_TIME",
+    "description": "Promotional time restriction.",
+    "category": "Preference/DND",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check DND/preference/consent"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "652",
+    "error_name": "SE_CATEGORY_BLOCK",
+    "description": "Service/entity category blocked.",
+    "category": "Preference/DND",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check DND/preference/consent"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "660",
+    "error_name": "CONSENT_FAILED",
+    "description": "Consent validation failed.",
+    "category": "Consent",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check DND/preference/consent"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "670",
+    "error_name": "SCRUBBING_FAILED",
+    "description": "DLT scrubbing failed.",
+    "category": "Scrubbing",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check DLT scrubbing/route"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "600",
+    "error_name": "ENTITY_NOT_FOUND",
+    "description": "No record found with Entity ID.",
+    "category": "Entity",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Entity/PE ID"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "601",
+    "error_name": "ENTITY_NOT_REGISTERED",
+    "description": "Entity is not registered.",
+    "category": "Entity",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Entity/PE ID"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "602",
+    "error_name": "ENTITY_INACTIVE",
+    "description": "Entity is inactive.",
+    "category": "Entity",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Entity/PE ID"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "603",
+    "error_name": "ENTITY_BLACKLISTED",
+    "description": "Entity is blacklisted.",
+    "category": "Entity",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Entity/PE ID"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "604",
+    "error_name": "INVALID_ENTITY_ID",
+    "description": "Invalid Entity ID.",
+    "category": "Entity",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Entity/PE ID"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "610",
+    "error_name": "TELEMARKETER_NOT_REGISTERED",
+    "description": "Telemarketer is not registered.",
+    "category": "Telemarketer",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check TM ID"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "611",
+    "error_name": "TELEMARKETER_INACTIVE",
+    "description": "Telemarketer is inactive.",
+    "category": "Telemarketer",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check TM ID"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "612",
+    "error_name": "TELEMARKETER_BLACKLISTED",
+    "description": "Telemarketer is blacklisted.",
+    "category": "Telemarketer",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check TM ID"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "620",
+    "error_name": "HEADER_NOT_FOUND",
+    "description": "Header not found.",
+    "category": "Header",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Header/Sender ID"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "621",
+    "error_name": "HEADER_INACTIVE",
+    "description": "Header is inactive.",
+    "category": "Header",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Header/Sender ID"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "622",
+    "error_name": "HEADER_BLACKLISTED",
+    "description": "Header is blacklisted.",
+    "category": "Header",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Header/Sender ID"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "623",
+    "error_name": "PEID_NOT_MATCHED_WITH_HEADER",
+    "description": "PE ID does not match Header ID.",
+    "category": "Header",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Header/Sender ID"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "630",
+    "error_name": "TEMPLATE_NOT_FOUND",
+    "description": "Template not found.",
+    "category": "Template",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Template ID/content"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "631",
+    "error_name": "TEMPLATE_INACTIVE",
+    "description": "Template is inactive.",
+    "category": "Template",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Template ID/content"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "632",
+    "error_name": "TEMPLATE_BLACKLISTED",
+    "description": "Template is blacklisted.",
+    "category": "Template",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Template ID/content"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "633",
+    "error_name": "TEMPLATE_NOT_MATCHED",
+    "description": "Template/content does not match.",
+    "category": "Template",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Template ID/content"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "634",
+    "error_name": "HEADER_NOT_REGISTERED_FOR_TEMPLATE",
+    "description": "Header is not registered for template.",
+    "category": "Template",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Template ID/content"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "635",
+    "error_name": "TEMPLATE_VARIABLE_LENGTH_EXCEEDED",
+    "description": "Template variable exceeded maximum length.",
+    "category": "Template",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Template ID/content"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "636",
+    "error_name": "ERROR_IDENTIFYING_TEMPLATE",
+    "description": "Error identifying template.",
+    "category": "Template",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Template ID/content"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "637",
+    "error_name": "INVALID_TEMPLATE_ID",
+    "description": "Invalid Template ID.",
+    "category": "Template",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check Template ID/content"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "650",
+    "error_name": "PREFERENCE_NOT_MATCHED",
+    "description": "Destination is blocked by preference/DND rules.",
+    "category": "Preference/DND",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check DND/preference/consent"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "651",
+    "error_name": "INVALID_PROMO_TIME",
+    "description": "Promotional time restriction.",
+    "category": "Preference/DND",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check DND/preference/consent"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "652",
+    "error_name": "SE_CATEGORY_BLOCK",
+    "description": "Service/entity category blocked.",
+    "category": "Preference/DND",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check DND/preference/consent"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "660",
+    "error_name": "CONSENT_FAILED",
+    "description": "Consent validation failed.",
+    "category": "Consent",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "NO",
+    "portal_action": "Check DND/preference/consent"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "670",
+    "error_name": "SCRUBBING_FAILED",
+    "description": "DLT scrubbing failed.",
+    "category": "Scrubbing",
+    "stage": "DLR/Submit",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check DLT scrubbing/route"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "3",
+    "error_name": "ESME_RINVCMDID",
+    "description": "Invalid Command ID",
+    "category": "SMPP",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "8",
+    "error_name": "DLT_ERROR",
+    "description": "DLT unavailable/error or connection timeout",
+    "category": "DLT",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check DLT scrubbing/route"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "10",
+    "error_name": "ESME_RINVSRCADR",
+    "description": "Invalid source address / blank header",
+    "category": "Header",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check Header/Sender ID"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "11",
+    "error_name": "ESME_RINVDSTADR",
     "description": "Invalid destination address",
-    "category": "SMPP & Gateway Protocol"
+    "category": "Number",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
   },
   {
-    "id": 272,
-    "code": "2012",
-    "description": "Message ID is invalid",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 273,
-    "code": "2013",
-    "description": "Bind failed",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 274,
-    "code": "2014",
-    "description": "Invalid password",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 275,
-    "code": "2015",
-    "description": "Invalid System ID",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 276,
-    "code": "2017",
-    "description": "Cancelling message failed",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 277,
-    "code": "2019",
-    "description": "Message recplacement failed",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 278,
-    "code": "202",
-    "description": "Absent subscriber no page response|Unknown Base Station",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 279,
-    "code": "2020",
+    "operator": "Airtel",
+    "error_code": "20",
+    "error_name": "QUEUE_FULL",
     "description": "Message queue full",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 280,
-    "code": "2021",
-    "description": "Invalid service type",
-    "category": "System & General"
-  },
-  {
-    "id": 281,
-    "code": "2022",
-    "description": "Invalid services type",
-    "category": "System & General"
-  },
-  {
-    "id": 282,
-    "code": "203",
-    "description": "Subscriber busy for MT-SMS|Unknown MSC",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 283,
-    "code": "204",
-    "description": "means incoming call facility is not working due to recharge",
-    "category": "System & General"
-  },
-  {
-    "id": 284,
-    "code": "2048",
-    "description": "EC_TIME_OUT",
-    "category": "System & General"
-  },
-  {
-    "id": 285,
-    "code": "2049",
-    "description": "EC_IMSI_BLACKLISTED",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 286,
-    "code": "205",
-    "description": "Illegal subscriber|EC_Unidentified Subscriber",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 287,
-    "code": "2050",
-    "description": "EC_DEST_ADDRESS_BLACKLISTED",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 288,
-    "code": "2051",
-    "description": "EC_InvalidMscAddress",
-    "category": "System & General"
-  },
-  {
-    "id": 289,
-    "code": "2052",
-    "description": "EC_BLACKLISTED_DESTINATIONADDRESS",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 290,
-    "code": "206",
-    "description": "Illegal equipment|Absent Subscriber for SM",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 291,
-    "code": "2064",
-    "description": "Invalid destination flag",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 292,
-    "code": "2066",
-    "description": "Invalid submit with replace request",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 293,
-    "code": "2067",
-    "description": "Invalid esm class set",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 294,
-    "code": "2068",
-    "description": "Invalid submit to ditribution list",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 295,
-    "code": "2069",
-    "description": "Submitting message has failed",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 296,
-    "code": "207",
-    "description": "System failure|Unknown Equipment",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 297,
-    "code": "2072",
-    "description": "Invalid source address type of number ( TON )",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 298,
-    "code": "2073",
-    "description": "Invalid source address numbering plan ( NPI )",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 299,
-    "code": "208",
-    "description": "Unexpected data value|Roaming Not Allowed",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 300,
-    "code": "2080",
-    "description": "Invalid destination address type of number ( TON )",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 301,
-    "code": "2081",
-    "description": "Invalid destination address numbering plan ( NPI )",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 302,
-    "code": "2083",
-    "description": "Invalid system type",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 303,
-    "code": "2084",
-    "description": "Invalid replace_if_present flag",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 304,
-    "code": "2085",
-    "description": "Invalid number of messages",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 305,
-    "code": "2088",
-    "description": "Throttling error",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 306,
-    "code": "209",
-    "description": "Data missing|Illegal Subscriber",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 307,
-    "code": "2097",
-    "description": "Invalid scheduled delivery time",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 308,
-    "code": "2098",
-    "description": "Invalid Validty Period value",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 309,
-    "code": "2099",
-    "description": "Predefined message not found",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 310,
-    "code": "210",
-    "description": "Memory capacity exceeded|Illegal SS Operation",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 311,
-    "code": "2100",
-    "description": "ESME Receiver temporary error",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 312,
-    "code": "2101",
-    "description": "ESME Receiver permanent error",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 313,
-    "code": "2102",
-    "description": "ESME Receiver reject message error",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 314,
-    "code": "2103",
-    "description": "Message query request failed",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 315,
-    "code": "211",
-    "description": "Equipment protocol error|SS Error Status",
-    "category": "System & General"
-  },
-  {
-    "id": 316,
-    "code": "212",
-    "description": "Equipment not short message equipped|SS Not Available",
-    "category": "System & General"
-  },
-  {
-    "id": 317,
-    "code": "213",
-    "description": "Reject|SS Subscription Violation",
-    "category": "System & General"
-  },
-  {
-    "id": 318,
-    "code": "214",
-    "description": "Local cancel|SS Incompatible",
-    "category": "System & General"
-  },
-  {
-    "id": 319,
-    "code": "215",
-    "description": "Abort|HLR:limited due to MS roaming'",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 320,
-    "code": "216",
-    "description": "Exception|Internal IPC memory allocation Failure",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 321,
-    "code": "2168",
-    "description": "DND Block",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 322,
-    "code": "217",
-    "description": "UNKNOWN|Internal IPC Router Failure",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 323,
-    "code": "218",
-    "description": "HLR:illegal subscriber",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 324,
-    "code": "219",
-    "description": "HLR:subscriber absent",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 325,
-    "code": "2192",
-    "description": "Error in the optional part of the PDU body",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 326,
-    "code": "2193",
-    "description": "TLV not allowed",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 327,
-    "code": "2194",
-    "description": "Invalid parameter length",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 328,
-    "code": "2195",
-    "description": "Expected TLV missing",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 329,
-    "code": "2196",
-    "description": "Invalid TLV value",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 330,
-    "code": "220",
-    "description": "HLR:the called MS poweroff",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 331,
-    "code": "221",
-    "description": "MSISDN BLOCKED",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 332,
-    "code": "222",
-    "description": "MESSAGE CONTENT IS BLACKLISTED/EC_Network System Failure",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 333,
-    "code": "223",
-    "description": "Data Missing",
-    "category": "System & General"
-  },
-  {
-    "id": 334,
-    "code": "224",
-    "description": "Unexpected Data",
-    "category": "System & General"
-  },
-  {
-    "id": 335,
-    "code": "225",
-    "description": "MESSAGE CONTENT IS BLACKLISTED AT OPERATOR/ 'HLR:no response'",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 336,
-    "code": "2254",
-    "description": "Transaction delivery failure",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 337,
-    "code": "2255",
-    "description": "Unknown error",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 338,
-    "code": "2256",
-    "description": "ESME not authorised to use specified servicetype",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 339,
-    "code": "2257",
-    "description": "ESME prohibited from using specified operation",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 340,
-    "code": "2258",
-    "description": "Specified servicetype is unavailable",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 341,
-    "code": "2259",
-    "description": "Specified servicetype is denied",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 342,
-    "code": "226",
-    "description": "VMSC:no response",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 343,
-    "code": "2260",
-    "description": "Invalid data coding scheme",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 344,
-    "code": "2261",
-    "description": "Invalid source address subunit",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 345,
-    "code": "2262",
-    "description": "Invalid destination address subunit",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 346,
-    "code": "227",
-    "description": "IN Subscriber not exist1",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 347,
-    "code": "228",
-    "description": "the destination subscriber PPS authentication overtime",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 348,
-    "code": "229",
-    "description": "IN Invalid subscriber",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 349,
-    "code": "22E",
-    "description": "No Subscriber Reply",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 350,
-    "code": "230",
-    "description": "Not Allowed",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 351,
-    "code": "2300",
-    "description": "Incorrect destination address",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 352,
-    "code": "2301",
-    "description": "Incorrect number of destination addresses",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 353,
-    "code": "2302",
-    "description": "Syntax error in user data parameter",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 354,
-    "code": "2303",
-    "description": "Incorrect bin/head/normal user data parameter combination",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 355,
-    "code": "2304",
-    "description": "Incorrect dcs parameter usage",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 356,
-    "code": "2305",
-    "description": "Incorrect validity period parameters usage",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 357,
-    "code": "2306",
-    "description": "Incorrect originator address usage",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 358,
-    "code": "2307",
-    "description": "Incorrect PID parameter usage",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 359,
-    "code": "2308",
-    "description": "Incorrect first delivery parameter usage",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 360,
-    "code": "2309",
-    "description": "Incorrect reply path usage",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 361,
-    "code": "231",
-    "description": "ATI Not Allowed",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 362,
-    "code": "2310",
-    "description": "Incorrect status report request parameter usage",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 363,
-    "code": "2311",
-    "description": "Incorrect cancel enabled parameter usage",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 364,
-    "code": "2312",
-    "description": "Incorrect priority parameter usage",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 365,
-    "code": "2313",
-    "description": "Incorrect tariff class parameter usage",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 366,
-    "code": "2314",
-    "description": "Incorrect service description parameter usage",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 367,
-    "code": "2315",
-    "description": "Incorrect transport type paramdeter usage",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 368,
-    "code": "2316",
-    "description": "Incorrect message type parameter usage",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 369,
-    "code": "2318",
-    "description": "Incorrect MMS parameter usage",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 370,
-    "code": "2319",
-    "description": "Incorrect operation timer parameter usage",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 371,
-    "code": "232",
-    "description": "No Group Call Number Available",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 372,
-    "code": "2320",
-    "description": "Incorrect dialogue ID parameter usage",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 373,
-    "code": "2321",
-    "description": "Incorrect alpha originator address usage",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 374,
-    "code": "2322",
-    "description": "Invalid data for alpha numeric originator",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 375,
-    "code": "2323",
-    "description": "Online closed user group rejection",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 376,
-    "code": "2324",
-    "description": "Licence exceeded",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 377,
-    "code": "233",
-    "description": "Resource Limitation",
-    "category": "System & General"
-  },
-  {
-    "id": 378,
-    "code": "234",
-    "description": "Unauthorized Requesting Network",
-    "category": "System & General"
-  },
-  {
-    "id": 379,
-    "code": "235",
-    "description": "Unathorized LCS Client",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 380,
-    "code": "236",
-    "description": "Position Method Failure",
-    "category": "System & General"
-  },
-  {
-    "id": 381,
-    "code": "237",
-    "description": "Custom error 8",
-    "category": "System & General"
-  },
-  {
-    "id": 382,
-    "code": "238",
-    "description": "Custom error 9",
-    "category": "System & General"
-  },
-  {
-    "id": 383,
-    "code": "239",
-    "description": "Custom error 10",
-    "category": "System & General"
-  },
-  {
-    "id": 384,
-    "code": "240",
-    "description": "Recipient Temporary Error",
-    "category": "System & General"
-  },
-  {
-    "id": 385,
-    "code": "241",
-    "description": "Recipient Permanent Error",
-    "category": "System & General"
-  },
-  {
-    "id": 386,
-    "code": "242",
-    "description": "Service Not configured/for a particular circle/subscriber. Or simply menu is incomplete or service i",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 387,
-    "code": "243",
-    "description": "Terminating session due to invalid input",
-    "category": "System & General"
-  },
-  {
-    "id": 388,
-    "code": "244",
-    "description": "Unspecific",
-    "category": "System & General"
-  },
-  {
-    "id": 389,
-    "code": "245",
-    "description": "HLR:the remote address not reachable' /'VMSC:Invalid Destination",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 390,
-    "code": "246",
-    "description": "Client Resource Not Available",
-    "category": "System & General"
-  },
-  {
-    "id": 391,
-    "code": "247",
-    "description": "Unknown Alphabet",
-    "category": "System & General"
-  },
-  {
-    "id": 392,
-    "code": "248",
-    "description": "EC_TIME_OUT",
-    "category": "System & General"
-  },
-  {
-    "id": 393,
-    "code": "249",
-    "description": "EC_IMSI_BLACKLISTED",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 394,
-    "code": "250",
-    "description": "Personal service barring|EC_DEST_ADDRESS_BLACKLISTED",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 395,
-    "code": "251",
-    "description": "Personal service barring|EC_InvalidMscAddress",
-    "category": "System & General"
-  },
-  {
-    "id": 396,
-    "code": "252",
-    "description": "Personal service barring|MESSAGE VALIDITY EXPIRED",
-    "category": "System & General"
-  },
-  {
-    "id": 397,
-    "code": "253",
-    "description": "Personal service barring|the origination subscriber PPS authentication SCP connection broken'",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 398,
-    "code": "254",
-    "description": "Personal service barring|any other error code other than 255",
-    "category": "System & General"
-  },
-  {
-    "id": 399,
-    "code": "255",
-    "description": "Personal service barring|EC_UNKNOWN_ERROR",
-    "category": "System & General"
-  },
-  {
-    "id": 400,
-    "code": "256",
-    "description": "Personal service barring|EC_SM_DF_memoryCapacityExceeded",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 401,
-    "code": "257",
-    "description": "Personal service barring|EC_SM_DF_equipmentProtocolError",
-    "category": "System & General"
-  },
-  {
-    "id": 402,
-    "code": "258",
-    "description": "EC_SM_DF_equipmentNotSM_Equipped",
-    "category": "System & General"
-  },
-  {
-    "id": 403,
-    "code": "259",
-    "description": "EC_SM_DF_unknownServiceCentre",
-    "category": "System & General"
-  },
-  {
-    "id": 404,
-    "code": "260",
-    "description": "EC_SM_DF_sc_Congestion",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 405,
-    "code": "261",
-    "description": "EC_SM_DF_invalidSME_Address",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 406,
-    "code": "262",
-    "description": "EC_SM_DF_subscriberNotSC_Subscriber",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 407,
-    "code": "263",
-    "description": "MO Handover: Destination SME Barred",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 408,
-    "code": "264",
-    "description": "MO Handover: Duplicate Message Rejected",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 409,
-    "code": "265",
-    "description": "MO Handover: Validity Period Format Unsupported",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 410,
-    "code": "266",
-    "description": "MO Handover: Validity Period Unsupported",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 411,
-    "code": "267",
-    "description": "MO Handover: Not Supported by equipment",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 412,
-    "code": "268",
-    "description": "MO Handover: System Error",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 413,
-    "code": "269",
-    "description": "MO Handover: Duplicated invoke id",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 414,
-    "code": "270",
-    "description": "MO Handover: Service not supported",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 415,
-    "code": "271",
-    "description": "MO Handover: Mistyped parameter",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 416,
-    "code": "272",
-    "description": "MO Handover: No response from the peer",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 417,
-    "code": "273",
-    "description": "MO Handover: Resource limitation",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 418,
-    "code": "274",
-    "description": "MO Handover: Initiating release",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 419,
-    "code": "275",
-    "description": "Error Gateway",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 420,
-    "code": "276",
-    "description": "MO Handover: Unexpected error",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 421,
-    "code": "277",
-    "description": "MO Handover: Unexpected response from the peer",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 422,
-    "code": "278",
-    "description": "MO Handover: Unable to complete operation within timeout",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 423,
-    "code": "279",
-    "description": "MO Handover: Invalid response received",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 424,
-    "code": "280",
-    "description": "Error|MO Handover: TCAP error",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 425,
-    "code": "281",
-    "description": "EC_UA_userSpecificReason",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 426,
-    "code": "282",
-    "description": "EC_UA_userResourceLimitation",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 427,
-    "code": "283",
-    "description": "EC_UA_resourceUnavailable",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 428,
-    "code": "284",
-    "description": "EC_UA_applicationProcedureCancellation",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 429,
-    "code": "285",
-    "description": "MO Handover: Unexpected Data Value",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 430,
-    "code": "286",
-    "description": "MO Handover: Telematic Interworking not Supported",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 431,
-    "code": "287",
-    "description": "MO Handover: FDA throttled",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 432,
-    "code": "288",
-    "description": "MO Handover: SM decoding problem",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 433,
-    "code": "300",
-    "description": "Invalid destination address|Provider Error Duplicate Invoke ID",
-    "category": "System & General"
-  },
-  {
-    "id": 434,
-    "code": "301",
-    "description": "Invalid destination numbering plan|Provider Error Service Not Supported",
-    "category": "System & General"
-  },
-  {
-    "id": 435,
-    "code": "302",
-    "description": "Invalid destination type of number|Provider Error Mistyped Paramter",
-    "category": "System & General"
-  },
-  {
-    "id": 436,
-    "code": "303",
-    "description": "Invalid destination flag|Provider Error Resource Limitation",
-    "category": "System & General"
-  },
-  {
-    "id": 437,
-    "code": "304",
-    "description": "Invalid number of destinations|Provider Error Initiating Release",
-    "category": "System & General"
-  },
-  {
-    "id": 438,
-    "code": "305",
-    "description": "Provider Error Unexpected Response",
-    "category": "System & General"
-  },
-  {
-    "id": 439,
-    "code": "306",
-    "description": "Provider Error Service Completion Failure",
-    "category": "System & General"
-  },
-  {
-    "id": 440,
-    "code": "307",
-    "description": "EC_Provider No Response from Peer",
-    "category": "System & General"
-  },
-  {
-    "id": 441,
-    "code": "308",
-    "description": "Provider Error Invalid Response",
-    "category": "System & General"
-  },
-  {
-    "id": 442,
-    "code": "400",
-    "description": "EC_MAP_abort _error",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 443,
-    "code": "4000",
-    "description": "Redis Error",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 444,
-    "code": "4001",
-    "description": "Redis request Timeout",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 445,
-    "code": "4002",
-    "description": "Not found in Redis DB",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 446,
-    "code": "4004",
-    "description": "Content Id not found in Redis DB",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 447,
-    "code": "401",
-    "description": "Stack/Sig Error Map User specific Reason",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 448,
-    "code": "402",
-    "description": "Stack/Sig Error Map User Resource Limitation",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 449,
-    "code": "403",
-    "description": "Stack/Sig Error Map Resource Unavailable",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 450,
-    "code": "404",
-    "description": "Stack/Sig Error Map Application Procedure Cancellation",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 451,
-    "code": "406",
-    "description": "TELEMARKETER_NOT_FOUND",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 452,
-    "code": "407",
-    "description": "DLT_SCRUBBING_TIMEOUT",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 453,
-    "code": "408",
-    "description": "SENDER_BLOCKED_BY_DLT",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 454,
-    "code": "410",
-    "description": "ENTITY_BLOCKED_BY_DLT",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 455,
-    "code": "411",
-    "description": "TEMPLATE_BLOCKED_BY_DLT",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 456,
-    "code": "412",
-    "description": "ENTITY_NOT_FOUND",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 457,
-    "code": "413",
-    "description": "ENTITY_NOT_REGISTERED",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 458,
-    "code": "414",
-    "description": "ENTITY_INACTIVE",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 459,
-    "code": "415",
-    "description": "ENTITY_BLACKLISTED",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 460,
-    "code": "416",
-    "description": "INVALID_ENTITY_ID",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 461,
-    "code": "417",
-    "description": "ENTITY_ID_NOT_ALLOWED_FOR_TM",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 462,
-    "code": "418",
-    "description": "TELEMARKETER_NOT_REGISTERED",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 463,
-    "code": "419",
-    "description": "TELEMARKETER_INACTIVE",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 464,
-    "code": "41C",
-    "description": "Sig Error MAP No Translation Basd Address",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 465,
-    "code": "421",
-    "description": "HEADER_NOT_FOUND",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 466,
-    "code": "422",
-    "description": "HEADER_INACTIVE",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 467,
-    "code": "423",
-    "description": "HEADER_BLACKLISTED",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 468,
-    "code": "424",
-    "description": "PEID_NOT_MATCHED_WITH_HEADER",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 469,
-    "code": "425",
-    "description": "HEADER_IN_FREEPOOL",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 470,
-    "code": "426",
-    "description": "TEMPLATE_NOT_FOUND",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 471,
-    "code": "427",
-    "description": "TEMPLATE_INACTIVE",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 472,
-    "code": "428",
-    "description": "TEMPLATE_BLACKLISTED",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 473,
-    "code": "429",
-    "description": "TEMPLATE_NOT_MATCHED",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 474,
-    "code": "42A",
-    "description": "Sig Error MAP Un Equipped User",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 475,
-    "code": "42C",
-    "description": "Sig Error MAP Network Conjestion",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 476,
-    "code": "42D",
-    "description": "Sig Error MAP un Qualified",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 477,
-    "code": "42E",
-    "description": "Sig Error MAP HOP Counter violaion ANS92",
-    "category": "MAP & SS7 Telephony"
-  },
-  {
-    "id": 478,
-    "code": "430",
-    "description": "HEADER_NOT_REGISTERED_FOR_TEMPLATE",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 479,
-    "code": "431",
-    "description": "TEMPLATE_FAILED_ON_DYNAMIC_PART",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 480,
-    "code": "432",
-    "description": "ERROR_IDENTIFYING_TEMPLATE",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 481,
-    "code": "433",
-    "description": "INVALID_TEMPLATE_ID",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 482,
-    "code": "434",
-    "description": "TEMPLATE_NOT_REGISTERED_TO_ENTITY",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 483,
-    "code": "435",
-    "description": "PROMOTIONAL_TEMPLATE_USED_ON_OTHERS_HEADER",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 484,
-    "code": "436",
-    "description": "INVALID_TEMPLATE_TYPE",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 485,
-    "code": "437",
-    "description": "PREFERENCE_NOT_MATCHED",
-    "category": "System & General"
-  },
-  {
-    "id": 486,
-    "code": "438",
-    "description": "INVALID_PROMO_TIME",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 487,
-    "code": "439",
-    "description": "SE_CATEGORY_BLOCK",
-    "category": "System & General"
-  },
-  {
-    "id": 488,
-    "code": "440",
-    "description": "CONSENT_FAILED",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 489,
-    "code": "441",
-    "description": "SCRUBBING_FAILED",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 490,
-    "code": "442",
-    "description": "TLV_PEID_NOT_FOUND",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 491,
-    "code": "443",
-    "description": "TLV_TMPID_NOT_FOUND",
-    "category": "System & General"
-  },
-  {
-    "id": 492,
-    "code": "444",
-    "description": "EC _CONTENT_MULTIPART_INCOMPLETE_BY_DLT",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 493,
-    "code": "446",
-    "description": "HEADER_SUSPENDED_DUE_TO_VALIDITY",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 494,
-    "code": "447",
-    "description": "HEADER_SUSPENDED_DUE_TO_USAGE",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 495,
-    "code": "448",
-    "description": "HEADER_SUSPENDED_DUE_TO_CUSTOMER",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 496,
-    "code": "449",
-    "description": "EC_TEMPLATE_IN_SUSPENDED_VERFIED",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 497,
-    "code": "450",
-    "description": "TEMPLATE_SUSPENDED_DUE_TO_USAGE",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 498,
-    "code": "451",
-    "description": "TEMPLATE_SUSPENDED_DUE_TO_CUSTOMER",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 499,
-    "code": "452",
-    "description": "EC_GLOBAL_MSISDN_BLOCKED",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 500,
-    "code": "453",
-    "description": "EC_TEMPLATE_RESERVED",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 501,
-    "code": "454",
-    "description": "EC_HEADER_IN_SUSPENDED_VERIFIED",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 502,
-    "code": "455",
-    "description": "EC_GLOBAL_FAILURE",
-    "category": "System & General"
-  },
-  {
-    "id": 503,
-    "code": "456",
-    "description": "FAILED_TO_ASSEMBLE_PDUS",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 504,
-    "code": "457",
-    "description": "HEADER_AND_ACCOUNTTYPE_MISMATCH",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 505,
-    "code": "458",
-    "description": "Empty Hash provided",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 506,
-    "code": "459",
-    "description": "Status of this hash is Blacklisted",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 507,
-    "code": "460",
-    "description": "Status of this hash is Suspended by Customer",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 508,
-    "code": "461",
-    "description": "One of the Telemarketers in the chain is blacklisted",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 509,
-    "code": "462",
-    "description": "Submitted hash does not match any registered hash for the PE",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 510,
-    "code": "463",
-    "description": "EC_Cancelled. We have not received the DLR within the validity period passed in the transaction",
-    "category": "System & General"
-  },
-  {
-    "id": 511,
-    "code": "497",
-    "description": "URL not whitelisted",
-    "category": "System & General"
-  },
-  {
-    "id": 512,
-    "code": "498",
-    "description": "Email not whitelisted",
-    "category": "System & General"
-  },
-  {
-    "id": 513,
-    "code": "499",
-    "description": "Number not whitelisted",
-    "category": "System & General"
-  },
-  {
-    "id": 514,
-    "code": "500",
-    "description": "SMPP - Throttling error",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 515,
-    "code": "501",
-    "description": "ESME_RINVEXPIRY",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 516,
-    "code": "502",
-    "description": "EC_NO_RESPONSE",
-    "category": "System & General"
-  },
-  {
-    "id": 517,
-    "code": "503",
-    "description": "Connection_timeout_from_ABMS",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 518,
-    "code": "5101",
-    "description": "If Category is 0 or 50.",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 519,
-    "code": "5103",
-    "description": "If Subscriber cmode is 10 or 12.",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 520,
-    "code": "5104",
-    "description": "If Opstype is active in DLT",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 521,
-    "code": "5105",
-    "description": "If day code found in Subscriber Preference Day",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 522,
-    "code": "5106",
-    "description": "If Time code found in Subscriber Preference Time",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 523,
-    "code": "5107",
-    "description": "If user not reg. on DND but current restricted (Blackout)",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 524,
-    "code": "5108",
-    "description": "Blackout Time When DND applies on SE Template",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 525,
-    "code": "5110",
-    "description": "EC_5110||SI to Promo logic, as the number had taken the DND mode",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 526,
-    "code": "5201",
-    "description": "If Header not Active",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 527,
-    "code": "5202",
-    "description": "If Header is Blacklisted.",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 528,
-    "code": "5203",
-    "description": "the used header DPJPR is not found/registered on DLT",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 529,
-    "code": "5204",
-    "description": "HDR_OP_INACTIVE",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 530,
-    "code": "5205",
-    "description": "Entity id not matched with the used template",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 531,
-    "code": "5206",
-    "description": "Port is Promo getting Trans hits",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 532,
-    "code": "5207",
-    "description": "Port is Trans getting Promo hits",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 533,
-    "code": "5208",
-    "description": "HDR_CASE_SEN_CLI (Govt. Header)",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 534,
-    "code": "5210",
-    "description": "Entity ID not matching with desire User_ID",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 535,
-    "code": "5213",
-    "description": "Header Suspended Due to Usage",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 536,
-    "code": "5214",
-    "description": "Header Suspended Due to Validity",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 537,
-    "code": "5215",
-    "description": "Header Suspension - Customer initiative (Self)",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 538,
-    "code": "5301",
-    "description": "Content Unregistered",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 539,
-    "code": "5302",
-    "description": "Content Blacklisted",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 540,
-    "code": "5303",
-    "description": "Content with unknown header",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 541,
-    "code": "5304",
-    "description": "Content Not in DB",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 542,
-    "code": "5305",
-    "description": "Content Type Mismatched",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 543,
-    "code": "5306",
-    "description": "Content ID not Active",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 544,
-    "code": "5307",
-    "description": "Content Regex not matched",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 545,
-    "code": "5308",
-    "description": "Content ID Blank",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 546,
-    "code": "5309",
-    "description": "Content ID Blacklisted by VISPL",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 547,
-    "code": "5310",
-    "description": "Content Multipart not complete",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 548,
-    "code": "5311",
-    "description": "Content Active/Inactive",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 549,
-    "code": "5312",
-    "description": "Variable Exceeded Error",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 550,
-    "code": "5313",
-    "description": "Template Suspended Due to Usage",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 551,
-    "code": "5314",
-    "description": "Template Suspended Due to Validity",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 552,
-    "code": "5315",
-    "description": "Template Suspension - Customer initiative (Self)",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 553,
-    "code": "5401",
-    "description": "COMM is Trans/SE/SI & Header is Inactive/Blacklisted",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 554,
-    "code": "5402",
-    "description": "COMM is Trans/SE/SI & Content_ID is Inactive",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 555,
-    "code": "5403",
-    "description": "COMM is Trans/SE/SI & Content AssoC. Header is Different",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 556,
-    "code": "5404",
-    "description": "COMM is Trans&Content is registered for some other type",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 557,
-    "code": "5405",
-    "description": "COMM is SI & Content is registered for some other type",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 558,
-    "code": "5406",
-    "description": "COMM is SE & Content is registered for some other type",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 559,
-    "code": "5501",
-    "description": "Consent Not in DB",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 560,
-    "code": "5502",
-    "description": "Consent Expired",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 561,
-    "code": "5503",
-    "description": "Consent Revoked",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 562,
-    "code": "5504",
-    "description": "Consent Initiated",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 563,
-    "code": "5505",
-    "description": "Consent_Verified",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 564,
-    "code": "5506",
-    "description": "Consent_Failed",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 565,
-    "code": "5507",
-    "description": "Consent_Disconnected",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 566,
-    "code": "5508",
-    "description": "Consent_SBchurn",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 567,
-    "code": "5510",
-    "description": "Migration-Verified",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 568,
-    "code": "5601",
-    "description": "PE_TM_Hash is not valid/ not available / Blank",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 569,
-    "code": "5602",
-    "description": "PE_TM_Hash is Blacklisted",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 570,
-    "code": "5603",
-    "description": "PE_TM_Hash is Inactive",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 571,
-    "code": "5604",
-    "description": "PE_TM_Hash is Suspended",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 572,
-    "code": "5605",
-    "description": "PE_TM_Hash TM-D ID not matched",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 573,
-    "code": "5606",
-    "description": "PE_TM_Hash PEIDnotmatched",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 574,
-    "code": "5901",
-    "description": "CTA whitelisting error. which indicates that the used URL is not whitelisted over DLT",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 575,
-    "code": "5902",
-    "description": "URL_BLACKLISTED",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 576,
-    "code": "5903",
-    "description": "URL_INACTIVE",
-    "category": "System & General"
-  },
-  {
-    "id": 577,
-    "code": "591",
-    "description": "DESTINATION_FLOODING",
-    "category": "System & General"
-  },
-  {
-    "id": 578,
-    "code": "592",
-    "description": "Global keyword Failure",
-    "category": "System & General"
-  },
-  {
-    "id": 579,
-    "code": "594",
-    "description": "Global Sender ID Block",
-    "category": "System & General"
-  },
-  {
-    "id": 580,
-    "code": "595",
-    "description": "Global Receiver blocked",
-    "category": "System & General"
-  },
-  {
-    "id": 581,
-    "code": "598",
-    "description": "EC_CTID_BLACKLISTED",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 582,
-    "code": "606",
-    "description": "Reserved for Entity",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 583,
-    "code": "607",
-    "description": "Reserved for Entity",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 584,
-    "code": "608",
-    "description": "Reserved for Entity",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 585,
-    "code": "609",
-    "description": "Reserved for Entity",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 586,
-    "code": "614",
-    "description": "PE TM HASH NOT RECEIVED",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 587,
-    "code": "615",
-    "description": "PE_TM_HASH_NOT_REGISTERED",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 588,
-    "code": "618",
-    "description": "PE_TM_HASH_SUSPENDED----------",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 589,
-    "code": "619",
-    "description": "Reserved for Telemarketer",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 590,
-    "code": "620",
-    "description": "No record found with header (case sensitive) as primary key",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 591,
-    "code": "621",
-    "description": "Header is inactive on the platform, ex: {QL:I}",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 592,
-    "code": "622",
-    "description": "Header is blacklisted on all platforms",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 593,
-    "code": "623",
-    "description": "Principle Entity Id is not matched with Header Id",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 594,
-    "code": "624",
-    "description": "Reserved for Header",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 595,
-    "code": "625",
-    "description": "Reserved for Header",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 596,
-    "code": "626",
-    "description": "Reserved for Header",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 597,
-    "code": "627",
-    "description": "Reserved for Header",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 598,
-    "code": "628",
-    "description": "Reserved for Header",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 599,
-    "code": "629",
-    "description": "Reserved for Header",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 600,
-    "code": "630",
-    "description": "No record found with Template Id as primary key/no template found",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 601,
-    "code": "631",
-    "description": "Template is inactive on the platform, ex: {QL:I}",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 602,
-    "code": "632",
-    "description": "Template is blacklisted on all platforms",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 603,
-    "code": "633",
-    "description": "Template not matched for given Template ID",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 604,
-    "code": "634",
-    "description": "Header is not registered for the template",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 605,
-    "code": "635",
-    "description": "Valiable Length exied",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 606,
-    "code": "636",
-    "description": "Error in identifying the template",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 607,
-    "code": "637",
-    "description": "Received wrong Template id format or no Template id tag.",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 608,
-    "code": "638",
-    "description": "Reserved for Template",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 609,
-    "code": "639",
-    "description": "Reserved for Template",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 610,
-    "code": "640",
-    "description": "Reserved for Template",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 611,
-    "code": "641",
-    "description": "Reserved for Template",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 612,
-    "code": "642",
-    "description": "Reserved for Template",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 613,
-    "code": "643",
-    "description": "Reserved for Template",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 614,
-    "code": "644",
-    "description": "Reserved for Template",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 615,
-    "code": "645",
-    "description": "Reserved for Template",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 616,
-    "code": "646",
-    "description": "Reserved for Template",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 617,
-    "code": "647",
-    "description": "Reserved for Template",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 618,
-    "code": "648",
-    "description": "Reserved for Template",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 619,
-    "code": "649",
-    "description": "Reserved for Template",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 620,
-    "code": "650",
-    "description": "Blocked in preferences with MSISDN as PK.",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 621,
-    "code": "651",
-    "description": "Block promo hours (9PM to 10AM)",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 622,
-    "code": "652",
-    "description": "SE category blocking on fully DND, if consent not available",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 623,
-    "code": "653",
-    "description": "Reserved for Preference",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 624,
-    "code": "654",
-    "description": "Reserved for Preference",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 625,
-    "code": "655",
-    "description": "Reserved for Preference",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 626,
-    "code": "656",
-    "description": "Reserved for Preference",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 627,
-    "code": "657",
-    "description": "Reserved for Preference",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 628,
-    "code": "658",
-    "description": "Reserved for Preference",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 629,
-    "code": "659",
-    "description": "Reserved for Preference",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 630,
-    "code": "660",
-    "description": "General error code for Consent",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 631,
-    "code": "661",
-    "description": "Reserved for Consent",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 632,
-    "code": "662",
-    "description": "Reserved for Consent",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 633,
-    "code": "663",
-    "description": "Reserved for Consent",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 634,
-    "code": "664",
-    "description": "Reserved for Consent",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 635,
-    "code": "665",
-    "description": "Reserved for Consent",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 636,
-    "code": "666",
-    "description": "SMS Content mis-match",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 637,
-    "code": "667",
-    "description": "Reserved for Consent",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 638,
-    "code": "668",
-    "description": "Reserved for Consent",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 639,
-    "code": "669",
-    "description": "Reserved for Consent",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 640,
-    "code": "677",
-    "description": "Invalid TM_ID",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 641,
-    "code": "678",
-    "description": "Telemarketer ID does not exist/In active",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 642,
-    "code": "680",
-    "description": "Telemarketer ID blacklisted",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 643,
-    "code": "683",
-    "description": "SMS Type of header is not match Template",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 644,
-    "code": "687",
-    "description": "SMS Type is not match with header/Template SMS Type",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 645,
-    "code": "700",
-    "description": "No CTA whitelisted",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 646,
-    "code": "7001",
-    "description": "Entity is In-Active",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 647,
-    "code": "7002",
-    "description": "Entity is Blacklist",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 648,
-    "code": "7003",
-    "description": "Entity not in DB",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 649,
-    "code": "7004",
-    "description": "Entity ID Blank",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 650,
-    "code": "7005",
-    "description": "ENTITY_OP_INACTIVE",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 651,
-    "code": "701",
-    "description": "URL CTA not matched with whitelisted data",
-    "category": "System & General"
-  },
-  {
-    "id": 652,
-    "code": "703",
-    "description": "Submit_SM_Timeout",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 653,
-    "code": "715",
-    "description": "Expired at BMG",
-    "category": "System & General"
-  },
-  {
-    "id": 654,
-    "code": "792",
-    "description": "EC_NC_abnormalEventDetectedByPeer",
-    "category": "System & General"
-  },
-  {
-    "id": 655,
-    "code": "793",
-    "description": "EC_NC_responseRejectedByPeer",
-    "category": "System & General"
-  },
-  {
-    "id": 656,
-    "code": "794",
-    "description": "EC_NC_abnormalEventReceivedFromPeer",
-    "category": "System & General"
-  },
-  {
-    "id": 657,
-    "code": "795",
-    "description": "EC_NC_messageCannotBeDeliveredToPeer",
-    "category": "Network & Delivery"
-  },
-  {
-    "id": 658,
-    "code": "796",
-    "description": "EC_NC_providerOutOfInvoke",
-    "category": "System & General"
-  },
-  {
-    "id": 659,
-    "code": "801",
-    "description": "EC_BLACKLISTED_MSISDN",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 660,
-    "code": "802",
-    "description": "EntityID Inactive/Not registered with Airtel",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 661,
-    "code": "803",
-    "description": "Header is blacklisted",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 662,
-    "code": "804",
-    "description": "Header Inactive/Not registered with Airtel",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 663,
-    "code": "805",
-    "description": "Template is inactive",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 664,
-    "code": "811",
-    "description": "PE-TM chain is inactive.",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 665,
-    "code": "812",
-    "description": "Invalid PE-TM hash.",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 666,
-    "code": "813",
-    "description": "Hash does not match with PE-TM Chain.",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 667,
-    "code": "9003",
-    "description": "ESME_RINVCMDID",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 668,
-    "code": "9008",
-    "description": "ESME_RSYSERR_ABMS",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 669,
-    "code": "901",
-    "description": "AccountID Required",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 670,
-    "code": "9010",
-    "description": "ESME_RINVSRCADR",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 671,
-    "code": "9011",
-    "description": "ESME_RINVDSTADR",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 672,
-    "code": "9014",
-    "description": "ESME_RINVPASWD",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 673,
-    "code": "9015",
-    "description": "ESME_RINVSYSID",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 674,
-    "code": "9016",
-    "description": "JMS_QUEUE_ERROR_CODE",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 675,
-    "code": "9018",
-    "description": "GOV_HEADER_ERROR_CODE",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 676,
-    "code": "9019",
-    "description": "GOV_HEADER_INVALID ACCOUNT_TYPE ERROR_CODE",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 677,
-    "code": "9020",
-    "description": "Message Queue Full",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 678,
-    "code": "9021",
-    "description": "ESME_RINVSERTYP",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 679,
-    "code": "9022",
-    "description": "MSG_IN_SHORT_MSG AND_PAYLOAD",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 680,
-    "code": "9024",
-    "description": "TAG_TM_ID_ABSENT",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 681,
-    "code": "9025",
-    "description": "TAG_TEMPLATE_ID_ABSENT",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 682,
-    "code": "9026",
-    "description": "TAG_PE_ID_ABSENT",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 683,
-    "code": "9027",
-    "description": "ESME_MULTI_MISSING_PART",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 684,
-    "code": "9030",
-    "description": "ESME_INVD_TM_EXN_ID",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 685,
-    "code": "9031",
-    "description": "RETRY_REACHED_MAX_LIMIT",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 686,
-    "code": "905",
-    "description": "SMS Type Required",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 687,
-    "code": "906",
-    "description": "MSISDN Required",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 688,
-    "code": "9069",
-    "description": "SUBMIT_SM_FAILED",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 689,
-    "code": "907",
-    "description": "Invalid SMS Type",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 690,
-    "code": "908",
-    "description": "MessageID Required",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 691,
-    "code": "9088",
-    "description": "ESME_RTHROTTLED",
-    "category": "SMPP & Gateway Protocol"
-  },
-  {
-    "id": 692,
-    "code": "909",
-    "description": "Invalid DLT header id",
-    "category": "DLT & Regulatory"
-  },
-  {
-    "id": 693,
-    "code": "9196",
-    "description": "ESME_RINVOPTPARAMVAL",
-    "category": "SMPP & Gateway Protocol"
+    "category": "Network",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "21",
+    "error_name": "ESME_RINVSERTYP",
+    "description": "Invalid source/service type or wrong traffic type",
+    "category": "Route",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "24",
+    "error_name": "TM_ID_ABSENT",
+    "description": "TM ID tag absent",
+    "category": "DLT",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check DLT scrubbing/route"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "25",
+    "error_name": "TEMPLATE_ID_ABSENT",
+    "description": "Template ID tag absent",
+    "category": "DLT",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check DLT scrubbing/route"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "26",
+    "error_name": "PE_ID_ABSENT",
+    "description": "PE ID tag absent",
+    "category": "DLT",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check DLT scrubbing/route"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "27",
+    "error_name": "MULTI_MISSING_PART",
+    "description": "Required multipart tag absent",
+    "category": "SMPP",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "69",
+    "error_name": "SHORTMSG_PAYLOAD_CONFLICT",
+    "description": "Both short message and payload supplied",
+    "category": "SMPP",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "70",
+    "error_name": "TM_ID_MISMATCH",
+    "description": "TM ID mismatch / external ID issue",
+    "category": "DLT",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check DLT scrubbing/route"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "196",
+    "error_name": "INVALID_OPTIONAL_PARAM",
+    "description": "Invalid optional parameter value",
+    "category": "DLT",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check DLT scrubbing/route"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "611",
+    "error_name": "INVALID_ENTITY_ID",
+    "description": "Invalid Entity/Header ID",
+    "category": "DLT",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check DLT scrubbing/route"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "612",
+    "error_name": "INVALID_CLI",
+    "description": "Invalid CLI",
+    "category": "Header",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check Header/Sender ID"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "613",
+    "error_name": "INVALID_TEMPLATE_ID",
+    "description": "Invalid Template ID",
+    "category": "Template",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check Template ID/content"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "614",
+    "error_name": "CLI_TEMPLATE_MISMATCH",
+    "description": "CLI mismatch with template",
+    "category": "Template",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check Template ID/content"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "615",
+    "error_name": "TEMPLATE_HEADER_INVALID",
+    "description": "Template or Header invalid",
+    "category": "DLT",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check DLT scrubbing/route"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "616",
+    "error_name": "INVALID_CATEGORY",
+    "description": "Invalid category",
+    "category": "DLT",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check DLT scrubbing/route"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "666",
+    "error_name": "CONTENT_MISMATCH",
+    "description": "SMS content mismatch",
+    "category": "Template",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check Template ID/content"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "677",
+    "error_name": "INVALID_TM_ID",
+    "description": "Invalid Telemarketer ID",
+    "category": "Telemarketer",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check TM ID"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "801",
+    "error_name": "ENTITY_BLACKLISTED",
+    "description": "Entity blacklisted",
+    "category": "Entity",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check Entity/PE ID"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "802",
+    "error_name": "ENTITY_INACTIVE",
+    "description": "Entity inactive/not registered",
+    "category": "Entity",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check Entity/PE ID"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "803",
+    "error_name": "HEADER_BLACKLISTED",
+    "description": "Header blacklisted",
+    "category": "Header",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check Header/Sender ID"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "804",
+    "error_name": "HEADER_INACTIVE",
+    "description": "Header inactive/not registered",
+    "category": "Header",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check Header/Sender ID"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "9003",
+    "error_name": "INVALID_COMMAND_ID",
+    "description": "Invalid command ID",
+    "category": "SMPP",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "9008",
+    "error_name": "DLT_TIMEOUT",
+    "description": "DLT/ABMS connection timeout",
+    "category": "Network",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "9010",
+    "error_name": "INVALID_SOURCE",
+    "description": "Invalid source/CLI",
+    "category": "Address",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "9011",
+    "error_name": "INVALID_DESTINATION",
+    "description": "Invalid destination address",
+    "category": "Address",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "9014",
+    "error_name": "INVALID_TM_USERNAME",
+    "description": "Invalid TM username",
+    "category": "Authentication",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "9015",
+    "error_name": "INVALID_TM_PASSWORD",
+    "description": "Invalid TM password",
+    "category": "Authentication",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "9016",
+    "error_name": "JMS_QUEUE_ERROR",
+    "description": "JMS queue error",
+    "category": "System",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "9018",
+    "error_name": "GOV_HEADER_ERROR",
+    "description": "Government header lookup/account error",
+    "category": "Government Header",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "9019",
+    "error_name": "GOV_HEADER_ACCOUNT_ERROR",
+    "description": "Government header/account type error",
+    "category": "Government Header",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "9020",
+    "error_name": "QUEUE_FULL",
+    "description": "Message queue full",
+    "category": "Network",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "9021",
+    "error_name": "INVALID_SERVICE_TYPE",
+    "description": "Invalid service type/traffic type",
+    "category": "Route",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "9022",
+    "error_name": "SHORTMSG_PAYLOAD_CONFLICT",
+    "description": "Message present in both fields",
+    "category": "SMPP",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "9024",
+    "error_name": "TM_ID_ABSENT",
+    "description": "TM ID tag absent",
+    "category": "DLT",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check DLT scrubbing/route"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "9025",
+    "error_name": "TEMPLATE_ID_ABSENT",
+    "description": "Template ID tag absent",
+    "category": "DLT",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check DLT scrubbing/route"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "9026",
+    "error_name": "PE_ID_ABSENT",
+    "description": "PE ID tag absent",
+    "category": "DLT",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check DLT scrubbing/route"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "9027",
+    "error_name": "MULTI_MISSING_PART",
+    "description": "Multipart tag absent",
+    "category": "SMPP",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "9030",
+    "error_name": "INVALID_TM_ID",
+    "description": "Invalid TM external ID/TM ID",
+    "category": "Telemarketer",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check TM ID"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "9069",
+    "error_name": "INVALID_DATA_CODING",
+    "description": "Invalid data coding",
+    "category": "SMPP",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "9088",
+    "error_name": "THROTTLED",
+    "description": "Traffic rate exceeded",
+    "category": "Throttling",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Airtel",
+    "error_code": "9196",
+    "error_name": "INVALID_OPTIONAL_PARAM",
+    "description": "Invalid optional parameter/TM ID",
+    "category": "DLT",
+    "stage": "SMPP/DLR",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check DLT scrubbing/route"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5101",
+    "error_name": "FULLY_BLOCKED_OR_PROMO_BLOCKED",
+    "description": "Fully blocked or promotional traffic blocked",
+    "category": "DND/Preference",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check DND/preference/consent"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5102",
+    "error_name": "PREFERENCE_CATEGORY_FAILURE",
+    "description": "Failed due to preference category",
+    "category": "DND/Preference",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check DND/preference/consent"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5103",
+    "error_name": "PREFERENCE_MODE_FAILURE",
+    "description": "Failed due to preference communication mode",
+    "category": "DND/Preference",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check DND/preference/consent"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5104",
+    "error_name": "PREFERENCE_ACTIVE",
+    "description": "Preference status is active",
+    "category": "Preference",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check DND/preference/consent"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5105",
+    "error_name": "PREFERRED_DAY_BLOCKED",
+    "description": "Preferred day is blocked",
+    "category": "Preference",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check DND/preference/consent"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5106",
+    "error_name": "PREFERRED_TIME_BLOCKED",
+    "description": "Preferred time is blocked",
+    "category": "Preference",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check DND/preference/consent"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5107",
+    "error_name": "BLACKOUT_TIME",
+    "description": "Blackout time",
+    "category": "Preference",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check DND/preference/consent"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5108",
+    "error_name": "PROMO_PREFERENCE_CONFLICT",
+    "description": "Promotional content/preference conflict",
+    "category": "Preference",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check DND/preference/consent"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5109",
+    "error_name": "PREFERENCE_CONSENT_CONFLICT",
+    "description": "Preference/consent category conflict",
+    "category": "Preference/Consent",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check DND/preference/consent"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5201",
+    "error_name": "HEADER_NOT_ACTIVE",
+    "description": "Header not active",
+    "category": "Header",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check Header/Sender ID"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5202",
+    "error_name": "HEADER_BLACKLISTED",
+    "description": "Header blacklisted",
+    "category": "Header",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check Header/Sender ID"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5203",
+    "error_name": "HEADER_NOT_FOUND",
+    "description": "Header not found/registered",
+    "category": "Header",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check Header/Sender ID"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5204",
+    "error_name": "HDR_OP_INACTIVE",
+    "description": "Header operator inactive",
+    "category": "Header",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check Header/Sender ID"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5205",
+    "error_name": "ENTITY_ID_XML_MISMATCH",
+    "description": "Entity ID not matched with XML",
+    "category": "Entity",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check Entity/PE ID"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5206",
+    "error_name": "ALPHABETIC_PROMO_PORT",
+    "description": "Alphabetic request on promotional port",
+    "category": "Header/Route",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5213",
+    "error_name": "HEADER_SUSPENDED_USAGE",
+    "description": "Header suspended due to usage",
+    "category": "Header",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check Header/Sender ID"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5214",
+    "error_name": "HEADER_SUSPENDED_VALIDITY",
+    "description": "Header suspended due to validity",
+    "category": "Header",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check Header/Sender ID"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5215",
+    "error_name": "HEADER_SUSPENDED_CUSTOMER",
+    "description": "Customer-initiated header suspension",
+    "category": "Header",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check Header/Sender ID"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5301",
+    "error_name": "CONTENT_UNREGISTERED",
+    "description": "Content unregistered",
+    "category": "Template",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check Template ID/content"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5302",
+    "error_name": "CONTENT_BLACKLISTED",
+    "description": "Content ID blacklisted",
+    "category": "Template",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check Template ID/content"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "650",
+    "error_name": "PREFERENCE_NOT_MATCHED",
+    "description": "Preference not matched",
+    "category": "Preference/DND",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check DND/preference/consent"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "651",
+    "error_name": "INVALID_PROMO_TIME",
+    "description": "Invalid promotional time",
+    "category": "Preference/DND",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check DND/preference/consent"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "652",
+    "error_name": "SE_CATEGORY_BLOCK",
+    "description": "Service/entity category block",
+    "category": "Preference/DND",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check DND/preference/consent"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "660",
+    "error_name": "CONSENT_FAILED",
+    "description": "Consent failed",
+    "category": "Consent",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check DND/preference/consent"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "670",
+    "error_name": "SCRUBBING_FAILED",
+    "description": "Scrubbing failed",
+    "category": "Scrubbing",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check DLT scrubbing/route"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "7001",
+    "error_name": "ENTITY_INACTIVE",
+    "description": "Entity inactive",
+    "category": "Entity",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check Entity/PE ID"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "7002",
+    "error_name": "SCRUBBING_RESERVED",
+    "description": "Reserved for scrubbing",
+    "category": "Scrubbing",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check DLT scrubbing/route"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "7003",
+    "error_name": "ENTITY_NOT_IN_DB",
+    "description": "Entity not in database",
+    "category": "Entity",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check Entity/PE ID"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "7004",
+    "error_name": "ENTITY_ID_BLANK",
+    "description": "Entity ID blank",
+    "category": "Entity",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check Entity/PE ID"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "7005",
+    "error_name": "ENTITY_OPERATOR_INACTIVE",
+    "description": "Entity operator inactive",
+    "category": "Entity",
+    "stage": "DLR",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC",
+    "retry": "NO",
+    "portal_action": "Check Entity/PE ID"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "605",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "606",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "607",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "608",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "609",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "613",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "614",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "615",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "616",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "617",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "618",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "619",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "624",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "625",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "626",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "627",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "628",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "629",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "638",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "639",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "640",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "641",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "642",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "643",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "644",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "645",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "646",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "647",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "648",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "649",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "653",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "654",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "655",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "656",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "657",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "658",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "659",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "661",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "662",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "663",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "664",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "665",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "666",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "667",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "668",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "669",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "671",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "672",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "673",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "674",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "675",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "676",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "677",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "678",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "679",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "680",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "681",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "682",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "683",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "684",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "685",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "686",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "687",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "688",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "689",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "690",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "691",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "692",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "693",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "694",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "695",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "696",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "697",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "698",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Jio",
+    "error_code": "699",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "605",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "606",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "607",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "608",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "609",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "613",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "614",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "615",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "616",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "617",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "618",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "619",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "624",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "625",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "626",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "627",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "628",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "629",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "638",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "639",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "640",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "641",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "642",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "643",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "644",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "645",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "646",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "647",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "648",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "649",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "653",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "654",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "655",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "656",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "657",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "658",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "659",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "661",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "662",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "663",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "664",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "665",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "666",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "667",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "668",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "669",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "671",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "672",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "673",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "674",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "675",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "676",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "677",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "678",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "679",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "680",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "681",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "682",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "683",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "684",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "685",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "686",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "687",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "688",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "689",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "690",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "691",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "692",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "693",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "694",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "695",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "696",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "697",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "698",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
+  },
+  {
+    "operator": "Vi",
+    "error_code": "699",
+    "error_name": "RESERVED / NOT PUBLICLY MAPPED",
+    "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
+    "category": "Reserved",
+    "stage": "DLT",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check SMPP/session/network and provider logs"
   }
 ];

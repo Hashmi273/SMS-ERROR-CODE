@@ -790,6 +790,78 @@ body {
   color: #FFFFFF;
 }
 
+.error-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.error-id-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.operator-badge {
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.op-jio { background: rgba(229, 0, 17, 0.1); color: #E50011; }
+.op-vi { background: rgba(255, 0, 0, 0.1); color: #ff0000; }
+.op-airtel { background: rgba(255, 0, 0, 0.1); color: #ff0000; }
+.op-smartping { background: rgba(0, 120, 212, 0.1); color: #0078d4; }
+.op-default { background: var(--immense-navy); color: white; }
+
+.error-id {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--immense-navy);
+}
+
+.error-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--text-dark);
+}
+
+.error-desc {
+    color: var(--text-light);
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.error-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(0,0,0,0.05);
+    font-size: 0.85rem;
+}
+
+.meta-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.meta-label {
+    font-weight: 600;
+    color: var(--text-light);
+}
+
+.meta-value {
+    color: var(--immense-navy);
+    font-weight: 500;
+    text-align: right;
+}
+
 .category-tag {
   font-size: 0.75rem;
   font-weight: 700;

@@ -1,0 +1,276 @@
+operator,error_code,error_name,description,category,stage,source,verification,retry,portal_action
+Jio,600,ENTITY_NOT_FOUND,No record found with Entity ID.,Entity,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Entity/PE ID
+Jio,601,ENTITY_NOT_REGISTERED,Entity is not registered.,Entity,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Entity/PE ID
+Jio,602,ENTITY_INACTIVE,Entity is inactive.,Entity,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Entity/PE ID
+Jio,603,ENTITY_BLACKLISTED,Entity is blacklisted.,Entity,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Entity/PE ID
+Jio,604,INVALID_ENTITY_ID,Invalid Entity ID.,Entity,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Entity/PE ID
+Jio,610,TELEMARKETER_NOT_REGISTERED,Telemarketer is not registered.,Telemarketer,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check TM ID
+Jio,611,TELEMARKETER_INACTIVE,Telemarketer is inactive.,Telemarketer,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check TM ID
+Jio,612,TELEMARKETER_BLACKLISTED,Telemarketer is blacklisted.,Telemarketer,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check TM ID
+Jio,620,HEADER_NOT_FOUND,Header not found.,Header,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Header/Sender ID
+Jio,621,HEADER_INACTIVE,Header is inactive.,Header,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Header/Sender ID
+Jio,622,HEADER_BLACKLISTED,Header is blacklisted.,Header,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Header/Sender ID
+Jio,623,PEID_NOT_MATCHED_WITH_HEADER,PE ID does not match Header ID.,Header,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Header/Sender ID
+Jio,630,TEMPLATE_NOT_FOUND,Template not found.,Template,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Template ID/content
+Jio,631,TEMPLATE_INACTIVE,Template is inactive.,Template,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Template ID/content
+Jio,632,TEMPLATE_BLACKLISTED,Template is blacklisted.,Template,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Template ID/content
+Jio,633,TEMPLATE_NOT_MATCHED,Template/content does not match.,Template,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Template ID/content
+Jio,634,HEADER_NOT_REGISTERED_FOR_TEMPLATE,Header is not registered for template.,Template,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Template ID/content
+Jio,635,TEMPLATE_VARIABLE_LENGTH_EXCEEDED,Template variable exceeded maximum length.,Template,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Template ID/content
+Jio,636,ERROR_IDENTIFYING_TEMPLATE,Error identifying template.,Template,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Template ID/content
+Jio,637,INVALID_TEMPLATE_ID,Invalid Template ID.,Template,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Template ID/content
+Jio,650,PREFERENCE_NOT_MATCHED,Destination is blocked by preference/DND rules.,Preference/DND,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,PROVIDER-DEPENDENT,Check DND/preference/consent
+Jio,651,INVALID_PROMO_TIME,Promotional time restriction.,Preference/DND,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,PROVIDER-DEPENDENT,Check DND/preference/consent
+Jio,652,SE_CATEGORY_BLOCK,Service/entity category blocked.,Preference/DND,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,PROVIDER-DEPENDENT,Check DND/preference/consent
+Jio,660,CONSENT_FAILED,Consent validation failed.,Consent,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check DND/preference/consent
+Jio,670,SCRUBBING_FAILED,DLT scrubbing failed.,Scrubbing,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,PROVIDER-DEPENDENT,Check DLT scrubbing/route
+Vi,600,ENTITY_NOT_FOUND,No record found with Entity ID.,Entity,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Entity/PE ID
+Vi,601,ENTITY_NOT_REGISTERED,Entity is not registered.,Entity,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Entity/PE ID
+Vi,602,ENTITY_INACTIVE,Entity is inactive.,Entity,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Entity/PE ID
+Vi,603,ENTITY_BLACKLISTED,Entity is blacklisted.,Entity,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Entity/PE ID
+Vi,604,INVALID_ENTITY_ID,Invalid Entity ID.,Entity,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Entity/PE ID
+Vi,610,TELEMARKETER_NOT_REGISTERED,Telemarketer is not registered.,Telemarketer,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check TM ID
+Vi,611,TELEMARKETER_INACTIVE,Telemarketer is inactive.,Telemarketer,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check TM ID
+Vi,612,TELEMARKETER_BLACKLISTED,Telemarketer is blacklisted.,Telemarketer,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check TM ID
+Vi,620,HEADER_NOT_FOUND,Header not found.,Header,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Header/Sender ID
+Vi,621,HEADER_INACTIVE,Header is inactive.,Header,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Header/Sender ID
+Vi,622,HEADER_BLACKLISTED,Header is blacklisted.,Header,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Header/Sender ID
+Vi,623,PEID_NOT_MATCHED_WITH_HEADER,PE ID does not match Header ID.,Header,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Header/Sender ID
+Vi,630,TEMPLATE_NOT_FOUND,Template not found.,Template,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Template ID/content
+Vi,631,TEMPLATE_INACTIVE,Template is inactive.,Template,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Template ID/content
+Vi,632,TEMPLATE_BLACKLISTED,Template is blacklisted.,Template,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Template ID/content
+Vi,633,TEMPLATE_NOT_MATCHED,Template/content does not match.,Template,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Template ID/content
+Vi,634,HEADER_NOT_REGISTERED_FOR_TEMPLATE,Header is not registered for template.,Template,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Template ID/content
+Vi,635,TEMPLATE_VARIABLE_LENGTH_EXCEEDED,Template variable exceeded maximum length.,Template,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Template ID/content
+Vi,636,ERROR_IDENTIFYING_TEMPLATE,Error identifying template.,Template,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Template ID/content
+Vi,637,INVALID_TEMPLATE_ID,Invalid Template ID.,Template,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check Template ID/content
+Vi,650,PREFERENCE_NOT_MATCHED,Destination is blocked by preference/DND rules.,Preference/DND,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,PROVIDER-DEPENDENT,Check DND/preference/consent
+Vi,651,INVALID_PROMO_TIME,Promotional time restriction.,Preference/DND,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,PROVIDER-DEPENDENT,Check DND/preference/consent
+Vi,652,SE_CATEGORY_BLOCK,Service/entity category blocked.,Preference/DND,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,PROVIDER-DEPENDENT,Check DND/preference/consent
+Vi,660,CONSENT_FAILED,Consent validation failed.,Consent,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,NO,Check DND/preference/consent
+Vi,670,SCRUBBING_FAILED,DLT scrubbing failed.,Scrubbing,DLR/Submit,Common DLT mapping,VERIFY WITH OPERATOR,PROVIDER-DEPENDENT,Check DLT scrubbing/route
+Airtel,3,ESME_RINVCMDID,Invalid Command ID,SMPP,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Airtel,8,DLT_ERROR,DLT unavailable/error or connection timeout,DLT,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check DLT scrubbing/route
+Airtel,10,ESME_RINVSRCADR,Invalid source address / blank header,Header,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,NO,Check Header/Sender ID
+Airtel,11,ESME_RINVDSTADR,Invalid destination address,Number,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Airtel,20,QUEUE_FULL,Message queue full,Network,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Airtel,21,ESME_RINVSERTYP,Invalid source/service type or wrong traffic type,Route,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Airtel,24,TM_ID_ABSENT,TM ID tag absent,DLT,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check DLT scrubbing/route
+Airtel,25,TEMPLATE_ID_ABSENT,Template ID tag absent,DLT,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check DLT scrubbing/route
+Airtel,26,PE_ID_ABSENT,PE ID tag absent,DLT,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check DLT scrubbing/route
+Airtel,27,MULTI_MISSING_PART,Required multipart tag absent,SMPP,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Airtel,69,SHORTMSG_PAYLOAD_CONFLICT,Both short message and payload supplied,SMPP,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Airtel,70,TM_ID_MISMATCH,TM ID mismatch / external ID issue,DLT,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check DLT scrubbing/route
+Airtel,196,INVALID_OPTIONAL_PARAM,Invalid optional parameter value,DLT,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check DLT scrubbing/route
+Airtel,611,INVALID_ENTITY_ID,Invalid Entity/Header ID,DLT,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check DLT scrubbing/route
+Airtel,612,INVALID_CLI,Invalid CLI,Header,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,NO,Check Header/Sender ID
+Airtel,613,INVALID_TEMPLATE_ID,Invalid Template ID,Template,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,NO,Check Template ID/content
+Airtel,614,CLI_TEMPLATE_MISMATCH,CLI mismatch with template,Template,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,NO,Check Template ID/content
+Airtel,615,TEMPLATE_HEADER_INVALID,Template or Header invalid,DLT,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check DLT scrubbing/route
+Airtel,616,INVALID_CATEGORY,Invalid category,DLT,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check DLT scrubbing/route
+Airtel,666,CONTENT_MISMATCH,SMS content mismatch,Template,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,NO,Check Template ID/content
+Airtel,677,INVALID_TM_ID,Invalid Telemarketer ID,Telemarketer,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,NO,Check TM ID
+Airtel,801,ENTITY_BLACKLISTED,Entity blacklisted,Entity,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,NO,Check Entity/PE ID
+Airtel,802,ENTITY_INACTIVE,Entity inactive/not registered,Entity,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,NO,Check Entity/PE ID
+Airtel,803,HEADER_BLACKLISTED,Header blacklisted,Header,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,NO,Check Header/Sender ID
+Airtel,804,HEADER_INACTIVE,Header inactive/not registered,Header,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,NO,Check Header/Sender ID
+Airtel,9003,INVALID_COMMAND_ID,Invalid command ID,SMPP,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Airtel,9008,DLT_TIMEOUT,DLT/ABMS connection timeout,Network,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Airtel,9010,INVALID_SOURCE,Invalid source/CLI,Address,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Airtel,9011,INVALID_DESTINATION,Invalid destination address,Address,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Airtel,9014,INVALID_TM_USERNAME,Invalid TM username,Authentication,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Airtel,9015,INVALID_TM_PASSWORD,Invalid TM password,Authentication,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Airtel,9016,JMS_QUEUE_ERROR,JMS queue error,System,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Airtel,9018,GOV_HEADER_ERROR,Government header lookup/account error,Government Header,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Airtel,9019,GOV_HEADER_ACCOUNT_ERROR,Government header/account type error,Government Header,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Airtel,9020,QUEUE_FULL,Message queue full,Network,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Airtel,9021,INVALID_SERVICE_TYPE,Invalid service type/traffic type,Route,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Airtel,9022,SHORTMSG_PAYLOAD_CONFLICT,Message present in both fields,SMPP,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Airtel,9024,TM_ID_ABSENT,TM ID tag absent,DLT,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check DLT scrubbing/route
+Airtel,9025,TEMPLATE_ID_ABSENT,Template ID tag absent,DLT,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check DLT scrubbing/route
+Airtel,9026,PE_ID_ABSENT,PE ID tag absent,DLT,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check DLT scrubbing/route
+Airtel,9027,MULTI_MISSING_PART,Multipart tag absent,SMPP,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Airtel,9030,INVALID_TM_ID,Invalid TM external ID/TM ID,Telemarketer,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,NO,Check TM ID
+Airtel,9069,INVALID_DATA_CODING,Invalid data coding,SMPP,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Airtel,9088,THROTTLED,Traffic rate exceeded,Throttling,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Airtel,9196,INVALID_OPTIONAL_PARAM,Invalid optional parameter/TM ID,DLT,SMPP/DLR,Airtel published DLT mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check DLT scrubbing/route
+SmartPing,5101,FULLY_BLOCKED_OR_PROMO_BLOCKED,Fully blocked or promotional traffic blocked,DND/Preference,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,NO,Check DND/preference/consent
+SmartPing,5102,PREFERENCE_CATEGORY_FAILURE,Failed due to preference category,DND/Preference,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,NO,Check DND/preference/consent
+SmartPing,5103,PREFERENCE_MODE_FAILURE,Failed due to preference communication mode,DND/Preference,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,NO,Check DND/preference/consent
+SmartPing,5104,PREFERENCE_ACTIVE,Preference status is active,Preference,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,NO,Check DND/preference/consent
+SmartPing,5105,PREFERRED_DAY_BLOCKED,Preferred day is blocked,Preference,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,NO,Check DND/preference/consent
+SmartPing,5106,PREFERRED_TIME_BLOCKED,Preferred time is blocked,Preference,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,NO,Check DND/preference/consent
+SmartPing,5107,BLACKOUT_TIME,Blackout time,Preference,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,NO,Check DND/preference/consent
+SmartPing,5108,PROMO_PREFERENCE_CONFLICT,Promotional content/preference conflict,Preference,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,NO,Check DND/preference/consent
+SmartPing,5109,PREFERENCE_CONSENT_CONFLICT,Preference/consent category conflict,Preference/Consent,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,NO,Check DND/preference/consent
+SmartPing,5201,HEADER_NOT_ACTIVE,Header not active,Header,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,NO,Check Header/Sender ID
+SmartPing,5202,HEADER_BLACKLISTED,Header blacklisted,Header,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,NO,Check Header/Sender ID
+SmartPing,5203,HEADER_NOT_FOUND,Header not found/registered,Header,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,NO,Check Header/Sender ID
+SmartPing,5204,HDR_OP_INACTIVE,Header operator inactive,Header,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,NO,Check Header/Sender ID
+SmartPing,5205,ENTITY_ID_XML_MISMATCH,Entity ID not matched with XML,Entity,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,NO,Check Entity/PE ID
+SmartPing,5206,ALPHABETIC_PROMO_PORT,Alphabetic request on promotional port,Header/Route,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+SmartPing,5213,HEADER_SUSPENDED_USAGE,Header suspended due to usage,Header,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,NO,Check Header/Sender ID
+SmartPing,5214,HEADER_SUSPENDED_VALIDITY,Header suspended due to validity,Header,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,NO,Check Header/Sender ID
+SmartPing,5215,HEADER_SUSPENDED_CUSTOMER,Customer-initiated header suspension,Header,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,NO,Check Header/Sender ID
+SmartPing,5301,CONTENT_UNREGISTERED,Content unregistered,Template,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,NO,Check Template ID/content
+SmartPing,5302,CONTENT_BLACKLISTED,Content ID blacklisted,Template,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,NO,Check Template ID/content
+SmartPing,650,PREFERENCE_NOT_MATCHED,Preference not matched,Preference/DND,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check DND/preference/consent
+SmartPing,651,INVALID_PROMO_TIME,Invalid promotional time,Preference/DND,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check DND/preference/consent
+SmartPing,652,SE_CATEGORY_BLOCK,Service/entity category block,Preference/DND,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check DND/preference/consent
+SmartPing,660,CONSENT_FAILED,Consent failed,Consent,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,NO,Check DND/preference/consent
+SmartPing,670,SCRUBBING_FAILED,Scrubbing failed,Scrubbing,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check DLT scrubbing/route
+SmartPing,7001,ENTITY_INACTIVE,Entity inactive,Entity,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,NO,Check Entity/PE ID
+SmartPing,7002,SCRUBBING_RESERVED,Reserved for scrubbing,Scrubbing,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,PROVIDER-DEPENDENT,Check DLT scrubbing/route
+SmartPing,7003,ENTITY_NOT_IN_DB,Entity not in database,Entity,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,NO,Check Entity/PE ID
+SmartPing,7004,ENTITY_ID_BLANK,Entity ID blank,Entity,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,NO,Check Entity/PE ID
+SmartPing,7005,ENTITY_OPERATOR_INACTIVE,Entity operator inactive,Entity,DLR,Public SmartPing mapping,DOCUMENTED/PUBLIC,NO,Check Entity/PE ID
+Jio,605,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,606,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,607,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,608,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,609,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,613,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,614,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,615,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,616,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,617,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,618,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,619,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,624,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,625,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,626,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,627,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,628,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,629,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,638,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,639,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,640,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,641,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,642,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,643,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,644,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,645,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,646,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,647,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,648,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,649,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,653,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,654,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,655,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,656,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,657,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,658,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,659,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,661,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,662,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,663,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,664,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,665,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,666,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,667,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,668,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,669,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,671,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,672,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,673,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,674,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,675,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,676,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,677,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,678,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,679,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,680,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,681,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,682,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,683,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,684,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,685,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,686,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,687,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,688,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,689,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,690,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,691,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,692,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,693,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,694,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,695,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,696,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,697,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,698,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Jio,699,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,605,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,606,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,607,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,608,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,609,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,613,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,614,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,615,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,616,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,617,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,618,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,619,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,624,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,625,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,626,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,627,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,628,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,629,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,638,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,639,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,640,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,641,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,642,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,643,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,644,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,645,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,646,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,647,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,648,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,649,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,653,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,654,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,655,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,656,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,657,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,658,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,659,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,661,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,662,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,663,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,664,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,665,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,666,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,667,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,668,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,669,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,671,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,672,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,673,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,674,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,675,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,676,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,677,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,678,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,679,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,680,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,681,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,682,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,683,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,684,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,685,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,686,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,687,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,688,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,689,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,690,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,691,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,692,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,693,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,694,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,695,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,696,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,697,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,698,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
+Vi,699,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,Common DLT family,NOT VERIFIED,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs
