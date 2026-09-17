@@ -63,7 +63,7 @@
     }
 
     if (statTotal) statTotal.textContent = allErrors.length;
-    const categoriesSet = new Set(allErrors.map(e => e.category));
+    const categoriesSet = new Set(allErrors.map(e => e.operator));
     if (statCategories) statCategories.textContent = categoriesSet.size;
 
     executeSearch();
@@ -87,7 +87,7 @@
     let results = allErrors;
 
     if (activeCategory !== 'All') {
-      results = results.filter(item => item.category === activeCategory);
+      results = results.filter(item => item.operator === activeCategory);
     }
 
     if (q) {
@@ -95,8 +95,8 @@
       const qTokens = qLower.split(/\s+/).filter(Boolean);
 
       results = results.filter(item => {
-        const code = item.code.toLowerCase();
-        const desc = item.description.toLowerCase();
+        const code = (item.error_code || item.ErrorCode || item.code || '').toLowerCase();
+        const desc = (item.description || item.Description || '').toLowerCase();
 
         if (activeTarget === 'code') {
           return code.includes(qLower);
@@ -180,78 +180,66 @@
   function createErrorCard(item) {
     const card = document.createElement('article');
     card.className = 'error-card';
-    card.setAttribute('data-id', item.id);
-    card.setAttribute('data-code', item.code);
+    const code = (item.error_code || item.ErrorCode || item.code || '');
+    card.setAttribute('data-id', code);
+    card.setAttribute('data-code', code);
 
-    const catClass = getCategoryClass(item.category);
-    const safeCode = escapeHtml(item.code);
-    const highlightedCode = currentQuery ? highlightMatches(item.code, currentQuery) : safeCode;
+    const operator = item.operator || 'Unknown';
+    let opClass = 'op-default';
+    if(operator === 'Jio') opClass = 'op-jio';
+    else if(operator === 'Vi') opClass = 'op-vi';
+    else if(operator === 'Airtel') opClass = 'op-airtel';
+    else if(operator === 'SmartPing') opClass = 'op-smartping';
 
-    const descParts = item.description.split('|').map(p => p.trim()).filter(Boolean);
+    const safeCode = escapeHtml(code);
+    const highlightedCode = currentQuery ? highlightMatches(code, currentQuery) : safeCode;
+
+    const desc = item.description || item.Description || '';
+    const descParts = desc.split('|').map(p => p.trim()).filter(Boolean);
     let descHtml = '';
     descParts.forEach(part => {
       const highlightedPart = currentQuery ? highlightMatches(part, currentQuery) : escapeHtml(part);
       descHtml += '<span class="desc-part">' + highlightedPart + '</span>';
     });
 
+    const errorName = item.error_name ? escapeHtml(item.error_name) : '';
+    const portalAction = item.portal_action ? escapeHtml(item.portal_action) : 'N/A';
+    const retry = item.retry ? escapeHtml(item.retry) : 'N/A';
+
     card.innerHTML = [
-      '<div class="card-header-bar">',
+      '<div class="card-header-bar" style="margin-bottom:0.5rem; border-bottom:none;">',
       '  <div class="code-badge-group">',
-      '    <span class="code-label-small">Error Code</span>',
+      '    <span class="operator-badge ' + opClass + '">' + escapeHtml(operator) + '</span>',
       '    <span class="error-code-badge">' + highlightedCode + '</span>',
       '  </div>',
-      '  <span class="category-tag ' + catClass + '">' + escapeHtml(item.category) + '</span>',
+      '  <span class="category-tag cat-system">' + escapeHtml(item.category || 'General') + '</span>',
       '</div>',
-      '<div class="card-body">',
-      '  <div class="desc-label">Description & Meaning</div>',
+      '<div class="card-body" style="padding-top:0;">',
+      '  <h3 class="error-title" style="margin-top:0.5rem;">' + errorName + '</h3>',
       '  <div class="error-desc-content">' + descHtml + '</div>',
+      '  <div class="error-meta">',
+      '    <div class="meta-item"><span class="meta-label">Action:</span><span class="meta-value">' + portalAction + '</span></div>',
+      '    <div class="meta-item"><span class="meta-label">Retry:</span><span class="meta-value">' + retry + '</span></div>',
+      '  </div>',
       '</div>',
       '<div class="card-action-bar">',
       '  <button type="button" class="card-btn copy-code-btn" title="Copy Error Code">',
-      '    <svg class="card-btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">',
-      '      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>',
-      '      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>',
-      '    </svg>',
       '    <span>Copy Code</span>',
       '  </button>',
       '  <button type="button" class="card-btn copy-desc-btn" title="Copy Error Description">',
-      '    <svg class="card-btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">',
-      '      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>',
-      '      <polyline points="14 2 14 8 20 8"></polyline>',
-      '      <line x1="16" y1="13" x2="8" y2="13"></line>',
-      '      <line x1="16" y1="17" x2="8" y2="17"></line>',
-      '      <polyline points="10 9 9 9 8 9"></polyline>',
-      '    </svg>',
       '    <span>Copy Details</span>',
-      '  </button>',
-      '  <button type="button" class="card-btn card-btn-link share-btn" title="Copy Shareable Link">',
-      '    <svg class="card-btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">',
-      '      <circle cx="18" cy="5" r="3"></circle>',
-      '      <circle cx="6" cy="12" r="3"></circle>',
-      '      <circle cx="18" cy="19" r="3"></circle>',
-      '      <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>',
-      '      <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>',
-      '    </svg>',
-      '    <span>Share</span>',
       '  </button>',
       '</div>'
     ].join('');
 
     const copyCodeBtn = card.querySelector('.copy-code-btn');
     copyCodeBtn.addEventListener('click', () => {
-      copyToClipboard(item.code, 'Error code copied: ' + item.code, copyCodeBtn);
+      copyToClipboard(code, 'Error code copied: ' + code, copyCodeBtn);
     });
 
     const copyDescBtn = card.querySelector('.copy-desc-btn');
     copyDescBtn.addEventListener('click', () => {
-      copyToClipboard('Error Code: ' + item.code + '\nDescription: ' + item.description, 'Details copied!', copyDescBtn);
-    });
-
-    const shareBtn = card.querySelector('.share-btn');
-    shareBtn.addEventListener('click', () => {
-      const url = new URL(window.location.href);
-      url.searchParams.set('error', item.code);
-      copyToClipboard(url.toString(), 'Direct share link copied!', shareBtn);
+      copyToClipboard('Operator: ' + operator + '\nError Code: ' + code + '\nName: ' + errorName + '\nDescription: ' + desc, 'Details copied!', copyDescBtn);
     });
 
     return card;
