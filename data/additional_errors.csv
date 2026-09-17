@@ -1,0 +1,489 @@
+operator_provider,error_code,error_name,description,category,stage,retry,portal_action,source,verification
+Airtel,10,ESME_RINVSRCADR,Invalid source address / blank header,Header,SMPP/DLR,NO,Check Header/Sender ID,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,11,ESME_RINVDSTADR,Invalid destination address,Number,SMPP/DLR,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,196,INVALID_OPTIONAL_PARAM,Invalid optional parameter value,DLT,SMPP/DLR,PROVIDER-DEPENDENT,Check DLT scrubbing/route,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,20,QUEUE_FULL,Message queue full,Network,SMPP/DLR,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,21,ESME_RINVSERTYP,Invalid source/service type or wrong traffic type,Route,SMPP/DLR,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,24,TM_ID_ABSENT,TM ID tag absent,DLT,SMPP/DLR,PROVIDER-DEPENDENT,Check DLT scrubbing/route,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,25,TEMPLATE_ID_ABSENT,Template ID tag absent,DLT,SMPP/DLR,PROVIDER-DEPENDENT,Check DLT scrubbing/route,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,26,PE_ID_ABSENT,PE ID tag absent,DLT,SMPP/DLR,PROVIDER-DEPENDENT,Check DLT scrubbing/route,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,27,MULTI_MISSING_PART,Required multipart tag absent,SMPP,SMPP/DLR,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,3,ESME_RINVCMDID,Invalid Command ID,SMPP,SMPP/DLR,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,611,INVALID_ENTITY_ID,Invalid Entity/Header ID,DLT,SMPP/DLR,PROVIDER-DEPENDENT,Check DLT scrubbing/route,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,612,INVALID_CLI,Invalid CLI,Header,SMPP/DLR,NO,Check Header/Sender ID,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,613,INVALID_TEMPLATE_ID,Invalid Template ID,Template,SMPP/DLR,NO,Check Template ID/content,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,614,CLI_TEMPLATE_MISMATCH,CLI mismatch with template,Template,SMPP/DLR,NO,Check Template ID/content,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,615,TEMPLATE_HEADER_INVALID,Template or Header invalid,DLT,SMPP/DLR,PROVIDER-DEPENDENT,Check DLT scrubbing/route,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,616,INVALID_CATEGORY,Invalid category,DLT,SMPP/DLR,PROVIDER-DEPENDENT,Check DLT scrubbing/route,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,666,CONTENT_MISMATCH,SMS content mismatch,Template,SMPP/DLR,NO,Check Template ID/content,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,677,INVALID_TM_ID,Invalid Telemarketer ID,Telemarketer,SMPP/DLR,NO,Check TM ID,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,69,SHORTMSG_PAYLOAD_CONFLICT,Both short message and payload supplied,SMPP,SMPP/DLR,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,70,TM_ID_MISMATCH,TM ID mismatch / external ID issue,DLT,SMPP/DLR,PROVIDER-DEPENDENT,Check DLT scrubbing/route,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,8,DLT_ERROR,DLT unavailable/error or connection timeout,DLT,SMPP/DLR,PROVIDER-DEPENDENT,Check DLT scrubbing/route,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,801,ENTITY_BLACKLISTED,Entity blacklisted,Entity,SMPP/DLR,NO,Check Entity/PE ID,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,802,ENTITY_INACTIVE,Entity inactive/not registered,Entity,SMPP/DLR,NO,Check Entity/PE ID,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,803,HEADER_BLACKLISTED,Header blacklisted,Header,SMPP/DLR,NO,Check Header/Sender ID,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,804,HEADER_INACTIVE,Header inactive/not registered,Header,SMPP/DLR,NO,Check Header/Sender ID,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,9003,INVALID_COMMAND_ID,Invalid command ID,SMPP,SMPP/DLR,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,9008,DLT_TIMEOUT,DLT/ABMS connection timeout,Network,SMPP/DLR,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,9010,INVALID_SOURCE,Invalid source/CLI,Address,SMPP/DLR,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,9011,INVALID_DESTINATION,Invalid destination address,Address,SMPP/DLR,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,9014,INVALID_TM_USERNAME,Invalid TM username,Authentication,SMPP/DLR,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,9015,INVALID_TM_PASSWORD,Invalid TM password,Authentication,SMPP/DLR,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,9016,JMS_QUEUE_ERROR,JMS queue error,System,SMPP/DLR,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,9018,GOV_HEADER_ERROR,Government header lookup/account error,Government Header,SMPP/DLR,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,9019,GOV_HEADER_ACCOUNT_ERROR,Government header/account type error,Government Header,SMPP/DLR,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,9020,QUEUE_FULL,Message queue full,Network,SMPP/DLR,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,9021,INVALID_SERVICE_TYPE,Invalid service type/traffic type,Route,SMPP/DLR,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,9022,SHORTMSG_PAYLOAD_CONFLICT,Message present in both fields,SMPP,SMPP/DLR,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,9024,TM_ID_ABSENT,TM ID tag absent,DLT,SMPP/DLR,PROVIDER-DEPENDENT,Check DLT scrubbing/route,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,9025,TEMPLATE_ID_ABSENT,Template ID tag absent,DLT,SMPP/DLR,PROVIDER-DEPENDENT,Check DLT scrubbing/route,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,9026,PE_ID_ABSENT,PE ID tag absent,DLT,SMPP/DLR,PROVIDER-DEPENDENT,Check DLT scrubbing/route,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,9027,MULTI_MISSING_PART,Multipart tag absent,SMPP,SMPP/DLR,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,9030,INVALID_TM_ID,Invalid TM external ID/TM ID,Telemarketer,SMPP/DLR,NO,Check TM ID,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,9069,INVALID_DATA_CODING,Invalid data coding,SMPP,SMPP/DLR,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,9088,THROTTLED,Traffic rate exceeded,Throttling,SMPP/DLR,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Airtel,9196,INVALID_OPTIONAL_PARAM,Invalid optional parameter/TM ID,DLT,SMPP/DLR,PROVIDER-DEPENDENT,Check DLT scrubbing/route,Airtel published DLT mapping,DOCUMENTED/PUBLIC
+Jio,600,ENTITY_NOT_FOUND,No record found with Entity ID.,Entity,DLR/Submit,NO,Check Entity/PE ID,Common DLT mapping,VERIFY WITH OPERATOR
+Jio,601,ENTITY_NOT_REGISTERED,Entity is not registered.,Entity,DLR/Submit,NO,Check Entity/PE ID,Common DLT mapping,VERIFY WITH OPERATOR
+Jio,602,ENTITY_INACTIVE,Entity is inactive.,Entity,DLR/Submit,NO,Check Entity/PE ID,Common DLT mapping,VERIFY WITH OPERATOR
+Jio,603,ENTITY_BLACKLISTED,Entity is blacklisted.,Entity,DLR/Submit,NO,Check Entity/PE ID,Common DLT mapping,VERIFY WITH OPERATOR
+Jio,604,INVALID_ENTITY_ID,Invalid Entity ID.,Entity,DLR/Submit,NO,Check Entity/PE ID,Common DLT mapping,VERIFY WITH OPERATOR
+Jio,605,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,606,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,607,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,608,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,609,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,610,TELEMARKETER_NOT_REGISTERED,Telemarketer is not registered.,Telemarketer,DLR/Submit,NO,Check TM ID,Common DLT mapping,VERIFY WITH OPERATOR
+Jio,611,TELEMARKETER_INACTIVE,Telemarketer is inactive.,Telemarketer,DLR/Submit,NO,Check TM ID,Common DLT mapping,VERIFY WITH OPERATOR
+Jio,612,TELEMARKETER_BLACKLISTED,Telemarketer is blacklisted.,Telemarketer,DLR/Submit,NO,Check TM ID,Common DLT mapping,VERIFY WITH OPERATOR
+Jio,613,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,614,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,615,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,616,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,617,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,618,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,619,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,620,HEADER_NOT_FOUND,Header not found.,Header,DLR/Submit,NO,Check Header/Sender ID,Common DLT mapping,VERIFY WITH OPERATOR
+Jio,621,HEADER_INACTIVE,Header is inactive.,Header,DLR/Submit,NO,Check Header/Sender ID,Common DLT mapping,VERIFY WITH OPERATOR
+Jio,622,HEADER_BLACKLISTED,Header is blacklisted.,Header,DLR/Submit,NO,Check Header/Sender ID,Common DLT mapping,VERIFY WITH OPERATOR
+Jio,623,PEID_NOT_MATCHED_WITH_HEADER,PE ID does not match Header ID.,Header,DLR/Submit,NO,Check Header/Sender ID,Common DLT mapping,VERIFY WITH OPERATOR
+Jio,624,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,625,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,626,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,627,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,628,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,629,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,630,TEMPLATE_NOT_FOUND,Template not found.,Template,DLR/Submit,NO,Check Template ID/content,Common DLT mapping,VERIFY WITH OPERATOR
+Jio,631,TEMPLATE_INACTIVE,Template is inactive.,Template,DLR/Submit,NO,Check Template ID/content,Common DLT mapping,VERIFY WITH OPERATOR
+Jio,632,TEMPLATE_BLACKLISTED,Template is blacklisted.,Template,DLR/Submit,NO,Check Template ID/content,Common DLT mapping,VERIFY WITH OPERATOR
+Jio,633,TEMPLATE_NOT_MATCHED,Template/content does not match.,Template,DLR/Submit,NO,Check Template ID/content,Common DLT mapping,VERIFY WITH OPERATOR
+Jio,634,HEADER_NOT_REGISTERED_FOR_TEMPLATE,Header is not registered for template.,Template,DLR/Submit,NO,Check Template ID/content,Common DLT mapping,VERIFY WITH OPERATOR
+Jio,635,TEMPLATE_VARIABLE_LENGTH_EXCEEDED,Template variable exceeded maximum length.,Template,DLR/Submit,NO,Check Template ID/content,Common DLT mapping,VERIFY WITH OPERATOR
+Jio,636,ERROR_IDENTIFYING_TEMPLATE,Error identifying template.,Template,DLR/Submit,NO,Check Template ID/content,Common DLT mapping,VERIFY WITH OPERATOR
+Jio,637,INVALID_TEMPLATE_ID,Invalid Template ID.,Template,DLR/Submit,NO,Check Template ID/content,Common DLT mapping,VERIFY WITH OPERATOR
+Jio,638,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,639,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,640,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,641,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,642,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,643,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,644,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,645,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,646,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,647,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,648,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,649,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,650,PREFERENCE_NOT_MATCHED,Destination is blocked by preference/DND rules.,Preference/DND,DLR/Submit,PROVIDER-DEPENDENT,Check DND/preference/consent,Common DLT mapping,VERIFY WITH OPERATOR
+Jio,651,INVALID_PROMO_TIME,Promotional time restriction.,Preference/DND,DLR/Submit,PROVIDER-DEPENDENT,Check DND/preference/consent,Common DLT mapping,VERIFY WITH OPERATOR
+Jio,652,SE_CATEGORY_BLOCK,Service/entity category blocked.,Preference/DND,DLR/Submit,PROVIDER-DEPENDENT,Check DND/preference/consent,Common DLT mapping,VERIFY WITH OPERATOR
+Jio,653,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,654,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,655,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,656,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,657,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,658,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,659,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,660,CONSENT_FAILED,Consent validation failed.,Consent,DLR/Submit,NO,Check DND/preference/consent,Common DLT mapping,VERIFY WITH OPERATOR
+Jio,661,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,662,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,663,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,664,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,665,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,666,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,667,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,668,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,669,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,670,SCRUBBING_FAILED,DLT scrubbing failed.,Scrubbing,DLR/Submit,PROVIDER-DEPENDENT,Check DLT scrubbing/route,Common DLT mapping,VERIFY WITH OPERATOR
+Jio,671,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,672,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,673,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,674,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,675,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,676,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,677,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,678,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,679,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,680,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,681,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,682,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,683,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,684,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,685,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,686,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,687,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,688,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,689,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,690,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,691,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,692,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,693,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,694,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,695,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,696,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,697,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,698,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Jio,699,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Provider PDF,0,DELIVERED,DELIVERED,Delivery,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,1,UNKNOWN_SUBSCRIBER,UNKNOWN SUBSCRIBER,Subscriber / Number,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,10,INVALID_SOURCE_ADDRESS,INVALID SOURCE ADDRESS,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,100,DND,DND,DND / Preference,DLR/Error,NO,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,101,ACCOUNT_DETAILS_NOT_FOUND_AT_ROUTING,ACCOUNT DETAILS NOT FOUND AT ROUTING,Routing / Account,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,102,SENDER_ID_BLOCKED,SENDER ID BLOCKED,Header / Sender,DLR/Error,NO,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,103,ROUTE_NOT_ACTIVE,ROUTE NOT ACTIVE,Routing / Account,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,1033,CREDIT_LIMIT_EXCEEDED,CREDIT LIMIT EXCEEDED,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,104,OFF_NET_NOT_ACTIVE_FOR_ACCOUNT_ON_NET_ROUTES_NOT_DEFINED,OFF-NET NOT ACTIVE FOR ACCOUNT/ ON-NET ROUTES NOT DEFINED,Routing / Account,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,105,ON_NET_NOT_ACTIVE_FOR_ACCOUNT_OFF_NET_ROUTES_NOT_DEFINED,ON-NET NOT ACTIVE FOR ACCOUNT/ OFF-NET ROUTES NOT DEFINED,Routing / Account,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,106,ROUTES_NOT_CONFIGURED_FOR_ACCOUNT,ROUTES NOT CONFIGURED FOR ACCOUNT,Routing / Account,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,107,ROUTING_DISABLE_FOR_ACCOUNT,ROUTING DISABLE FOR ACCOUNT,Routing / Account,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,108,ROUTE_BLOCKED_FOR_THIS_SERIES,ROUTE BLOCKED FOR THIS SERIES,Routing / Account,DLR/Error,NO,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,109,MSISDN_SERIES_NOT_CONFIGURED,MSISDN SERIES NOT CONFIGURED,Subscriber / Number,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,11,TELESERVICE_NOT_PROVISIONED,TELESERVICE NOT PROVISIONED,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,110,NOT_ABLE_TO_GET_FINAL_ROUTE,NOT ABLE TO GET FINAL ROUTE,Routing / Account,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,111,SPAM_KEYWORD_FOUND,SPAM KEYWORD FOUND,Template / Content,DLR/Error,NO,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,112,NOT_A_VALID_TEMPLATE,NOT A VALID TEMPLATE,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,113,MANDATORY_WORDS_NOT_FOUND,MANDATORY WORDS NOT FOUND,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,114,DEFAULT_ROUTE_NOT_FOUND_IN_CONFIGURED_ROUTES,DEFAULT ROUTE NOT FOUND IN CONFIGURED ROUTES,Routing / Account,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,115,ROUTE_NOT_CONFIGURED_AT_PLATFORM_LEVEL,ROUTE NOT CONFIGURED AT PLATFORM LEVEL,Routing / Account,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,12,ILLEGAL_EQUIPMENT,ILLEGAL EQUIPMENT,Equipment / Protocol,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,123,INTERNATIONAL_ROAMING,INTERNATIONAL ROAMING,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,124,MESSAGE_EXPIRED_AT_SMSC_LEVEL,MESSAGE EXPIRED AT SMSC LEVEL,Network / SMSC,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,13,OPERATOR_CALLBARRED,OPERATOR CALLBARRED,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,15,CUG_REJECT,CUG REJECT,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,2,RDS_NOT_SUPPORTED_SERVICE,RDS NOT SUPPORTED SERVICE,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,20,MULTIPLE_SUBMISSIONS_ON_SINGLE_NUMBER,Multiple Submissions on Single Number,Subscriber / Number,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,200,OPERATOR_BLOCKED_FOR_ACCOUNT,OPERATOR BLOCKED FOR ACCOUNT,Routing / Account,DLR/Error,NO,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,21,FACILITY_NOT_SUPPORTED,FACILITY NOT SUPPORTED,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,221,MSISDN_BLOCKED,MSISDN BLOCKED,Subscriber / Number,DLR/Error,NO,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,222,MESSAGE_CONTENT_IS_BLACKLISTED,MESSAGE CONTENT IS BLACKLISTED,Template / Content,DLR/Error,NO,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,224,MESSAGE_CONTENT_BLOCKED_REGEX,MESSAGE CONTENT BLOCKED REGEX,Template / Content,DLR/Error,NO,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,225,MESSAGE_CONTENT_IS_BLACKLISTED_AT_OPERATOR,MESSAGE CONTENT IS BLACKLISTED AT OPERATOR,Template / Content,DLR/Error,NO,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,23,POWER_REGISTRATION_FAILURE,POWER REGISTRATION FAILURE,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,24,MAPUE_NEGATIVE_PW_CHECK,MAPUE_NEGATIVE_PW_CHECK,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,25,NO_HANDOVER_NUMBER_AVAILABLE,NO HANDOVER NUMBER AVAILABLE,Subscriber / Number,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,252,MESSAGE_VALIDITY_EXPIRED,MESSAGE VALIDITY EXPIRED,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,27,ABSENT_SUBSCRIBER,ABSENT SUBSCRIBER,Subscriber / Number,DLR/Error,MAYBE,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,277,DR_NOT_RECEIEVD_FROM_TELCO,DR NOT RECEIEVD FROM TELCO,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,29,SHORT_TERM_DENIAL,SHORT TERM DENIAL,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,31,SUBSCRIBER_BUSY_FOR_MT_SMS,SUBSCRIBER BUSY FOR MT SMS,Subscriber / Number,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,32,MEMORY_CAPACITY_EXCEEDED,MEMORY CAPACITY EXCEEDED,Other,DLR/Error,MAYBE,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,33,MESSAGE_WAITING_LIST_FULL,MESSAGE WAITING LIST FULL,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,34,SYSTEM_FAILURE,SYSTEM FAILURE,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,35,DATA_MISSING,DATA MISSING,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,36,UNEXPECTED_DATA_VALUE,UNEXPECTED DATA VALUE,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,37,SM_DELIVERY_FAILURE,SM-DELIVERY FAILURE,Delivery,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,42,NO_RESPONSE_FROM_PEER,NO RESPONSE FROM PEER,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,5,UNIDENTIFIED_SUBSCRIBER,UNIDENTIFIED SUBSCRIBER,Subscriber / Number,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,50,UNKNOWN_ERROR,UNKNOWN ERROR,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,6,ABSENT_SUBSCRIBER_V2,ABSENT SUBSCRIBER V2,Subscriber / Number,DLR/Error,MAYBE,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,63,GT_ERROR,GT ERROR,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,642-649,TEMPLATE_RESERVED,TEMPLATE_RESERVED,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,7,UNKNOWN_EQUIPMENT,UNKNOWN EQUIPMENT,Equipment / Protocol,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,74,INVALID_HEADER_IN_MSG,INVALID HEADER IN MSG,Header / Sender,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,8,FSM_TIMEOUT,FSM TIMEOUT,Network / SMSC,DLR/Error,MAYBE,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,801,DAMSG_LIMIT_EXCEEDED_CONTENT_,DAMSG_LIMIT_EXCEEDED (Content),Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,802,DA_LIMIT_EXCEEDED_MSISDN_,DA_LIMIT_EXCEEDED (Msisdn),Subscriber / Number,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,803,SUBMIT_SM_RESPONSE_NOT_RECEIVED_FROM_TELCO,SUBMIT_SM RESPONSE NOT RECEIVED FROM TELCO,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,804,ALL_PARTS_OF_LONG_SMS_NOT_RECEIEVED_WITHIN_THE_CONFIGURE,ALL PARTS OF LONG SMS NOT RECEIEVED WITHIN THE CONFIGURE,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,87,PROVIDER_ERROR,PROVIDER ERROR,Other,DLR/Error,MAYBE,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,877,DR_NOT_RECEIEVD_FROM_TELCO,DR NOT RECEIEVD FROM TELCO,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,88,SRI_TIMEOUT,SRI TIMEOUT,Network / SMSC,DLR/Error,MAYBE,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,89,INVALID_PACKET_AT_SMSC_LEVEL,INVALID PACKET AT SMSC LEVEL,Network / SMSC,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,9,ILLEGAL_SUBSCRIBER,ILLEGAL SUBSCRIBER,Subscriber / Number,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,90,USER_ABORT,USER-ABORT,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,91,PROVIDER_ABORT,PROVIDER-ABORT,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,92,MSC_NUMBER_MISSING,MSC NUMBER MISSING,Subscriber / Number,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,93,EQUIPMENT_PROTOCOL_ERROR,Equipment protocol error,Equipment / Protocol,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,94,EQUIPMENT_NOT_SM_EQUIPPED,Equipment not SM equipped,Equipment / Protocol,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,95,UNKNOWN_SERVICE_CENTRE,Unknown service centre,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,96,SERVICE_CENTRE_CONGESTION,Service Centre congestion,Other,DLR/Error,MAYBE,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,97,INVALID_SCHEDULE_DELIVERY_TIME,INVALID SCHEDULE DELIVERY TIME,Delivery,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,98,SUBSCRIBER_NOT_SC_SUBSCRIBER,Subscriber not SC subscriber,Subscriber / Number,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+Provider PDF,99,INVALID_SME_ADDRESS,Invalid SME address,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf,Uploaded source
+SmartPing,2001,IF_SUBSCRIBER_NOT_IN_DB,If Subscriber not in DB,Subscriber / Number,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,2002,IF_SUBSCRIBER_IS_IN_DB_BUT_PASSED_ALL_CHECKS,If Subscriber is in DB but passed all checks,Subscriber / Number,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,2003,IF_SUBSCRIBER_IS_IN_DB_BUT_IN_ACTIVE,If Subscriber is in DB but In-Active,Subscriber / Number,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,2004,IF_SUBSCRIBER_IS_IN_DB_NOT_IN_DB_WITH_SMS_IS_NOT_PROMO,If Subscriber is in DB/Not in DB with SMS is not Promo,Subscriber / Number,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,2005,CONSENT_GIVEN_VERIFIED,Consent given verified,Consent,DLR/Error,NO,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,2006,CONTENT_IS_T_OR_SI,Content is T or SI,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,2007,CONTENT_SCRUBBING_EXTEMPTED,Content Scrubbing Extempted,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,4000,REDIS_ERROR,Redis Error,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,4001,REDIS_REQUEST_TIMEOUT,Redis request Timeout,Network / SMSC,DLR/Error,MAYBE,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,4002,NOT_FOUND_IN_REDIS_DB,Not found in Redis DB,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,4004,CONTENT_ID_NOT_FOUND_IN_REDIS_DB,Content Id not found in Redis DB,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5101,FULLY_BLOCKED_OR_PROMO_BLOCKED,Fully blocked or promotional traffic blocked,DND/Preference,DLR,NO,Check DND/preference/consent,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,5101,IF_CATEGORY_IS_0_OR_50_,If Category is 0 or 50.,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5102,PREFERENCE_CATEGORY_FAILURE,Failed due to preference category,DND/Preference,DLR,NO,Check DND/preference/consent,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,5103,PREFERENCE_MODE_FAILURE,Failed due to preference communication mode,DND/Preference,DLR,NO,Check DND/preference/consent,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,5103,IF_SUBSCRIBER_CMODE_IS_10_OR_12_,If Subscriber cmode is 10 or 12.,Subscriber / Number,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5104,IF_OPSTYPE_IS_ACTIVE_IN_DLT,If Opstype is active in DLT,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5104,PREFERENCE_ACTIVE,Preference status is active,Preference,DLR,NO,Check DND/preference/consent,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,5105,IF_DAY_CODE_FOUND_IN_SUBSCRIBER_PREFERENCE_DAY,If day code found in Subscriber Preference Day,DND / Preference,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5105,PREFERRED_DAY_BLOCKED,Preferred day is blocked,Preference,DLR,NO,Check DND/preference/consent,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,5106,IF_TIME_CODE_FOUND_IN_SUBSCRIBER_PREFERENCE_TIME,If Time code found in Subscriber Preference Time,DND / Preference,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5106,PREFERRED_TIME_BLOCKED,Preferred time is blocked,Preference,DLR,NO,Check DND/preference/consent,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,5107,BLACKOUT_TIME,Blackout time,Preference,DLR,NO,Check DND/preference/consent,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,5107,IF_USER_NOT_REG_ON_DND_BUT_CURRENT_RESTRICTED_BLACKOUT_,If user not reg. on DND but current restricted (Blackout),DND / Preference,DLR/Error,NO,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5108,BLACKOUT_TIME_WHEN_DND_APPLIES_ON_SE_TEMPLATE,Blackout Time When DND applies on SE Template,DND / Preference,DLR/Error,NO,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5108,PROMO_PREFERENCE_CONFLICT,Promotional content/preference conflict,Preference,DLR,NO,Check DND/preference/consent,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,5109,PREFERENCE_CONSENT_CONFLICT,Preference/consent category conflict,Preference/Consent,DLR,NO,Check DND/preference/consent,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,5201,HEADER_NOT_ACTIVE,Header not active,Header,DLR,NO,Check Header/Sender ID,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,5201,IF_HEADER_NOT_ACTIVE,If Header not Active,Header / Sender,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5202,HEADER_BLACKLISTED,Header blacklisted,Header,DLR,NO,Check Header/Sender ID,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,5202,IF_HEADER_IS_BLACKLISTED_,If Header is Blacklisted.,Header / Sender,DLR/Error,NO,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5203,HEADER_NOT_FOUND,Header not found/registered,Header,DLR,NO,Check Header/Sender ID,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,5203,IF_HEADER_NOT_FOUND_REGISTERED,If Header not found/registered,Header / Sender,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5204,HDR_OP_INACTIVE,HDR_OP_INACTIVE,Other,DLR/Error,NO,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5204,HDR_OP_INACTIVE,Header operator inactive,Header,DLR,NO,Check Header/Sender ID,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,5205,ENTITY_ID_XML_MISMATCH,Entity ID not matched with XML,Entity,DLR,NO,Check Entity/PE ID,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,5206,ALPHABETIC_PROMO_PORT,Alphabetic request on promotional port,Header/Route,DLR,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,5206,PORT_IS_PROMO_GETTING_TRANS_HITS,Port is Promo getting Trans hits,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5207,PORT_IS_TRANS_GETTING_PROMO_HITS,Port is Trans getting Promo hits,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5208,HDR_CASE_SEN_CLI_GOVT_HEADER_,HDR_CASE_SEN_CLI (Govt. Header),Header / Sender,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5210,ENTITY_ID_NOT_MATCHING_WITH_DESIRE_USER_ID,Entity ID not matching with desire User_ID,Entity,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5213,HEADER_SUSPENDED_USAGE,Header suspended due to usage,Header,DLR,NO,Check Header/Sender ID,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,5214,HEADER_SUSPENDED_VALIDITY,Header suspended due to validity,Header,DLR,NO,Check Header/Sender ID,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,5215,HEADER_SUSPENDED_CUSTOMER,Customer-initiated header suspension,Header,DLR,NO,Check Header/Sender ID,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,5215,HEADER_SUSPENSION_CUSTOMER_INITIATIVE_SELF_,Header Suspension - Customer initiative (Self),Header / Sender,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5301,CONTENT_UNREGISTERED,Content unregistered,Template,DLR,NO,Check Template ID/content,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,5302,CONTENT_BLACKLISTED,Content Blacklisted,Template / Content,DLR/Error,NO,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5302,CONTENT_BLACKLISTED,Content ID blacklisted,Template,DLR,NO,Check Template ID/content,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,5303,CONTENT_WITH_UNKNOWN_CLI,Content with Unknown CLI,Header / Sender,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5304,CONTENT_NOT_IN_DB,Content Not in DB,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5305,CONTENT_TYPE_MISMATCHED,Content Type Mismatched,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5306,CONTENT_ID_NOT_ACTIVE,Content ID not Active,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5307,CONTENT_REGEX_NOT_MATCHED,Content Regex not matched,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5308,CONTENT_ID_BLANK,Content ID Blank,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5309,CONTENT_ID_BLACKLISTED_BY_VISPL,Content ID Blacklisted by VISPL,Template / Content,DLR/Error,NO,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5310,_CONTENT_MULTIPART_NOT_COMPLETE,. Content Multipart not complete,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5311,_CONTENT_ACTIVE_INACTIVE_BY_VM_QL,. Content Active/Inactive by VM/QL,Template / Content,DLR/Error,NO,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5312,_CONTENT_VARIABLE_EXCEEDS,. Content variable exceeds,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5313,TEMPLATE_SUSPENDED_DUE_TO_USAGE,Template Suspended Due to Usage,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5314,TEMPLATE_SUSPENDED_DUE_TO_VALIDITY,Template Suspended Due to Validity,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5315,TEMPLATE_SUSPENSION_CUSTOMER_INITIATIVE_SELF_,Template Suspension - Customer initiative (Self),Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5401,COMM_IS_TRANS_SE_SI_HEADER_IS_INACTIVE_BLACKLISTED,COMM is Trans/SE/SI & Header is Inactive/Blacklisted,Header / Sender,DLR/Error,NO,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5402,COMM_IS_TRANS_SE_SI_CONTENT_ID_IS_INACTIVE,COMM is Trans/SE/SI & Content_ID is Inactive,Template / Content,DLR/Error,NO,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5403,COMM_IS_TRANS_SE_SI_CONTENT_ASSOC_HEADER_IS_DIFFERENT,COMM is Trans/SE/SI & Content AssoC. Header is Different,Header / Sender,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5404,COMM_IS_TRANS_CONTENT_IS_REGISTERED_FOR_SOME_OTHER_TYPE,COMM is Trans&Content is registered for some other type,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5405,COMM_IS_SI_CONTENT_IS_REGISTERED_FOR_SOME_OTHER_TYPE,COMM is SI & Content is registered for some other type,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5406,COMM_IS_SE_CONTENT_IS_REGISTERED_FOR_SOME_OTHER_TYPE,COMM is SE & Content is registered for some other type,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5501,CONSENT_NOT_IN_DB,Consent Not in DB,Consent,DLR/Error,NO,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5502,CONSENT_EXPIRED,Consent Expired,Consent,DLR/Error,NO,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5503,CONSENT_REVOKED,Consent Revoked,Consent,DLR/Error,NO,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5504,CONSENT_INITIATED,Consent Initiated,Consent,DLR/Error,NO,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5505,CONSENT_VERIFIED,Consent_Verified,Consent,DLR/Error,NO,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5506,CONSENT_FAILED,Consent_Failed,Consent,DLR/Error,NO,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5507,CONSENT_DISCONNECTED,Consent_Disconnected,Consent,DLR/Error,NO,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5508,CONSENT_SBCHURN,Consent_SBchurn,Consent,DLR/Error,NO,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5510,MIGRATION_VERIFIED,Migration-Verified,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5901,URL_NOT_FOUND,URL_NOT_FOUND,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5902,URL_BLACKLISTED,URL_BLACKLISTED,Other,DLR/Error,NO,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,5903,URL_INACTIVE,URL_INACTIVE,Other,DLR/Error,NO,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,600,ENTITY_NOT_FOUND,ENTITY_NOT_FOUND,Entity,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,601,ENTITY_NOT_REGISTERED,ENTITY_NOT_REGISTERED,Entity,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,602,ENTITY_INACTIVE,ENTITY_INACTIVE,Entity,DLR/Error,NO,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,603,ENTITY_BLACKLISTED,ENTITY_BLACKLISTED,Entity,DLR/Error,NO,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,604,INVALID_ENTITY_ID,INVALID_ENTITY_ID,Entity,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,605,ENTITY_ID_NOT_ALLOWED_FOR_TM,ENTITY_ID_NOT_ALLOWED_FOR_TM,Entity,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,606 - 609,ENTITY_RESERVED,ENTITY_RESERVED,Entity,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,610,TELEMARKETER_NOT_REGISTERED,TELEMARKETER_NOT_REGISTERED,Telemarketer,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,611,TELEMARKETER_INACTIVE,TELEMARKETER_INACTIVE,Telemarketer,DLR/Error,NO,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,612,TELEMARKETER_BLACKLISTED,TELEMARKETER_BLACKLISTED,Telemarketer,DLR/Error,NO,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,613,TELEMARKETER_NOT_ALLOWED_FOR_ENTITY,TELEMARKETER_NOT_ALLOWED_FOR_ENTITY,Entity,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,614-619,TELEMARKETER_RESERVED,TELEMARKETER_RESERVED,Telemarketer,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,620,HEADER_NOT_FOUND,HEADER_NOT_FOUND,Header / Sender,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,621,HEADER_INACTIVE,HEADER_INACTIVE,Header / Sender,DLR/Error,NO,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,622,HEADER_BLACKLISTED,HEADER_BLACKLISTED,Header / Sender,DLR/Error,NO,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,623,PEID_NOT_MATCHED_WITH_HEADER,PEID_NOT_MATCHED_WITH_HEADER,Entity,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,624,HEADER_SUSPENDED_DUE_TO_VALIDITY,HEADER_SUSPENDED_DUE_TO_VALIDITY,Header / Sender,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,625,HEADER_SUSPENDED_DUE_TO_USAGE,HEADER_SUSPENDED_DUE_TO_USAGE,Header / Sender,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,626,HEADER_SUSPENDED_DUE_TO_CUSTOMER,HEADER_SUSPENDED_DUE_TO_CUSTOMER,Header / Sender,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,627,HEADER_MISUSED_FOR_INVALID_CONTENT,HEADER_MISUSED_FOR_INVALID_CONTENT,Header / Sender,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,628,HEADER_RESERVED,HEADER_RESERVED,Header / Sender,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,629,HEADER_MISUSED_FOR_INVALID_CONTENT,HEADER_MISUSED_FOR_INVALID_CONTENT,Header / Sender,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,630,TEMPLATE_NOT_FOUND,TEMPLATE_NOT_FOUND,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,631,TEMPLATE_INACTIVE,TEMPLATE_INACTIVE,Template / Content,DLR/Error,NO,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,632,TEMPLATE_BLACKLISTED,TEMPLATE_BLACKLISTED,Template / Content,DLR/Error,NO,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,633,TEMPLATE_NOT_MATCHED,TEMPLATE_NOT_MATCHED,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,634,HEADER_NOT_REGISTERED_FOR_TEMPLATE,HEADER_NOT_REGISTERED_FOR_TEMPLATE,Header / Sender,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,635,TEMPLATE_VARIABLE_EXCEEDED_MAX_LENGTH,TEMPLATE_VARIABLE_EXCEEDED_MAX_LENGTH,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,636,ERROR_IDENTIFYING_TEMPLATE,ERROR_IDENTIFYING_TEMPLATE,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,637,INVALID_TEMPLATE_ID,INVALID_TEMPLATE_ID,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,638,ENTITY_NOT_REGISTERED_FOR_TEMPLATE,ENTITY_NOT_REGISTERED_FOR_TEMPLATE,Entity,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,639,TEMPLATE_SUSPENDED_DUE_TO_VALIDITY,TEMPLATE_SUSPENDED_DUE_TO_VALIDITY,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,640,TEMPLATE_SUSPENDED_DUE_TO_USAGE,TEMPLATE_SUSPENDED_DUE_TO_USAGE,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,641,TEMPLATE_SUSPENDED_DUE_TO_CUSTOMER,TEMPLATE_SUSPENDED_DUE_TO_CUSTOMER,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,642,CTA_NOT_WHITELISTED,CTA_NOT_WHITELISTED,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,643-649,TEMPLATE_RESERVED,TEMPLATE_RESERVED,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,650,PREFERENCE_NOT_MATCHED,Preference not matched,Preference/DND,DLR,PROVIDER-DEPENDENT,Check DND/preference/consent,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,651,INVALID_PROMO_TIME,INVALID_PROMO_TIME,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,651,INVALID_PROMO_TIME,Invalid promotional time,Preference/DND,DLR,PROVIDER-DEPENDENT,Check DND/preference/consent,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,652,SE_CATEGORY_BLOCK,SE_CATEGORY_BLOCK,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,652,SE_CATEGORY_BLOCK,Service/entity category block,Preference/DND,DLR,PROVIDER-DEPENDENT,Check DND/preference/consent,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,653-659,PREFERENCE_RESERVED,PREFERENCE_RESERVED,DND / Preference,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,660,CONSENT_FAILED,Consent failed,Consent,DLR,NO,Check DND/preference/consent,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,661-669,CONSENT_RESERVED,CONSENT_RESERVED,Consent,DLR/Error,NO,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,670,SCRUBBING_FAILED,Scrubbing failed,Scrubbing,DLR,PROVIDER-DEPENDENT,Check DLT scrubbing/route,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,671-699,SCRUBBING_RESERVED,SCRUBBING_RESERVED,DLT Scrubbing,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,ANUJerror (1).pdf; smartpingerrorcode.xlsx,Uploaded source
+SmartPing,7001,ENTITY_INACTIVE,Entity inactive,Entity,DLR,NO,Check Entity/PE ID,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,7001,ENTITY_IS_IN_ACTIVE,Entity is In-Active,Entity,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,7002,ENTITY_IS_BLACKLIST,Entity is Blacklist,Entity,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,7002,SCRUBBING_RESERVED,Reserved for scrubbing,Scrubbing,DLR,PROVIDER-DEPENDENT,Check DLT scrubbing/route,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,7003,ENTITY_NOT_IN_DB,Entity not in DB,Entity,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,7003,ENTITY_NOT_IN_DB,Entity not in database,Entity,DLR,NO,Check Entity/PE ID,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,7004,ENTITY_ID_BLANK,Entity ID blank,Entity,DLR,NO,Check Entity/PE ID,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,7005,ENTITY_OP_INACTIVE,ENTITY_OP_INACTIVE,Entity,DLR/Error,NO,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+SmartPing,7005,ENTITY_OPERATOR_INACTIVE,Entity operator inactive,Entity,DLR,NO,Check Entity/PE ID,Public SmartPing mapping,DOCUMENTED/PUBLIC
+SmartPing,701,CTA_ERROR,CTA Error,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,smartpingerrorcode.xlsx,Uploaded source
+Telspil,000,DELIVERED,Delivered,Delivery,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,001,INVALID_NUMBER,Invalid Number,Subscriber / Number,DLR/Error,NO,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,002,ABSENT_SUBSCRIBER,Absent Subscriber,Subscriber / Number,DLR/Error,MAYBE,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,003,MEMORY_CAPACITY_EXCEEDED,Memory Capacity Exceeded,Other,DLR/Error,MAYBE,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,004,MOBILE_EQUIPMENT_ERROR,Mobile Equipment Error,Equipment / Protocol,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,005,NETWORK_ERROR,Network Error,Network / SMSC,DLR/Error,MAYBE,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,006,BARRING,Barring,Other,DLR/Error,NO,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,007,INVALID_SENDER_ID,Invalid Sender ID,Header / Sender,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,008,DROPPED,Dropped,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,009,NDNC_FAILED,NDNC Failed,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,100,MISC_ERROR,Misc. Error,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,111,ENTITY_NOT_REGISTERED,Entity not registered,Entity,DLR/Error,NO,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,112,ENTITY_INACTIVE,Entity Inactive,Entity,DLR/Error,NO,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,114,INVALID_TELEMARKETER,Invalid Telemarketer,Telemarketer,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,115,CLI_MISMATCH_WITH_TEMPLATE,CLI Mismatch with Template,Header / Sender,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,116,HEADER_INACTIVE,Header Inactive,Header / Sender,DLR/Error,NO,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,117,HEADER_BLACKLISTED,Header Blacklisted,Header / Sender,DLR/Error,NO,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,118,TEMPLATE_NOT_FOUND,Template not found,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,119,TEMPLATE_INACTIVE,Template Inactive,Template / Content,DLR/Error,NO,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,120,TEMPLATE_NOT_MATCHED,Template not Matched,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,121,TEMPLATE_BLACKLISTED,Template blacklisted,Template / Content,DLR/Error,NO,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,122,INVALID_CONSENT,Invalid Consent,Consent,DLR/Error,NO,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,123,GENERAL_CONSENT_ERROR,General Consent error,Consent,DLR/Error,NO,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,124,DLT_MISCELLANEOUS_ERROR,DLT Miscellaneous error,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,125,TEMPLATE_VARIABLE_EXCEEDED,TEMPLATE_VARIABLE_EXCEEDED,Template / Content,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,126,INVALID_TEMPLATE_ID,Invalid Template id,Template / Content,DLR/Error,NO,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,128,ENTITY_BLACKLISTED,Entity blacklisted,Entity,DLR/Error,NO,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,129,ENTITY_NOT_FOUND,Entity not found,Entity,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,130,SPAM_FILTER,Spam filter,Other,DLR/Error,NO,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,132,INVALID_PROMO_TIME,INVALID PROMO TIME,DND / Preference,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,700,CTA_NOT_WHITELISTED,CTA Not whitelisted,Other,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Telspil,812,INVALID_PE_TM_HASH_,Invalid PE-TM hash.,Entity,DLR/Error,PROVIDER-DEPENDENT,Check provider/gateway logs and documentation,telspilerrorcode.txt,Uploaded source
+Vi,600,ENTITY_NOT_FOUND,No record found with Entity ID.,Entity,DLR/Submit,NO,Check Entity/PE ID,Common DLT mapping,VERIFY WITH OPERATOR
+Vi,601,ENTITY_NOT_REGISTERED,Entity is not registered.,Entity,DLR/Submit,NO,Check Entity/PE ID,Common DLT mapping,VERIFY WITH OPERATOR
+Vi,602,ENTITY_INACTIVE,Entity is inactive.,Entity,DLR/Submit,NO,Check Entity/PE ID,Common DLT mapping,VERIFY WITH OPERATOR
+Vi,603,ENTITY_BLACKLISTED,Entity is blacklisted.,Entity,DLR/Submit,NO,Check Entity/PE ID,Common DLT mapping,VERIFY WITH OPERATOR
+Vi,604,INVALID_ENTITY_ID,Invalid Entity ID.,Entity,DLR/Submit,NO,Check Entity/PE ID,Common DLT mapping,VERIFY WITH OPERATOR
+Vi,605,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,606,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,607,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,608,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,609,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,610,TELEMARKETER_NOT_REGISTERED,Telemarketer is not registered.,Telemarketer,DLR/Submit,NO,Check TM ID,Common DLT mapping,VERIFY WITH OPERATOR
+Vi,611,TELEMARKETER_INACTIVE,Telemarketer is inactive.,Telemarketer,DLR/Submit,NO,Check TM ID,Common DLT mapping,VERIFY WITH OPERATOR
+Vi,612,TELEMARKETER_BLACKLISTED,Telemarketer is blacklisted.,Telemarketer,DLR/Submit,NO,Check TM ID,Common DLT mapping,VERIFY WITH OPERATOR
+Vi,613,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,614,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,615,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,616,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,617,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,618,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,619,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,620,HEADER_NOT_FOUND,Header not found.,Header,DLR/Submit,NO,Check Header/Sender ID,Common DLT mapping,VERIFY WITH OPERATOR
+Vi,621,HEADER_INACTIVE,Header is inactive.,Header,DLR/Submit,NO,Check Header/Sender ID,Common DLT mapping,VERIFY WITH OPERATOR
+Vi,622,HEADER_BLACKLISTED,Header is blacklisted.,Header,DLR/Submit,NO,Check Header/Sender ID,Common DLT mapping,VERIFY WITH OPERATOR
+Vi,623,PEID_NOT_MATCHED_WITH_HEADER,PE ID does not match Header ID.,Header,DLR/Submit,NO,Check Header/Sender ID,Common DLT mapping,VERIFY WITH OPERATOR
+Vi,624,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,625,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,626,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,627,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,628,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,629,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,630,TEMPLATE_NOT_FOUND,Template not found.,Template,DLR/Submit,NO,Check Template ID/content,Common DLT mapping,VERIFY WITH OPERATOR
+Vi,631,TEMPLATE_INACTIVE,Template is inactive.,Template,DLR/Submit,NO,Check Template ID/content,Common DLT mapping,VERIFY WITH OPERATOR
+Vi,632,TEMPLATE_BLACKLISTED,Template is blacklisted.,Template,DLR/Submit,NO,Check Template ID/content,Common DLT mapping,VERIFY WITH OPERATOR
+Vi,633,TEMPLATE_NOT_MATCHED,Template/content does not match.,Template,DLR/Submit,NO,Check Template ID/content,Common DLT mapping,VERIFY WITH OPERATOR
+Vi,634,HEADER_NOT_REGISTERED_FOR_TEMPLATE,Header is not registered for template.,Template,DLR/Submit,NO,Check Template ID/content,Common DLT mapping,VERIFY WITH OPERATOR
+Vi,635,TEMPLATE_VARIABLE_LENGTH_EXCEEDED,Template variable exceeded maximum length.,Template,DLR/Submit,NO,Check Template ID/content,Common DLT mapping,VERIFY WITH OPERATOR
+Vi,636,ERROR_IDENTIFYING_TEMPLATE,Error identifying template.,Template,DLR/Submit,NO,Check Template ID/content,Common DLT mapping,VERIFY WITH OPERATOR
+Vi,637,INVALID_TEMPLATE_ID,Invalid Template ID.,Template,DLR/Submit,NO,Check Template ID/content,Common DLT mapping,VERIFY WITH OPERATOR
+Vi,638,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,639,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,640,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,641,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,642,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,643,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,644,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,645,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,646,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,647,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,648,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,649,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,650,PREFERENCE_NOT_MATCHED,Destination is blocked by preference/DND rules.,Preference/DND,DLR/Submit,PROVIDER-DEPENDENT,Check DND/preference/consent,Common DLT mapping,VERIFY WITH OPERATOR
+Vi,651,INVALID_PROMO_TIME,Promotional time restriction.,Preference/DND,DLR/Submit,PROVIDER-DEPENDENT,Check DND/preference/consent,Common DLT mapping,VERIFY WITH OPERATOR
+Vi,652,SE_CATEGORY_BLOCK,Service/entity category blocked.,Preference/DND,DLR/Submit,PROVIDER-DEPENDENT,Check DND/preference/consent,Common DLT mapping,VERIFY WITH OPERATOR
+Vi,653,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,654,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,655,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,656,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,657,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,658,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,659,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,660,CONSENT_FAILED,Consent validation failed.,Consent,DLR/Submit,NO,Check DND/preference/consent,Common DLT mapping,VERIFY WITH OPERATOR
+Vi,661,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,662,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,663,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,664,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,665,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,666,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,667,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,668,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,669,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,670,SCRUBBING_FAILED,DLT scrubbing failed.,Scrubbing,DLR/Submit,PROVIDER-DEPENDENT,Check DLT scrubbing/route,Common DLT mapping,VERIFY WITH OPERATOR
+Vi,671,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,672,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,673,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,674,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,675,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,676,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,677,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,678,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,679,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,680,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,681,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,682,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,683,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,684,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,685,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,686,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,687,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,688,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,689,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,690,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,691,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,692,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,693,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,694,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,695,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,696,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,697,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,698,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED
+Vi,699,RESERVED / NOT PUBLICLY MAPPED,"Numeric code exists in the DLT family, but a specific public meaning was not verified.",Reserved,DLT,PROVIDER-DEPENDENT,Check SMPP/session/network and provider logs,Common DLT family,NOT VERIFIED

@@ -7,10 +7,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "No record found with Entity ID.",
     "category": "Entity",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Entity/PE ID"
+    "portal_action": "Check Entity/PE ID",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Jio",
@@ -19,10 +19,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Entity is not registered.",
     "category": "Entity",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Entity/PE ID"
+    "portal_action": "Check Entity/PE ID",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Jio",
@@ -31,10 +31,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Entity is inactive.",
     "category": "Entity",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Entity/PE ID"
+    "portal_action": "Check Entity/PE ID",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Jio",
@@ -43,10 +43,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Entity is blacklisted.",
     "category": "Entity",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Entity/PE ID"
+    "portal_action": "Check Entity/PE ID",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Jio",
@@ -55,10 +55,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Invalid Entity ID.",
     "category": "Entity",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Entity/PE ID"
+    "portal_action": "Check Entity/PE ID",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Jio",
@@ -67,10 +67,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Telemarketer is not registered.",
     "category": "Telemarketer",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check TM ID"
+    "portal_action": "Check TM ID",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Jio",
@@ -79,10 +79,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Telemarketer is inactive.",
     "category": "Telemarketer",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check TM ID"
+    "portal_action": "Check TM ID",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Jio",
@@ -91,10 +91,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Telemarketer is blacklisted.",
     "category": "Telemarketer",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check TM ID"
+    "portal_action": "Check TM ID",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Jio",
@@ -103,10 +103,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Header not found.",
     "category": "Header",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Header/Sender ID"
+    "portal_action": "Check Header/Sender ID",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Jio",
@@ -115,10 +115,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Header is inactive.",
     "category": "Header",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Header/Sender ID"
+    "portal_action": "Check Header/Sender ID",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Jio",
@@ -127,10 +127,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Header is blacklisted.",
     "category": "Header",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Header/Sender ID"
+    "portal_action": "Check Header/Sender ID",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Jio",
@@ -139,10 +139,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "PE ID does not match Header ID.",
     "category": "Header",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Header/Sender ID"
+    "portal_action": "Check Header/Sender ID",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Jio",
@@ -151,10 +151,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Template not found.",
     "category": "Template",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Template ID/content"
+    "portal_action": "Check Template ID/content",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Jio",
@@ -163,10 +163,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Template is inactive.",
     "category": "Template",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Template ID/content"
+    "portal_action": "Check Template ID/content",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Jio",
@@ -175,10 +175,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Template is blacklisted.",
     "category": "Template",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Template ID/content"
+    "portal_action": "Check Template ID/content",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Jio",
@@ -187,10 +187,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Template/content does not match.",
     "category": "Template",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Template ID/content"
+    "portal_action": "Check Template ID/content",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Jio",
@@ -199,10 +199,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Header is not registered for template.",
     "category": "Template",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Template ID/content"
+    "portal_action": "Check Template ID/content",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Jio",
@@ -211,10 +211,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Template variable exceeded maximum length.",
     "category": "Template",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Template ID/content"
+    "portal_action": "Check Template ID/content",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Jio",
@@ -223,10 +223,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Error identifying template.",
     "category": "Template",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Template ID/content"
+    "portal_action": "Check Template ID/content",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Jio",
@@ -235,10 +235,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Invalid Template ID.",
     "category": "Template",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Template ID/content"
+    "portal_action": "Check Template ID/content",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Jio",
@@ -247,10 +247,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Destination is blocked by preference/DND rules.",
     "category": "Preference/DND",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check DND/preference/consent"
+    "portal_action": "Check DND/preference/consent",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Jio",
@@ -259,10 +259,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Promotional time restriction.",
     "category": "Preference/DND",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check DND/preference/consent"
+    "portal_action": "Check DND/preference/consent",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Jio",
@@ -271,10 +271,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Service/entity category blocked.",
     "category": "Preference/DND",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check DND/preference/consent"
+    "portal_action": "Check DND/preference/consent",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Jio",
@@ -283,10 +283,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Consent validation failed.",
     "category": "Consent",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check DND/preference/consent"
+    "portal_action": "Check DND/preference/consent",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Jio",
@@ -295,10 +295,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "DLT scrubbing failed.",
     "category": "Scrubbing",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check DLT scrubbing/route"
+    "portal_action": "Check DLT scrubbing/route",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Vi",
@@ -307,10 +307,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "No record found with Entity ID.",
     "category": "Entity",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Entity/PE ID"
+    "portal_action": "Check Entity/PE ID",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Vi",
@@ -319,10 +319,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Entity is not registered.",
     "category": "Entity",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Entity/PE ID"
+    "portal_action": "Check Entity/PE ID",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Vi",
@@ -331,10 +331,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Entity is inactive.",
     "category": "Entity",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Entity/PE ID"
+    "portal_action": "Check Entity/PE ID",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Vi",
@@ -343,10 +343,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Entity is blacklisted.",
     "category": "Entity",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Entity/PE ID"
+    "portal_action": "Check Entity/PE ID",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Vi",
@@ -355,10 +355,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Invalid Entity ID.",
     "category": "Entity",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Entity/PE ID"
+    "portal_action": "Check Entity/PE ID",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Vi",
@@ -367,10 +367,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Telemarketer is not registered.",
     "category": "Telemarketer",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check TM ID"
+    "portal_action": "Check TM ID",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Vi",
@@ -379,10 +379,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Telemarketer is inactive.",
     "category": "Telemarketer",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check TM ID"
+    "portal_action": "Check TM ID",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Vi",
@@ -391,10 +391,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Telemarketer is blacklisted.",
     "category": "Telemarketer",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check TM ID"
+    "portal_action": "Check TM ID",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Vi",
@@ -403,10 +403,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Header not found.",
     "category": "Header",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Header/Sender ID"
+    "portal_action": "Check Header/Sender ID",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Vi",
@@ -415,10 +415,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Header is inactive.",
     "category": "Header",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Header/Sender ID"
+    "portal_action": "Check Header/Sender ID",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Vi",
@@ -427,10 +427,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Header is blacklisted.",
     "category": "Header",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Header/Sender ID"
+    "portal_action": "Check Header/Sender ID",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Vi",
@@ -439,10 +439,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "PE ID does not match Header ID.",
     "category": "Header",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Header/Sender ID"
+    "portal_action": "Check Header/Sender ID",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Vi",
@@ -451,10 +451,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Template not found.",
     "category": "Template",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Template ID/content"
+    "portal_action": "Check Template ID/content",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Vi",
@@ -463,10 +463,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Template is inactive.",
     "category": "Template",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Template ID/content"
+    "portal_action": "Check Template ID/content",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Vi",
@@ -475,10 +475,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Template is blacklisted.",
     "category": "Template",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Template ID/content"
+    "portal_action": "Check Template ID/content",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Vi",
@@ -487,10 +487,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Template/content does not match.",
     "category": "Template",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Template ID/content"
+    "portal_action": "Check Template ID/content",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Vi",
@@ -499,10 +499,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Header is not registered for template.",
     "category": "Template",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Template ID/content"
+    "portal_action": "Check Template ID/content",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Vi",
@@ -511,10 +511,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Template variable exceeded maximum length.",
     "category": "Template",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Template ID/content"
+    "portal_action": "Check Template ID/content",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Vi",
@@ -523,10 +523,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Error identifying template.",
     "category": "Template",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Template ID/content"
+    "portal_action": "Check Template ID/content",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Vi",
@@ -535,10 +535,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Invalid Template ID.",
     "category": "Template",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check Template ID/content"
+    "portal_action": "Check Template ID/content",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Vi",
@@ -547,10 +547,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Destination is blocked by preference/DND rules.",
     "category": "Preference/DND",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check DND/preference/consent"
+    "portal_action": "Check DND/preference/consent",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Vi",
@@ -559,10 +559,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Promotional time restriction.",
     "category": "Preference/DND",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check DND/preference/consent"
+    "portal_action": "Check DND/preference/consent",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Vi",
@@ -571,10 +571,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Service/entity category blocked.",
     "category": "Preference/DND",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check DND/preference/consent"
+    "portal_action": "Check DND/preference/consent",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Vi",
@@ -583,10 +583,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Consent validation failed.",
     "category": "Consent",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "NO",
-    "portal_action": "Check DND/preference/consent"
+    "portal_action": "Check DND/preference/consent",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Vi",
@@ -595,10 +595,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "DLT scrubbing failed.",
     "category": "Scrubbing",
     "stage": "DLR/Submit",
-    "source": "Common DLT mapping",
-    "verification": "VERIFY WITH OPERATOR",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check DLT scrubbing/route"
+    "portal_action": "Check DLT scrubbing/route",
+    "source": "Common DLT mapping",
+    "verification": "VERIFY WITH OPERATOR"
   },
   {
     "operator": "Airtel",
@@ -607,10 +607,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Invalid Command ID",
     "category": "SMPP",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -619,10 +619,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "DLT unavailable/error or connection timeout",
     "category": "DLT",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check DLT scrubbing/route"
+    "portal_action": "Check DLT scrubbing/route",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -631,10 +631,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Invalid source address / blank header",
     "category": "Header",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check Header/Sender ID"
+    "portal_action": "Check Header/Sender ID",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -643,10 +643,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Invalid destination address",
     "category": "Number",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -655,10 +655,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Message queue full",
     "category": "Network",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -667,10 +667,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Invalid source/service type or wrong traffic type",
     "category": "Route",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -679,10 +679,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "TM ID tag absent",
     "category": "DLT",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check DLT scrubbing/route"
+    "portal_action": "Check DLT scrubbing/route",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -691,10 +691,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Template ID tag absent",
     "category": "DLT",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check DLT scrubbing/route"
+    "portal_action": "Check DLT scrubbing/route",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -703,10 +703,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "PE ID tag absent",
     "category": "DLT",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check DLT scrubbing/route"
+    "portal_action": "Check DLT scrubbing/route",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -715,10 +715,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Required multipart tag absent",
     "category": "SMPP",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -727,10 +727,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Both short message and payload supplied",
     "category": "SMPP",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -739,10 +739,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "TM ID mismatch / external ID issue",
     "category": "DLT",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check DLT scrubbing/route"
+    "portal_action": "Check DLT scrubbing/route",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -751,10 +751,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Invalid optional parameter value",
     "category": "DLT",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check DLT scrubbing/route"
+    "portal_action": "Check DLT scrubbing/route",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -763,10 +763,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Invalid Entity/Header ID",
     "category": "DLT",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check DLT scrubbing/route"
+    "portal_action": "Check DLT scrubbing/route",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -775,10 +775,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Invalid CLI",
     "category": "Header",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check Header/Sender ID"
+    "portal_action": "Check Header/Sender ID",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -787,10 +787,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Invalid Template ID",
     "category": "Template",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check Template ID/content"
+    "portal_action": "Check Template ID/content",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -799,10 +799,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "CLI mismatch with template",
     "category": "Template",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check Template ID/content"
+    "portal_action": "Check Template ID/content",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -811,10 +811,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Template or Header invalid",
     "category": "DLT",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check DLT scrubbing/route"
+    "portal_action": "Check DLT scrubbing/route",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -823,10 +823,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Invalid category",
     "category": "DLT",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check DLT scrubbing/route"
+    "portal_action": "Check DLT scrubbing/route",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -835,10 +835,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "SMS content mismatch",
     "category": "Template",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check Template ID/content"
+    "portal_action": "Check Template ID/content",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -847,10 +847,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Invalid Telemarketer ID",
     "category": "Telemarketer",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check TM ID"
+    "portal_action": "Check TM ID",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -859,10 +859,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Entity blacklisted",
     "category": "Entity",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check Entity/PE ID"
+    "portal_action": "Check Entity/PE ID",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -871,10 +871,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Entity inactive/not registered",
     "category": "Entity",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check Entity/PE ID"
+    "portal_action": "Check Entity/PE ID",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -883,10 +883,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Header blacklisted",
     "category": "Header",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check Header/Sender ID"
+    "portal_action": "Check Header/Sender ID",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -895,10 +895,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Header inactive/not registered",
     "category": "Header",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check Header/Sender ID"
+    "portal_action": "Check Header/Sender ID",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -907,10 +907,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Invalid command ID",
     "category": "SMPP",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -919,10 +919,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "DLT/ABMS connection timeout",
     "category": "Network",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -931,10 +931,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Invalid source/CLI",
     "category": "Address",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -943,10 +943,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Invalid destination address",
     "category": "Address",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -955,10 +955,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Invalid TM username",
     "category": "Authentication",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -967,10 +967,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Invalid TM password",
     "category": "Authentication",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -979,10 +979,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "JMS queue error",
     "category": "System",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -991,10 +991,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Government header lookup/account error",
     "category": "Government Header",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -1003,10 +1003,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Government header/account type error",
     "category": "Government Header",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -1015,10 +1015,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Message queue full",
     "category": "Network",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -1027,10 +1027,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Invalid service type/traffic type",
     "category": "Route",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -1039,10 +1039,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Message present in both fields",
     "category": "SMPP",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -1051,10 +1051,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "TM ID tag absent",
     "category": "DLT",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check DLT scrubbing/route"
+    "portal_action": "Check DLT scrubbing/route",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -1063,10 +1063,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Template ID tag absent",
     "category": "DLT",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check DLT scrubbing/route"
+    "portal_action": "Check DLT scrubbing/route",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -1075,10 +1075,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "PE ID tag absent",
     "category": "DLT",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check DLT scrubbing/route"
+    "portal_action": "Check DLT scrubbing/route",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -1087,10 +1087,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Multipart tag absent",
     "category": "SMPP",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -1099,10 +1099,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Invalid TM external ID/TM ID",
     "category": "Telemarketer",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check TM ID"
+    "portal_action": "Check TM ID",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -1111,10 +1111,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Invalid data coding",
     "category": "SMPP",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -1123,10 +1123,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Traffic rate exceeded",
     "category": "Throttling",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Airtel",
@@ -1135,22 +1135,22 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Invalid optional parameter/TM ID",
     "category": "DLT",
     "stage": "SMPP/DLR",
-    "source": "Airtel published DLT mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check DLT scrubbing/route"
+    "portal_action": "Check DLT scrubbing/route",
+    "source": "Airtel published DLT mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "SmartPing",
     "error_code": "5101",
-    "error_name": "FULLY_BLOCKED_OR_PROMO_BLOCKED",
-    "description": "Fully blocked or promotional traffic blocked",
-    "category": "DND/Preference",
-    "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
-    "retry": "NO",
-    "portal_action": "Check DND/preference/consent"
+    "error_name": "IF_CATEGORY_IS_0_OR_50_",
+    "description": "If Category is 0 or 50.",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
   },
   {
     "operator": "SmartPing",
@@ -1159,22 +1159,22 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Failed due to preference category",
     "category": "DND/Preference",
     "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check DND/preference/consent"
+    "portal_action": "Check DND/preference/consent",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "SmartPing",
     "error_code": "5103",
-    "error_name": "PREFERENCE_MODE_FAILURE",
-    "description": "Failed due to preference communication mode",
-    "category": "DND/Preference",
-    "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
-    "retry": "NO",
-    "portal_action": "Check DND/preference/consent"
+    "error_name": "IF_SUBSCRIBER_CMODE_IS_10_OR_12_",
+    "description": "If Subscriber cmode is 10 or 12.",
+    "category": "Subscriber / Number",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
   },
   {
     "operator": "SmartPing",
@@ -1183,10 +1183,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Preference status is active",
     "category": "Preference",
     "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check DND/preference/consent"
+    "portal_action": "Check DND/preference/consent",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "SmartPing",
@@ -1195,10 +1195,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Preferred day is blocked",
     "category": "Preference",
     "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check DND/preference/consent"
+    "portal_action": "Check DND/preference/consent",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "SmartPing",
@@ -1207,22 +1207,22 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Preferred time is blocked",
     "category": "Preference",
     "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check DND/preference/consent"
+    "portal_action": "Check DND/preference/consent",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "SmartPing",
     "error_code": "5107",
-    "error_name": "BLACKOUT_TIME",
-    "description": "Blackout time",
-    "category": "Preference",
-    "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
+    "error_name": "IF_USER_NOT_REG_ON_DND_BUT_CURRENT_RESTRICTED_BLACKOUT_",
+    "description": "If user not reg. on DND but current restricted (Blackout)",
+    "category": "DND / Preference",
+    "stage": "DLR/Error",
     "retry": "NO",
-    "portal_action": "Check DND/preference/consent"
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
   },
   {
     "operator": "SmartPing",
@@ -1231,10 +1231,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Promotional content/preference conflict",
     "category": "Preference",
     "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check DND/preference/consent"
+    "portal_action": "Check DND/preference/consent",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "SmartPing",
@@ -1243,46 +1243,46 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Preference/consent category conflict",
     "category": "Preference/Consent",
     "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check DND/preference/consent"
+    "portal_action": "Check DND/preference/consent",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "SmartPing",
     "error_code": "5201",
-    "error_name": "HEADER_NOT_ACTIVE",
-    "description": "Header not active",
-    "category": "Header",
-    "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
-    "retry": "NO",
-    "portal_action": "Check Header/Sender ID"
+    "error_name": "IF_HEADER_NOT_ACTIVE",
+    "description": "If Header not Active",
+    "category": "Header / Sender",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
   },
   {
     "operator": "SmartPing",
     "error_code": "5202",
-    "error_name": "HEADER_BLACKLISTED",
-    "description": "Header blacklisted",
-    "category": "Header",
-    "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
+    "error_name": "IF_HEADER_IS_BLACKLISTED_",
+    "description": "If Header is Blacklisted.",
+    "category": "Header / Sender",
+    "stage": "DLR/Error",
     "retry": "NO",
-    "portal_action": "Check Header/Sender ID"
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
   },
   {
     "operator": "SmartPing",
     "error_code": "5203",
-    "error_name": "HEADER_NOT_FOUND",
-    "description": "Header not found/registered",
-    "category": "Header",
-    "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
-    "retry": "NO",
-    "portal_action": "Check Header/Sender ID"
+    "error_name": "IF_HEADER_NOT_FOUND_REGISTERED",
+    "description": "If Header not found/registered",
+    "category": "Header / Sender",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
   },
   {
     "operator": "SmartPing",
@@ -1291,10 +1291,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Header operator inactive",
     "category": "Header",
     "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check Header/Sender ID"
+    "portal_action": "Check Header/Sender ID",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "SmartPing",
@@ -1303,22 +1303,22 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Entity ID not matched with XML",
     "category": "Entity",
     "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check Entity/PE ID"
+    "portal_action": "Check Entity/PE ID",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "SmartPing",
     "error_code": "5206",
-    "error_name": "ALPHABETIC_PROMO_PORT",
-    "description": "Alphabetic request on promotional port",
-    "category": "Header/Route",
-    "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
+    "error_name": "PORT_IS_PROMO_GETTING_TRANS_HITS",
+    "description": "Port is Promo getting Trans hits",
+    "category": "Other",
+    "stage": "DLR/Error",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
   },
   {
     "operator": "SmartPing",
@@ -1327,10 +1327,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Header suspended due to usage",
     "category": "Header",
     "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check Header/Sender ID"
+    "portal_action": "Check Header/Sender ID",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "SmartPing",
@@ -1339,22 +1339,22 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Header suspended due to validity",
     "category": "Header",
     "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check Header/Sender ID"
+    "portal_action": "Check Header/Sender ID",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "SmartPing",
     "error_code": "5215",
-    "error_name": "HEADER_SUSPENDED_CUSTOMER",
-    "description": "Customer-initiated header suspension",
-    "category": "Header",
-    "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
-    "retry": "NO",
-    "portal_action": "Check Header/Sender ID"
+    "error_name": "HEADER_SUSPENSION_CUSTOMER_INITIATIVE_SELF_",
+    "description": "Header Suspension - Customer initiative (Self)",
+    "category": "Header / Sender",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
   },
   {
     "operator": "SmartPing",
@@ -1363,10 +1363,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Content unregistered",
     "category": "Template",
     "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check Template ID/content"
+    "portal_action": "Check Template ID/content",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "SmartPing",
@@ -1375,10 +1375,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Content ID blacklisted",
     "category": "Template",
     "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check Template ID/content"
+    "portal_action": "Check Template ID/content",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "SmartPing",
@@ -1387,10 +1387,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Preference not matched",
     "category": "Preference/DND",
     "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check DND/preference/consent"
+    "portal_action": "Check DND/preference/consent",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "SmartPing",
@@ -1399,10 +1399,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Invalid promotional time",
     "category": "Preference/DND",
     "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check DND/preference/consent"
+    "portal_action": "Check DND/preference/consent",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "SmartPing",
@@ -1411,10 +1411,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Service/entity category block",
     "category": "Preference/DND",
     "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check DND/preference/consent"
+    "portal_action": "Check DND/preference/consent",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "SmartPing",
@@ -1423,10 +1423,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Consent failed",
     "category": "Consent",
     "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check DND/preference/consent"
+    "portal_action": "Check DND/preference/consent",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "SmartPing",
@@ -1435,22 +1435,22 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Scrubbing failed",
     "category": "Scrubbing",
     "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check DLT scrubbing/route"
+    "portal_action": "Check DLT scrubbing/route",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "SmartPing",
     "error_code": "7001",
-    "error_name": "ENTITY_INACTIVE",
-    "description": "Entity inactive",
+    "error_name": "ENTITY_IS_IN_ACTIVE",
+    "description": "Entity is In-Active",
     "category": "Entity",
-    "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
-    "retry": "NO",
-    "portal_action": "Check Entity/PE ID"
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
   },
   {
     "operator": "SmartPing",
@@ -1459,10 +1459,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Reserved for scrubbing",
     "category": "Scrubbing",
     "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check DLT scrubbing/route"
+    "portal_action": "Check DLT scrubbing/route",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "SmartPing",
@@ -1471,10 +1471,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Entity not in database",
     "category": "Entity",
     "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check Entity/PE ID"
+    "portal_action": "Check Entity/PE ID",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "SmartPing",
@@ -1483,10 +1483,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Entity ID blank",
     "category": "Entity",
     "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check Entity/PE ID"
+    "portal_action": "Check Entity/PE ID",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "SmartPing",
@@ -1495,10 +1495,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Entity operator inactive",
     "category": "Entity",
     "stage": "DLR",
-    "source": "Public SmartPing mapping",
-    "verification": "DOCUMENTED/PUBLIC",
     "retry": "NO",
-    "portal_action": "Check Entity/PE ID"
+    "portal_action": "Check Entity/PE ID",
+    "source": "Public SmartPing mapping",
+    "verification": "DOCUMENTED/PUBLIC"
   },
   {
     "operator": "Jio",
@@ -1507,10 +1507,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1519,10 +1519,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1531,10 +1531,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1543,10 +1543,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1555,10 +1555,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1567,10 +1567,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1579,10 +1579,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1591,10 +1591,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1603,10 +1603,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1615,10 +1615,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1627,10 +1627,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1639,10 +1639,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1651,10 +1651,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1663,10 +1663,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1675,10 +1675,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1687,10 +1687,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1699,10 +1699,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1711,10 +1711,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1723,10 +1723,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1735,10 +1735,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1747,10 +1747,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1759,10 +1759,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1771,10 +1771,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1783,10 +1783,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1795,10 +1795,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1807,10 +1807,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1819,10 +1819,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1831,10 +1831,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1843,10 +1843,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1855,10 +1855,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1867,10 +1867,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1879,10 +1879,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1891,10 +1891,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1903,10 +1903,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1915,10 +1915,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1927,10 +1927,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1939,10 +1939,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1951,10 +1951,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1963,10 +1963,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1975,10 +1975,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1987,10 +1987,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -1999,10 +1999,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2011,10 +2011,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2023,10 +2023,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2035,10 +2035,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2047,10 +2047,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2059,10 +2059,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2071,10 +2071,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2083,10 +2083,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2095,10 +2095,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2107,10 +2107,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2119,10 +2119,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2131,10 +2131,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2143,10 +2143,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2155,10 +2155,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2167,10 +2167,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2179,10 +2179,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2191,10 +2191,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2203,10 +2203,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2215,10 +2215,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2227,10 +2227,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2239,10 +2239,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2251,10 +2251,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2263,10 +2263,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2275,10 +2275,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2287,10 +2287,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2299,10 +2299,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2311,10 +2311,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2323,10 +2323,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2335,10 +2335,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2347,10 +2347,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2359,10 +2359,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2371,10 +2371,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2383,10 +2383,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Jio",
@@ -2395,10 +2395,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2407,10 +2407,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2419,10 +2419,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2431,10 +2431,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2443,10 +2443,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2455,10 +2455,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2467,10 +2467,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2479,10 +2479,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2491,10 +2491,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2503,10 +2503,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2515,10 +2515,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2527,10 +2527,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2539,10 +2539,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2551,10 +2551,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2563,10 +2563,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2575,10 +2575,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2587,10 +2587,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2599,10 +2599,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2611,10 +2611,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2623,10 +2623,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2635,10 +2635,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2647,10 +2647,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2659,10 +2659,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2671,10 +2671,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2683,10 +2683,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2695,10 +2695,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2707,10 +2707,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2719,10 +2719,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2731,10 +2731,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2743,10 +2743,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2755,10 +2755,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2767,10 +2767,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2779,10 +2779,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2791,10 +2791,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2803,10 +2803,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2815,10 +2815,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2827,10 +2827,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2839,10 +2839,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2851,10 +2851,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2863,10 +2863,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2875,10 +2875,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2887,10 +2887,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2899,10 +2899,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2911,10 +2911,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2923,10 +2923,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2935,10 +2935,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2947,10 +2947,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2959,10 +2959,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2971,10 +2971,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2983,10 +2983,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -2995,10 +2995,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -3007,10 +3007,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -3019,10 +3019,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -3031,10 +3031,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -3043,10 +3043,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -3055,10 +3055,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -3067,10 +3067,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -3079,10 +3079,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -3091,10 +3091,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -3103,10 +3103,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -3115,10 +3115,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -3127,10 +3127,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -3139,10 +3139,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -3151,10 +3151,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -3163,10 +3163,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -3175,10 +3175,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -3187,10 +3187,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -3199,10 +3199,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -3211,10 +3211,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -3223,10 +3223,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -3235,10 +3235,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -3247,10 +3247,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -3259,10 +3259,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -3271,10 +3271,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -3283,10 +3283,10 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
   },
   {
     "operator": "Vi",
@@ -3295,9 +3295,2325 @@ window.IMMENSE_ERRORS_DATA = [
     "description": "Numeric code exists in the DLT family, but a specific public meaning was not verified.",
     "category": "Reserved",
     "stage": "DLT",
-    "source": "Common DLT family",
-    "verification": "NOT VERIFIED",
     "retry": "PROVIDER-DEPENDENT",
-    "portal_action": "Check SMPP/session/network and provider logs"
+    "portal_action": "Check SMPP/session/network and provider logs",
+    "source": "Common DLT family",
+    "verification": "NOT VERIFIED"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "0",
+    "error_name": "DELIVERED",
+    "description": "DELIVERED",
+    "category": "Delivery",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "1",
+    "error_name": "UNKNOWN_SUBSCRIBER",
+    "description": "UNKNOWN SUBSCRIBER",
+    "category": "Subscriber / Number",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "10",
+    "error_name": "INVALID_SOURCE_ADDRESS",
+    "description": "INVALID SOURCE ADDRESS",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "100",
+    "error_name": "DND",
+    "description": "DND",
+    "category": "DND / Preference",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "101",
+    "error_name": "ACCOUNT_DETAILS_NOT_FOUND_AT_ROUTING",
+    "description": "ACCOUNT DETAILS NOT FOUND AT ROUTING",
+    "category": "Routing / Account",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "102",
+    "error_name": "SENDER_ID_BLOCKED",
+    "description": "SENDER ID BLOCKED",
+    "category": "Header / Sender",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "103",
+    "error_name": "ROUTE_NOT_ACTIVE",
+    "description": "ROUTE NOT ACTIVE",
+    "category": "Routing / Account",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "1033",
+    "error_name": "CREDIT_LIMIT_EXCEEDED",
+    "description": "CREDIT LIMIT EXCEEDED",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "104",
+    "error_name": "OFF_NET_NOT_ACTIVE_FOR_ACCOUNT_ON_NET_ROUTES_NOT_DEFINED",
+    "description": "OFF-NET NOT ACTIVE FOR ACCOUNT/ ON-NET ROUTES NOT DEFINED",
+    "category": "Routing / Account",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "105",
+    "error_name": "ON_NET_NOT_ACTIVE_FOR_ACCOUNT_OFF_NET_ROUTES_NOT_DEFINED",
+    "description": "ON-NET NOT ACTIVE FOR ACCOUNT/ OFF-NET ROUTES NOT DEFINED",
+    "category": "Routing / Account",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "106",
+    "error_name": "ROUTES_NOT_CONFIGURED_FOR_ACCOUNT",
+    "description": "ROUTES NOT CONFIGURED FOR ACCOUNT",
+    "category": "Routing / Account",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "107",
+    "error_name": "ROUTING_DISABLE_FOR_ACCOUNT",
+    "description": "ROUTING DISABLE FOR ACCOUNT",
+    "category": "Routing / Account",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "108",
+    "error_name": "ROUTE_BLOCKED_FOR_THIS_SERIES",
+    "description": "ROUTE BLOCKED FOR THIS SERIES",
+    "category": "Routing / Account",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "109",
+    "error_name": "MSISDN_SERIES_NOT_CONFIGURED",
+    "description": "MSISDN SERIES NOT CONFIGURED",
+    "category": "Subscriber / Number",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "11",
+    "error_name": "TELESERVICE_NOT_PROVISIONED",
+    "description": "TELESERVICE NOT PROVISIONED",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "110",
+    "error_name": "NOT_ABLE_TO_GET_FINAL_ROUTE",
+    "description": "NOT ABLE TO GET FINAL ROUTE",
+    "category": "Routing / Account",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "111",
+    "error_name": "SPAM_KEYWORD_FOUND",
+    "description": "SPAM KEYWORD FOUND",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "112",
+    "error_name": "NOT_A_VALID_TEMPLATE",
+    "description": "NOT A VALID TEMPLATE",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "113",
+    "error_name": "MANDATORY_WORDS_NOT_FOUND",
+    "description": "MANDATORY WORDS NOT FOUND",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "114",
+    "error_name": "DEFAULT_ROUTE_NOT_FOUND_IN_CONFIGURED_ROUTES",
+    "description": "DEFAULT ROUTE NOT FOUND IN CONFIGURED ROUTES",
+    "category": "Routing / Account",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "115",
+    "error_name": "ROUTE_NOT_CONFIGURED_AT_PLATFORM_LEVEL",
+    "description": "ROUTE NOT CONFIGURED AT PLATFORM LEVEL",
+    "category": "Routing / Account",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "12",
+    "error_name": "ILLEGAL_EQUIPMENT",
+    "description": "ILLEGAL EQUIPMENT",
+    "category": "Equipment / Protocol",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "123",
+    "error_name": "INTERNATIONAL_ROAMING",
+    "description": "INTERNATIONAL ROAMING",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "124",
+    "error_name": "MESSAGE_EXPIRED_AT_SMSC_LEVEL",
+    "description": "MESSAGE EXPIRED AT SMSC LEVEL",
+    "category": "Network / SMSC",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "13",
+    "error_name": "OPERATOR_CALLBARRED",
+    "description": "OPERATOR CALLBARRED",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "15",
+    "error_name": "CUG_REJECT",
+    "description": "CUG REJECT",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "2",
+    "error_name": "RDS_NOT_SUPPORTED_SERVICE",
+    "description": "RDS NOT SUPPORTED SERVICE",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "20",
+    "error_name": "MULTIPLE_SUBMISSIONS_ON_SINGLE_NUMBER",
+    "description": "Multiple Submissions on Single Number",
+    "category": "Subscriber / Number",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "200",
+    "error_name": "OPERATOR_BLOCKED_FOR_ACCOUNT",
+    "description": "OPERATOR BLOCKED FOR ACCOUNT",
+    "category": "Routing / Account",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "21",
+    "error_name": "FACILITY_NOT_SUPPORTED",
+    "description": "FACILITY NOT SUPPORTED",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "221",
+    "error_name": "MSISDN_BLOCKED",
+    "description": "MSISDN BLOCKED",
+    "category": "Subscriber / Number",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "222",
+    "error_name": "MESSAGE_CONTENT_IS_BLACKLISTED",
+    "description": "MESSAGE CONTENT IS BLACKLISTED",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "224",
+    "error_name": "MESSAGE_CONTENT_BLOCKED_REGEX",
+    "description": "MESSAGE CONTENT BLOCKED REGEX",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "225",
+    "error_name": "MESSAGE_CONTENT_IS_BLACKLISTED_AT_OPERATOR",
+    "description": "MESSAGE CONTENT IS BLACKLISTED AT OPERATOR",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "23",
+    "error_name": "POWER_REGISTRATION_FAILURE",
+    "description": "POWER REGISTRATION FAILURE",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "24",
+    "error_name": "MAPUE_NEGATIVE_PW_CHECK",
+    "description": "MAPUE_NEGATIVE_PW_CHECK",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "25",
+    "error_name": "NO_HANDOVER_NUMBER_AVAILABLE",
+    "description": "NO HANDOVER NUMBER AVAILABLE",
+    "category": "Subscriber / Number",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "252",
+    "error_name": "MESSAGE_VALIDITY_EXPIRED",
+    "description": "MESSAGE VALIDITY EXPIRED",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "27",
+    "error_name": "ABSENT_SUBSCRIBER",
+    "description": "ABSENT SUBSCRIBER",
+    "category": "Subscriber / Number",
+    "stage": "DLR/Error",
+    "retry": "MAYBE",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "277",
+    "error_name": "DR_NOT_RECEIEVD_FROM_TELCO",
+    "description": "DR NOT RECEIEVD FROM TELCO",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "29",
+    "error_name": "SHORT_TERM_DENIAL",
+    "description": "SHORT TERM DENIAL",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "31",
+    "error_name": "SUBSCRIBER_BUSY_FOR_MT_SMS",
+    "description": "SUBSCRIBER BUSY FOR MT SMS",
+    "category": "Subscriber / Number",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "32",
+    "error_name": "MEMORY_CAPACITY_EXCEEDED",
+    "description": "MEMORY CAPACITY EXCEEDED",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "MAYBE",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "33",
+    "error_name": "MESSAGE_WAITING_LIST_FULL",
+    "description": "MESSAGE WAITING LIST FULL",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "34",
+    "error_name": "SYSTEM_FAILURE",
+    "description": "SYSTEM FAILURE",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "35",
+    "error_name": "DATA_MISSING",
+    "description": "DATA MISSING",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "36",
+    "error_name": "UNEXPECTED_DATA_VALUE",
+    "description": "UNEXPECTED DATA VALUE",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "37",
+    "error_name": "SM_DELIVERY_FAILURE",
+    "description": "SM-DELIVERY FAILURE",
+    "category": "Delivery",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "42",
+    "error_name": "NO_RESPONSE_FROM_PEER",
+    "description": "NO RESPONSE FROM PEER",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "5",
+    "error_name": "UNIDENTIFIED_SUBSCRIBER",
+    "description": "UNIDENTIFIED SUBSCRIBER",
+    "category": "Subscriber / Number",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "50",
+    "error_name": "UNKNOWN_ERROR",
+    "description": "UNKNOWN ERROR",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "6",
+    "error_name": "ABSENT_SUBSCRIBER_V2",
+    "description": "ABSENT SUBSCRIBER V2",
+    "category": "Subscriber / Number",
+    "stage": "DLR/Error",
+    "retry": "MAYBE",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "63",
+    "error_name": "GT_ERROR",
+    "description": "GT ERROR",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "642-649",
+    "error_name": "TEMPLATE_RESERVED",
+    "description": "TEMPLATE_RESERVED",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "7",
+    "error_name": "UNKNOWN_EQUIPMENT",
+    "description": "UNKNOWN EQUIPMENT",
+    "category": "Equipment / Protocol",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "74",
+    "error_name": "INVALID_HEADER_IN_MSG",
+    "description": "INVALID HEADER IN MSG",
+    "category": "Header / Sender",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "8",
+    "error_name": "FSM_TIMEOUT",
+    "description": "FSM TIMEOUT",
+    "category": "Network / SMSC",
+    "stage": "DLR/Error",
+    "retry": "MAYBE",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "801",
+    "error_name": "DAMSG_LIMIT_EXCEEDED_CONTENT_",
+    "description": "DAMSG_LIMIT_EXCEEDED (Content)",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "802",
+    "error_name": "DA_LIMIT_EXCEEDED_MSISDN_",
+    "description": "DA_LIMIT_EXCEEDED (Msisdn)",
+    "category": "Subscriber / Number",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "803",
+    "error_name": "SUBMIT_SM_RESPONSE_NOT_RECEIVED_FROM_TELCO",
+    "description": "SUBMIT_SM RESPONSE NOT RECEIVED FROM TELCO",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "804",
+    "error_name": "ALL_PARTS_OF_LONG_SMS_NOT_RECEIEVED_WITHIN_THE_CONFIGURE",
+    "description": "ALL PARTS OF LONG SMS NOT RECEIEVED WITHIN THE CONFIGURE",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "87",
+    "error_name": "PROVIDER_ERROR",
+    "description": "PROVIDER ERROR",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "MAYBE",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "877",
+    "error_name": "DR_NOT_RECEIEVD_FROM_TELCO",
+    "description": "DR NOT RECEIEVD FROM TELCO",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "88",
+    "error_name": "SRI_TIMEOUT",
+    "description": "SRI TIMEOUT",
+    "category": "Network / SMSC",
+    "stage": "DLR/Error",
+    "retry": "MAYBE",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "89",
+    "error_name": "INVALID_PACKET_AT_SMSC_LEVEL",
+    "description": "INVALID PACKET AT SMSC LEVEL",
+    "category": "Network / SMSC",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "9",
+    "error_name": "ILLEGAL_SUBSCRIBER",
+    "description": "ILLEGAL SUBSCRIBER",
+    "category": "Subscriber / Number",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "90",
+    "error_name": "USER_ABORT",
+    "description": "USER-ABORT",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "91",
+    "error_name": "PROVIDER_ABORT",
+    "description": "PROVIDER-ABORT",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "92",
+    "error_name": "MSC_NUMBER_MISSING",
+    "description": "MSC NUMBER MISSING",
+    "category": "Subscriber / Number",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "93",
+    "error_name": "EQUIPMENT_PROTOCOL_ERROR",
+    "description": "Equipment protocol error",
+    "category": "Equipment / Protocol",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "94",
+    "error_name": "EQUIPMENT_NOT_SM_EQUIPPED",
+    "description": "Equipment not SM equipped",
+    "category": "Equipment / Protocol",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "95",
+    "error_name": "UNKNOWN_SERVICE_CENTRE",
+    "description": "Unknown service centre",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "96",
+    "error_name": "SERVICE_CENTRE_CONGESTION",
+    "description": "Service Centre congestion",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "MAYBE",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "97",
+    "error_name": "INVALID_SCHEDULE_DELIVERY_TIME",
+    "description": "INVALID SCHEDULE DELIVERY TIME",
+    "category": "Delivery",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "98",
+    "error_name": "SUBSCRIBER_NOT_SC_SUBSCRIBER",
+    "description": "Subscriber not SC subscriber",
+    "category": "Subscriber / Number",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Provider",
+    "error_code": "99",
+    "error_name": "INVALID_SME_ADDRESS",
+    "description": "Invalid SME address",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "2001",
+    "error_name": "IF_SUBSCRIBER_NOT_IN_DB",
+    "description": "If Subscriber not in DB",
+    "category": "Subscriber / Number",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "2002",
+    "error_name": "IF_SUBSCRIBER_IS_IN_DB_BUT_PASSED_ALL_CHECKS",
+    "description": "If Subscriber is in DB but passed all checks",
+    "category": "Subscriber / Number",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "2003",
+    "error_name": "IF_SUBSCRIBER_IS_IN_DB_BUT_IN_ACTIVE",
+    "description": "If Subscriber is in DB but In-Active",
+    "category": "Subscriber / Number",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "2004",
+    "error_name": "IF_SUBSCRIBER_IS_IN_DB_NOT_IN_DB_WITH_SMS_IS_NOT_PROMO",
+    "description": "If Subscriber is in DB/Not in DB with SMS is not Promo",
+    "category": "Subscriber / Number",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "2005",
+    "error_name": "CONSENT_GIVEN_VERIFIED",
+    "description": "Consent given verified",
+    "category": "Consent",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "2006",
+    "error_name": "CONTENT_IS_T_OR_SI",
+    "description": "Content is T or SI",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "2007",
+    "error_name": "CONTENT_SCRUBBING_EXTEMPTED",
+    "description": "Content Scrubbing Extempted",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "4000",
+    "error_name": "REDIS_ERROR",
+    "description": "Redis Error",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "4001",
+    "error_name": "REDIS_REQUEST_TIMEOUT",
+    "description": "Redis request Timeout",
+    "category": "Network / SMSC",
+    "stage": "DLR/Error",
+    "retry": "MAYBE",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "4002",
+    "error_name": "NOT_FOUND_IN_REDIS_DB",
+    "description": "Not found in Redis DB",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "4004",
+    "error_name": "CONTENT_ID_NOT_FOUND_IN_REDIS_DB",
+    "description": "Content Id not found in Redis DB",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5207",
+    "error_name": "PORT_IS_TRANS_GETTING_PROMO_HITS",
+    "description": "Port is Trans getting Promo hits",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5208",
+    "error_name": "HDR_CASE_SEN_CLI_GOVT_HEADER_",
+    "description": "HDR_CASE_SEN_CLI (Govt. Header)",
+    "category": "Header / Sender",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5210",
+    "error_name": "ENTITY_ID_NOT_MATCHING_WITH_DESIRE_USER_ID",
+    "description": "Entity ID not matching with desire User_ID",
+    "category": "Entity",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5303",
+    "error_name": "CONTENT_WITH_UNKNOWN_CLI",
+    "description": "Content with Unknown CLI",
+    "category": "Header / Sender",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5304",
+    "error_name": "CONTENT_NOT_IN_DB",
+    "description": "Content Not in DB",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5305",
+    "error_name": "CONTENT_TYPE_MISMATCHED",
+    "description": "Content Type Mismatched",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5306",
+    "error_name": "CONTENT_ID_NOT_ACTIVE",
+    "description": "Content ID not Active",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5307",
+    "error_name": "CONTENT_REGEX_NOT_MATCHED",
+    "description": "Content Regex not matched",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5308",
+    "error_name": "CONTENT_ID_BLANK",
+    "description": "Content ID Blank",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5309",
+    "error_name": "CONTENT_ID_BLACKLISTED_BY_VISPL",
+    "description": "Content ID Blacklisted by VISPL",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5310",
+    "error_name": "_CONTENT_MULTIPART_NOT_COMPLETE",
+    "description": ". Content Multipart not complete",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5311",
+    "error_name": "_CONTENT_ACTIVE_INACTIVE_BY_VM_QL",
+    "description": ". Content Active/Inactive by VM/QL",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5312",
+    "error_name": "_CONTENT_VARIABLE_EXCEEDS",
+    "description": ". Content variable exceeds",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5313",
+    "error_name": "TEMPLATE_SUSPENDED_DUE_TO_USAGE",
+    "description": "Template Suspended Due to Usage",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5314",
+    "error_name": "TEMPLATE_SUSPENDED_DUE_TO_VALIDITY",
+    "description": "Template Suspended Due to Validity",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5315",
+    "error_name": "TEMPLATE_SUSPENSION_CUSTOMER_INITIATIVE_SELF_",
+    "description": "Template Suspension - Customer initiative (Self)",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5401",
+    "error_name": "COMM_IS_TRANS_SE_SI_HEADER_IS_INACTIVE_BLACKLISTED",
+    "description": "COMM is Trans/SE/SI & Header is Inactive/Blacklisted",
+    "category": "Header / Sender",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5402",
+    "error_name": "COMM_IS_TRANS_SE_SI_CONTENT_ID_IS_INACTIVE",
+    "description": "COMM is Trans/SE/SI & Content_ID is Inactive",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5403",
+    "error_name": "COMM_IS_TRANS_SE_SI_CONTENT_ASSOC_HEADER_IS_DIFFERENT",
+    "description": "COMM is Trans/SE/SI & Content AssoC. Header is Different",
+    "category": "Header / Sender",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5404",
+    "error_name": "COMM_IS_TRANS_CONTENT_IS_REGISTERED_FOR_SOME_OTHER_TYPE",
+    "description": "COMM is Trans&Content is registered for some other type",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5405",
+    "error_name": "COMM_IS_SI_CONTENT_IS_REGISTERED_FOR_SOME_OTHER_TYPE",
+    "description": "COMM is SI & Content is registered for some other type",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5406",
+    "error_name": "COMM_IS_SE_CONTENT_IS_REGISTERED_FOR_SOME_OTHER_TYPE",
+    "description": "COMM is SE & Content is registered for some other type",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5501",
+    "error_name": "CONSENT_NOT_IN_DB",
+    "description": "Consent Not in DB",
+    "category": "Consent",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5502",
+    "error_name": "CONSENT_EXPIRED",
+    "description": "Consent Expired",
+    "category": "Consent",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5503",
+    "error_name": "CONSENT_REVOKED",
+    "description": "Consent Revoked",
+    "category": "Consent",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5504",
+    "error_name": "CONSENT_INITIATED",
+    "description": "Consent Initiated",
+    "category": "Consent",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5505",
+    "error_name": "CONSENT_VERIFIED",
+    "description": "Consent_Verified",
+    "category": "Consent",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5506",
+    "error_name": "CONSENT_FAILED",
+    "description": "Consent_Failed",
+    "category": "Consent",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5507",
+    "error_name": "CONSENT_DISCONNECTED",
+    "description": "Consent_Disconnected",
+    "category": "Consent",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5508",
+    "error_name": "CONSENT_SBCHURN",
+    "description": "Consent_SBchurn",
+    "category": "Consent",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5510",
+    "error_name": "MIGRATION_VERIFIED",
+    "description": "Migration-Verified",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5901",
+    "error_name": "URL_NOT_FOUND",
+    "description": "URL_NOT_FOUND",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5902",
+    "error_name": "URL_BLACKLISTED",
+    "description": "URL_BLACKLISTED",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "5903",
+    "error_name": "URL_INACTIVE",
+    "description": "URL_INACTIVE",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "600",
+    "error_name": "ENTITY_NOT_FOUND",
+    "description": "ENTITY_NOT_FOUND",
+    "category": "Entity",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "601",
+    "error_name": "ENTITY_NOT_REGISTERED",
+    "description": "ENTITY_NOT_REGISTERED",
+    "category": "Entity",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "602",
+    "error_name": "ENTITY_INACTIVE",
+    "description": "ENTITY_INACTIVE",
+    "category": "Entity",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "603",
+    "error_name": "ENTITY_BLACKLISTED",
+    "description": "ENTITY_BLACKLISTED",
+    "category": "Entity",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "604",
+    "error_name": "INVALID_ENTITY_ID",
+    "description": "INVALID_ENTITY_ID",
+    "category": "Entity",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "605",
+    "error_name": "ENTITY_ID_NOT_ALLOWED_FOR_TM",
+    "description": "ENTITY_ID_NOT_ALLOWED_FOR_TM",
+    "category": "Entity",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "606 - 609",
+    "error_name": "ENTITY_RESERVED",
+    "description": "ENTITY_RESERVED",
+    "category": "Entity",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "610",
+    "error_name": "TELEMARKETER_NOT_REGISTERED",
+    "description": "TELEMARKETER_NOT_REGISTERED",
+    "category": "Telemarketer",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "611",
+    "error_name": "TELEMARKETER_INACTIVE",
+    "description": "TELEMARKETER_INACTIVE",
+    "category": "Telemarketer",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "612",
+    "error_name": "TELEMARKETER_BLACKLISTED",
+    "description": "TELEMARKETER_BLACKLISTED",
+    "category": "Telemarketer",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "613",
+    "error_name": "TELEMARKETER_NOT_ALLOWED_FOR_ENTITY",
+    "description": "TELEMARKETER_NOT_ALLOWED_FOR_ENTITY",
+    "category": "Entity",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "614-619",
+    "error_name": "TELEMARKETER_RESERVED",
+    "description": "TELEMARKETER_RESERVED",
+    "category": "Telemarketer",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "620",
+    "error_name": "HEADER_NOT_FOUND",
+    "description": "HEADER_NOT_FOUND",
+    "category": "Header / Sender",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "621",
+    "error_name": "HEADER_INACTIVE",
+    "description": "HEADER_INACTIVE",
+    "category": "Header / Sender",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "622",
+    "error_name": "HEADER_BLACKLISTED",
+    "description": "HEADER_BLACKLISTED",
+    "category": "Header / Sender",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "623",
+    "error_name": "PEID_NOT_MATCHED_WITH_HEADER",
+    "description": "PEID_NOT_MATCHED_WITH_HEADER",
+    "category": "Entity",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "624",
+    "error_name": "HEADER_SUSPENDED_DUE_TO_VALIDITY",
+    "description": "HEADER_SUSPENDED_DUE_TO_VALIDITY",
+    "category": "Header / Sender",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "625",
+    "error_name": "HEADER_SUSPENDED_DUE_TO_USAGE",
+    "description": "HEADER_SUSPENDED_DUE_TO_USAGE",
+    "category": "Header / Sender",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "626",
+    "error_name": "HEADER_SUSPENDED_DUE_TO_CUSTOMER",
+    "description": "HEADER_SUSPENDED_DUE_TO_CUSTOMER",
+    "category": "Header / Sender",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "627",
+    "error_name": "HEADER_MISUSED_FOR_INVALID_CONTENT",
+    "description": "HEADER_MISUSED_FOR_INVALID_CONTENT",
+    "category": "Header / Sender",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "628",
+    "error_name": "HEADER_RESERVED",
+    "description": "HEADER_RESERVED",
+    "category": "Header / Sender",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "629",
+    "error_name": "HEADER_MISUSED_FOR_INVALID_CONTENT",
+    "description": "HEADER_MISUSED_FOR_INVALID_CONTENT",
+    "category": "Header / Sender",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "630",
+    "error_name": "TEMPLATE_NOT_FOUND",
+    "description": "TEMPLATE_NOT_FOUND",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "631",
+    "error_name": "TEMPLATE_INACTIVE",
+    "description": "TEMPLATE_INACTIVE",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "632",
+    "error_name": "TEMPLATE_BLACKLISTED",
+    "description": "TEMPLATE_BLACKLISTED",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "633",
+    "error_name": "TEMPLATE_NOT_MATCHED",
+    "description": "TEMPLATE_NOT_MATCHED",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "634",
+    "error_name": "HEADER_NOT_REGISTERED_FOR_TEMPLATE",
+    "description": "HEADER_NOT_REGISTERED_FOR_TEMPLATE",
+    "category": "Header / Sender",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "635",
+    "error_name": "TEMPLATE_VARIABLE_EXCEEDED_MAX_LENGTH",
+    "description": "TEMPLATE_VARIABLE_EXCEEDED_MAX_LENGTH",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "636",
+    "error_name": "ERROR_IDENTIFYING_TEMPLATE",
+    "description": "ERROR_IDENTIFYING_TEMPLATE",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "637",
+    "error_name": "INVALID_TEMPLATE_ID",
+    "description": "INVALID_TEMPLATE_ID",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "638",
+    "error_name": "ENTITY_NOT_REGISTERED_FOR_TEMPLATE",
+    "description": "ENTITY_NOT_REGISTERED_FOR_TEMPLATE",
+    "category": "Entity",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "639",
+    "error_name": "TEMPLATE_SUSPENDED_DUE_TO_VALIDITY",
+    "description": "TEMPLATE_SUSPENDED_DUE_TO_VALIDITY",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "640",
+    "error_name": "TEMPLATE_SUSPENDED_DUE_TO_USAGE",
+    "description": "TEMPLATE_SUSPENDED_DUE_TO_USAGE",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "641",
+    "error_name": "TEMPLATE_SUSPENDED_DUE_TO_CUSTOMER",
+    "description": "TEMPLATE_SUSPENDED_DUE_TO_CUSTOMER",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "642",
+    "error_name": "CTA_NOT_WHITELISTED",
+    "description": "CTA_NOT_WHITELISTED",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "643-649",
+    "error_name": "TEMPLATE_RESERVED",
+    "description": "TEMPLATE_RESERVED",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "653-659",
+    "error_name": "PREFERENCE_RESERVED",
+    "description": "PREFERENCE_RESERVED",
+    "category": "DND / Preference",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "661-669",
+    "error_name": "CONSENT_RESERVED",
+    "description": "CONSENT_RESERVED",
+    "category": "Consent",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "671-699",
+    "error_name": "SCRUBBING_RESERVED",
+    "description": "SCRUBBING_RESERVED",
+    "category": "DLT Scrubbing",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "ANUJerror (1).pdf; smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "SmartPing",
+    "error_code": "701",
+    "error_name": "CTA_ERROR",
+    "description": "CTA Error",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "smartpingerrorcode.xlsx",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "000",
+    "error_name": "DELIVERED",
+    "description": "Delivered",
+    "category": "Delivery",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "001",
+    "error_name": "INVALID_NUMBER",
+    "description": "Invalid Number",
+    "category": "Subscriber / Number",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "002",
+    "error_name": "ABSENT_SUBSCRIBER",
+    "description": "Absent Subscriber",
+    "category": "Subscriber / Number",
+    "stage": "DLR/Error",
+    "retry": "MAYBE",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "003",
+    "error_name": "MEMORY_CAPACITY_EXCEEDED",
+    "description": "Memory Capacity Exceeded",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "MAYBE",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "004",
+    "error_name": "MOBILE_EQUIPMENT_ERROR",
+    "description": "Mobile Equipment Error",
+    "category": "Equipment / Protocol",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "005",
+    "error_name": "NETWORK_ERROR",
+    "description": "Network Error",
+    "category": "Network / SMSC",
+    "stage": "DLR/Error",
+    "retry": "MAYBE",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "006",
+    "error_name": "BARRING",
+    "description": "Barring",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "007",
+    "error_name": "INVALID_SENDER_ID",
+    "description": "Invalid Sender ID",
+    "category": "Header / Sender",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "008",
+    "error_name": "DROPPED",
+    "description": "Dropped",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "009",
+    "error_name": "NDNC_FAILED",
+    "description": "NDNC Failed",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "100",
+    "error_name": "MISC_ERROR",
+    "description": "Misc. Error",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "111",
+    "error_name": "ENTITY_NOT_REGISTERED",
+    "description": "Entity not registered",
+    "category": "Entity",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "112",
+    "error_name": "ENTITY_INACTIVE",
+    "description": "Entity Inactive",
+    "category": "Entity",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "114",
+    "error_name": "INVALID_TELEMARKETER",
+    "description": "Invalid Telemarketer",
+    "category": "Telemarketer",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "115",
+    "error_name": "CLI_MISMATCH_WITH_TEMPLATE",
+    "description": "CLI Mismatch with Template",
+    "category": "Header / Sender",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "116",
+    "error_name": "HEADER_INACTIVE",
+    "description": "Header Inactive",
+    "category": "Header / Sender",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "117",
+    "error_name": "HEADER_BLACKLISTED",
+    "description": "Header Blacklisted",
+    "category": "Header / Sender",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "118",
+    "error_name": "TEMPLATE_NOT_FOUND",
+    "description": "Template not found",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "119",
+    "error_name": "TEMPLATE_INACTIVE",
+    "description": "Template Inactive",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "120",
+    "error_name": "TEMPLATE_NOT_MATCHED",
+    "description": "Template not Matched",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "121",
+    "error_name": "TEMPLATE_BLACKLISTED",
+    "description": "Template blacklisted",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "122",
+    "error_name": "INVALID_CONSENT",
+    "description": "Invalid Consent",
+    "category": "Consent",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "123",
+    "error_name": "GENERAL_CONSENT_ERROR",
+    "description": "General Consent error",
+    "category": "Consent",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "124",
+    "error_name": "DLT_MISCELLANEOUS_ERROR",
+    "description": "DLT Miscellaneous error",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "125",
+    "error_name": "TEMPLATE_VARIABLE_EXCEEDED",
+    "description": "TEMPLATE_VARIABLE_EXCEEDED",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "126",
+    "error_name": "INVALID_TEMPLATE_ID",
+    "description": "Invalid Template id",
+    "category": "Template / Content",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "128",
+    "error_name": "ENTITY_BLACKLISTED",
+    "description": "Entity blacklisted",
+    "category": "Entity",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "129",
+    "error_name": "ENTITY_NOT_FOUND",
+    "description": "Entity not found",
+    "category": "Entity",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "130",
+    "error_name": "SPAM_FILTER",
+    "description": "Spam filter",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "NO",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "132",
+    "error_name": "INVALID_PROMO_TIME",
+    "description": "INVALID PROMO TIME",
+    "category": "DND / Preference",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "700",
+    "error_name": "CTA_NOT_WHITELISTED",
+    "description": "CTA Not whitelisted",
+    "category": "Other",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
+  },
+  {
+    "operator": "Telspil",
+    "error_code": "812",
+    "error_name": "INVALID_PE_TM_HASH_",
+    "description": "Invalid PE-TM hash.",
+    "category": "Entity",
+    "stage": "DLR/Error",
+    "retry": "PROVIDER-DEPENDENT",
+    "portal_action": "Check provider/gateway logs and documentation",
+    "source": "telspilerrorcode.txt",
+    "verification": "Uploaded source"
   }
 ];
