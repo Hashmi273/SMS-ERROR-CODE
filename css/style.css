@@ -1238,3 +1238,14 @@ body {
     justify-content: center;
   }
 }
+
+/* Operator Logos */
+.operator-logo {
+  height: 28px;
+  width: auto;
+  max-width: 90px;
+  object-fit: contain;
+  display: inline-block;
+  vertical-align: middle;
+  mix-blend-mode: multiply;
+}

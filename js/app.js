@@ -185,11 +185,11 @@
     card.setAttribute('data-code', code);
 
     const operator = item.operator || 'Unknown';
-    let opClass = 'op-default';
-    if(operator === 'Jio') opClass = 'op-jio';
-    else if(operator === 'Vi') opClass = 'op-vi';
-    else if(operator === 'Airtel') opClass = 'op-airtel';
-    else if(operator === 'SmartPing') opClass = 'op-smartping';
+    let opLogoHtml = '<span class="operator-badge op-default">' + escapeHtml(operator) + '</span>';
+    if(operator === 'Jio') opLogoHtml = '<img src="assets/jio-logo.png" alt="Jio" class="operator-logo" title="Jio">';
+    else if(operator === 'Vi') opLogoHtml = '<img src="assets/vi-logo.jpg" alt="Vi" class="operator-logo" title="Vi">';
+    else if(operator === 'Airtel') opLogoHtml = '<img src="assets/airtel-logo.png" alt="Airtel" class="operator-logo" title="Airtel">';
+    else if(operator === 'SmartPing') opLogoHtml = '<img src="assets/smartping-logo.png" alt="SmartPing" class="operator-logo" title="SmartPing">';
 
     const safeCode = escapeHtml(code);
     const highlightedCode = currentQuery ? highlightMatches(code, currentQuery) : safeCode;
@@ -209,7 +209,7 @@
     card.innerHTML = [
       '<div class="card-header-bar" style="margin-bottom:0.5rem; border-bottom:none;">',
       '  <div class="code-badge-group">',
-      '    <span class="operator-badge ' + opClass + '">' + escapeHtml(operator) + '</span>',
+          '    ' + opLogoHtml,
       '    <span class="error-code-badge">' + highlightedCode + '</span>',
       '  </div>',
       '  <span class="category-tag cat-system">' + escapeHtml(item.category || 'General') + '</span>',
