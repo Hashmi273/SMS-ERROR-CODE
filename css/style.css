@@ -857,8 +857,8 @@ body {
 }
 
 .meta-value {
-    color: var(--immense-navy);
-    font-weight: 500;
+    color: var(--text-dark);
+    font-weight: 600;
     text-align: right;
 }
 
