@@ -109,8 +109,8 @@
       });
 
       results.sort((a, b) => {
-        const aCode = a.code.toLowerCase();
-        const bCode = b.code.toLowerCase();
+        const aCode = (a.error_code || a.ErrorCode || a.code || '').toLowerCase();
+        const bCode = (b.error_code || b.ErrorCode || b.code || '').toLowerCase();
         if (aCode === qLower && bCode !== qLower) return -1;
         if (bCode === qLower && aCode !== qLower) return 1;
 
@@ -124,7 +124,7 @@
         if (aHas && !bHas) return -1;
         if (!aHas && bHas) return 1;
 
-        return a.id - b.id;
+        return aCode.localeCompare(bCode);
       });
     }
 
